@@ -1,0 +1,58 @@
+# Introduction.
+The S.O.L.V.E. eX. method aims to enhance individual and team thinking skills and productivity. It is grounded in two key habits of outstanding thinkers:
+1. They take a structured problem solving approach to address the issue at hand.
+2. They use appropriate questions and thinking tools.
+
+# Take a structured problem solving approach to address the issue at hand.
+To be an exceptional thinker, it's not just about asking the right questions but also using an structured problem solving process. A structured problem solving process is like a mental framework that guides how we think. It's a sequence of steps, and skipping any can lead to ineffective thinking. For example:
+• The phase of your problem solving influences the questions you ask.
+• The questions you ask determine the kind of information you collect.
+• The information you gather shapes how you analyze the situation.
+• Your analysis leads to specific conclusions.
+• These conclusions guide the creation of ideas to be passed onto the next phase in the problem solving process.
+• Finally, your ideas and solutions drive the actions you take.
+As you can see, everything starts with understanding where you are in the problem solving process. Misjudging this or jumping ahead can disrupt the flow of effective thinking. Each phase in the problem-solving process serves a purpose, building upon the previous step to ensure a comprehensive approach. Thus, recognizing and respecting the importance of each phase is crucial for successful problem-solving. For instance, rushing into solution development without fully understanding the problem can lead to suboptimal outcomes or missed opportunities. Similarly, gathering data without a clear idea of what information is needed can lead to analysis paralysis or irrelevant conclusions. By meticulously following each step of a structured problem-solving process, you ensure that your thinking is systematic, thorough, and aligned with the goal at hand. This approach minimizes errors, enhances clarity, and leads to more innovative and effective solutions.
+The S.O.L.V.E. eX. method is structured into six distinct phases, each with specific steps.
+PHASE 1: "S" - Articulate The Current STATE.
+● Step 1.1 - Describe The Situation.
+● Step 1.2 - Write Problem Statement.
+● Step 1.3 - Frame The Situation.
+PHASE 2: "O" - Define The Desired OBJECTIVE.
+● Step 2.1 - Reasons To Resolve.
+● Step 2.2 - Write The Goal Statement.
+● Step 2.3 - Establish The Requirements.
+PHASE 3: "L" - LEARN The Facts And Data.
+● Step 3.1 - Finding Current Facts And Gathering Current Data.
+● Step 3.2 - Finding Past Facts And Gathering Past Current Data.
+● Step 3.3 - Finding Systems Facts And Gathering Systems Current Data.
+● Step 3.4 - Finding Future Facts And Gathering Future Current Data.
+PHASE 4: "V" - VISION: Create An Abundant Inventory Of Divergent Ideas.
+● Step 4.1 - Analyses Of Root Causes For Possible Backtracking, Revisitation, Or Reversion.
+● Step 4.2 - Expansive Idea Formation for Creative Solution Exploration.
+● Step 4.3 - Anticipative Solution Crafting for Future State Management.
+● Step 4.4 - Idea Refinement for Practical Implementation and Organizational Integration.
+PHASE 5: "E" - EVALUATE The Inventory Of Options.
+● Step 5.1 - Define the Evaluation Criteria.
+● Step 5.2 - Select The Right Decision Tools.
+● Step 5.3 - Validate Decision Impact and Execution.
+PHASE 6: "eX" - eXECUTE The Chosen Solution.
+● Step 6.1 - Designing And Testing The Solution.
+● Step 6.2 - Creating An Action Plan.
+● Step 6.3 - Implementing The Action Plan.
+● Step 6.4 - Conducting Follow-up And Taking Feedback.
+
+Each phase begins with a decision point to determine its necessity. If a phase is deemed unnecessary, the process moves to the decision point of the next phase. Additionally, there are facilitators and coaches of this process should employ loopback mechanisms for reassessment, allowing a return to previous phases for reevaluation.
+
+This structured, iterative approach enables comprehensive problem-solving, from understanding and framing the problem to evaluating options and implementing solutions, ensuring thoroughness and adaptability in addressing complex business challenges.
+
+# They use appropriate questions and thinking tools.
+S.O.L.V.E. eX. is a method to improve thinking and problem-solving by asking the right questions. It's based on the idea that effective thinkers ask great questions but might not always remember them when needed. So, S.O.L.V.E. eX. provides a list of questions for each phase of problem-solving.
+Here's a simplified guide to using it:
+1. Identify your current phase in the 6-phase problem-solving process.
+2. Pinpoint the specific step in the phase you are at.
+3. Choose from three types of questions:
+   - Exploratory Assessment: These questions help analyze and understand the problem in depth. They focus on defining the problem, its effects, and the factors causing it.
+   - Practicable Analysis: This set focuses on the practical aspects of solving the problem. It includes questions about immediate actions, decision-making, and implementation.
+   - Critical Evaluation: These questions aim to critically assess solutions for their long-term viability and broader impact.
+4. Be judicious in asking questions – too many can be counterproductive.
+5. Get familiar with the Thinking Tool associated with the questions and consider other Recommended Thinking Tools. These tools include various techniques, conversation guides, templates, and worksheets with expert facilitation questions.

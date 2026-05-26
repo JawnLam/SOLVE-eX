@@ -1,0 +1,1701 @@
+# ==============================================================================
+# MASTER SCHEMA FOR OBSIDIAN VAULT PROPERTIES
+# ==============================================================================
+#
+# ⚠️  CRITICAL WARNINGS - READ BEFORE EDITING  ⚠️
+#
+# CASE SENSITIVITY RULES:
+# 1. CORE KEYS: Must be Title_Snake_Case (e.g., "Publication_Date", "Item_ID").
+# 2. DOMAIN PREFIXES: Must be lowercase_snake_case (e.g., "gtd_", "crm_", "gov_").
+# 3. ACRONYMS: Must be fully capitalized (e.g., "ISBN", "URL", "ID").
+#
+# UNIVERSAL DECLARATION RULE:
+# - EVERY prototype template in `_Prototypes/` MUST declare `Item_Prototype` in
+#   its frontmatter, with the value set to the prototype's exact name.
+# - EVERY note instantiated from a prototype MUST also declare `Item_Prototype`,
+#   matching the template it was created from.
+# - `Item_Prototype` is the discriminator that tells humans, queries, and
+#   automation which schema applies to a note.
+# - A note without `Item_Prototype` is malformed. Reject, fix, or treat as
+#   `Fleeting` until it can be classified.
+# - DOCUMENTED EXEMPTION: Prototypes in the `hugo_*` namespace are exempt from
+#   this rule (Hugo_Article, Hugo_Insight, Hugo_Tool). They target the Hugo
+#   static site generator, not the Obsidian note system, and use only `hugo_*`
+#   fields. See the HUGO IMMUTABILITY RULE below.
+#
+# HUGO IMMUTABILITY RULE (NON-NEGOTIABLE):
+# - ALL Hugo-related properties (any key in the `hugo_*` namespace) and ALL
+#   Hugo-related prototype templates (Hugo_Article, Hugo_Insight, Hugo_Tool,
+#   and any future `Hugo_*` prototype) MUST remain exactly as they are.
+# - DO NOT add, remove, rename, reorder, or otherwise modify any Hugo property
+#   or prototype without the user's express permission and direction.
+# - DO NOT relocate Hugo prototype files out of `_Prototypes/`.
+# - This applies to humans, AI agents, scripts, and automation alike.
+# - If a change appears necessary, surface it for explicit approval first.
+#
+# ==============================================================================
+
+meta:
+  version: "1.15.0"
+  last_updated: "2026-05-14"
+  spec_locked: "2026-05-14"  # Schema v1.15.0 spec locked on 2026-05-14 (Sprint 08 Card 16 — Tool Quality Tiering; added tt_Quality_Tier facet). v1.14.0 spec was locked on 2026-05-13 (Sprint 05 — Schema Foundation; added tt_Applicability). v1.13.0 spec was locked on 2026-05-09 (saturation sweep); project-side library was fully deployed to v1.13.0 on 2026-05-10.
+  authority: "Master Schema for Obsidian Vault Infrastructure"
+  changelog: "v1.14.0 added four new tt_ facets to make the Thinking Tools library v2.0-ready for the SOLVE eX Co-pilot. (1) tt_SOLVE_eX_Phase (multi-value, enum [1, 2, 3, 4, 5, 6, any]) — which SOLVE eX phase(s) the tool is useful for; primary routing facet for Phase-Step affinity filtering in the v2.0 Tool Selector. (2) tt_SOLVE_eX_Step (multi-value, enum [1.1 through 6.4, any]) — granular step-level affinity; more precise filter than Phase. (3) tt_Clarifies (multi-value, enum [Origin, Destination, Path, Action, None]) — first-cut filter in the Tool Selector: when Destination is Unclear, restrict to tt_Clarifies: Destination tools (eulogy, Ikigai, regret minimization, etc.). (4) tt_Applicability (single-value, enum [runtime_applicable, describable_only, requires_tradition_transmission]) — whether the v2.0 Co-pilot can guide enactment in-session, only describe, or whether the tool requires teacher/lineage transmission. All four properties added to properties: section and registered in the Thinking_Tool prototype's specific_keys. Four new enums added to enums: section. No existing facets, enums, or prototypes were modified. v1.13.0 saturation-sweep refactor of the tt_ namespace. Path B (single-axis Domain) locked: Domain layer now answers exactly one question — 'What cognitive register does this tool operate in?' tt_domains reduced from 16 mixed-axis values to 12 register-clean values (Discursive-analytical, Modes of inquiry, Non-discursive cognition, Embodied / somatic, Inner / psychological work, Symbolic systems, Contemplative, Generative / improvisational, Speculative / imaginative, Emotional cognition, Aesthetic, Phronetic / practical wisdom). Demoted from Domain: Disciplinary traditions → tt_Lineage; Liminal / Play / Speculative-state / Numinous / Flow → new tt_State facet; Collective / Cross-substrate → new tt_Agent facet; Moral / Spatial-temporal-ecological → new tt_About facet or Field absorption. Three new facets added: tt_State (7 values), tt_Agent (6 values), tt_About (14 values, open-extensible at ≥10-tool-applicability threshold). tt_Lineage expanded 13 → 15 values (added Legal / juridical, Medical / clinical to absorb demoted Disciplinary-tradition values for Legal and Clinical reasoning). Refactor was driven by a full saturation sweep with 4-artifact-per-layer Gate 1 + 3-test-per-layer Gate 2 + 7-corpus-test Gate 3 protocol; details in Thinking Tools project's Saturation Sweep.md. Operations also locked at 36 canonical values (35 from the sweep + Cultivate emotion added during Gate 3 corpus test on Buddhist contemplative tradition); canonical inventory remains in Thinking Tools Index, not in Master_Schema (Operation property kept as free string per v1.12.0 'open-but-curated' treatment). v1.12.0 fixed semantic drift in the tt_ namespace: tt_Operation values had degenerated into tool-specific one-liners (one Operation per tool, zero discriminatory value), violating the original 4-layer taxonomy intent (Domain → Field → Operation → Tool). Operation is the layer where multiple Tools sharing the same kind of cognitive move cluster together. tt_Operation property description tightened to make this explicit; all 30 Thinking Tool entries rewritten to use shared Operation values from a 18-value inventory (e.g., 'Score and rank options' shared across Mendelow, Effort Justification Meter, Priority-Based Requirements Matrix, Ease-Impact Matrix). Reverses earlier project-side D9 ('Operations stay emergent') — Operations now have a canonical inventory documented in the Thinking Tools Index. v1.11.0 normalized the tt_ namespace by removing redundant indirection: dropped tt_Domain_Name property entirely; replaced Roman-numeral codes in tt_domains enum with descriptive names. v1.10.0 added the tt_ namespace plus the Thinking_Tool prototype. v1.9.0 added the HUGO IMMUTABILITY RULE. v1.8.0 made the Item_Prototype declaration rule explicit. v1.7.0 added TV_Show prototype."
+
+# ==============================================================================
+# 0. NAMESPACES (Controlled Prefixes)
+# ==============================================================================
+namespaces:
+  gtd:  "GTD & Project Management"
+  crm:  "Customer Relationship Management (People)"
+  hugo: "Static Site Generator Metadata (Restricted Scope)"
+  gov:  "Government & Legal (Executive, Legislative, Judicial)"
+  lll:  "LifeLong Learning (Subject-Agnostic Study System)"
+  drafts: "Drafts App Import Provenance (Capture Origin Metadata)"
+  tt:   "Thinking Tools (Library of Cognitive Instruments)"
+
+# ==============================================================================
+# 1. CONCEPTUAL TYPES (The "Parents")
+# ==============================================================================
+concepts:
+  Maker:
+    description: "Any entity responsible for the creation, editing, or production of the work."
+    implementation_keys: [Author, Editor, Host, Guest, Creator, Director, Cast, gov_Judge, gov_Signatory, gov_Sponsor]
+    data_type: list
+    
+  Identifier:
+    description: "Unique string that precisely identifies the item in an external system."
+    implementation_keys: [Item_ID, DOI, ISBN, ISSN, PMID, arXiv_ID, SSRN_ID, YouTube_ID, Podcast_GUID, IMDb_ID]
+    data_type: string
+
+# ==============================================================================
+# 2. ENUMS (Controlled Vocabularies)
+# ==============================================================================
+enums:
+  platforms:
+    - YouTube
+    - Vimeo
+    - Spotify
+    - Apple Podcasts
+    - Substack
+    - Medium
+    - ArXiv
+    - SSRN
+    - JSTOR
+
+  lll_statuses:
+    - seed
+    - active
+    - weak
+    - mastered
+
+  lll_activities:
+    - ORIENTATION
+    - BOOTSTRAP
+    - TEACH
+    - QUIZ-SR
+    - QUIZ-SOCRATIC
+    - REVIEW-WEAK
+    - SYNTHESIZE
+    - INTEGRATE
+    # Cartridge-extensible: custom activities declared in _subject.md
+    # (e.g., COOK-ALONG, TASTING, MARKET-VISIT)
+
+  lll_domain_shapes:
+    - conceptual
+    - propositional
+    - procedural
+    - declarative
+    - experiential
+    - creative
+
+  lll_math_stances:
+    - none
+    - minimize
+    - conceptual
+    - full
+
+  lll_thinker_roles:
+    - originator
+    - developer
+    - integrator
+    - historian
+
+  lll_mastery_scales:
+    - default
+    - skill-based
+    - custom
+
+  gtd_statuses:
+    - "🤔 RAW_task"
+    - "🟢 Open_task"
+    - "🟡 Pause_task"
+    - "🔴 Deprecated_task"
+    - "👥 WaitingOn_task"
+    - "📆 APPOINTMENT_task"
+    - "💭 Someday-Maybe_task"
+    - "✅ DONE_task"
+
+  # --- Thinking Tools enums ---
+  tt_domains:
+    # 12 register-clean Domains. Path B single-axis: each answers
+    # "What cognitive register does this tool operate in?"
+    # See `! Infrastructure Decision Log.md` v1.13.0 entry for the
+    # mapping from the prior 16 mixed-axis Domains to these 12.
+    - Discursive-analytical
+    - Modes of inquiry
+    - Non-discursive cognition
+    - Embodied / somatic
+    - Inner / psychological work
+    - Symbolic systems
+    - Contemplative
+    - Generative / improvisational
+    - Speculative / imaginative
+    - Emotional cognition
+    - Aesthetic
+    - Phronetic / practical wisdom
+
+  tt_types:
+    - instrument   # Fillable, deployable tool with template/protocol/rubric
+    - stance       # A mode you enter, not an instrument you wield
+
+  tt_forms:
+    - Matrix
+    - Checklist
+    - Dialogue protocol
+    - Scoring rubric
+    - Mental model
+    - Visualization technique
+    - Sequenced workflow
+    - Question bank
+    - Canvas
+    - Decision tree
+    - Narrative template
+    - Heuristic
+    - Algorithm
+    - Mnemonic
+    - Game / simulation
+    - Practice / ritual
+
+  tt_scales:
+    - Solo
+    - Dyadic
+    - Small group
+    - Large group
+    - Organizational
+    - Inter-organizational
+    - Civilizational
+
+  tt_durations:
+    - Snap                # Sub-minute (gut check, intuitive judgment)
+    - Single session      # 5 min – 2 hr
+    - Workshop            # Half-day to multi-day
+    - Project             # Weeks to months
+    - Practice            # Lifelong / ongoing discipline
+
+  tt_lineages:
+    - Western analytic / academic
+    - Eastern philosophical
+    - Indigenous / oral traditions
+    - Industrial / business
+    - Military / strategic
+    - Therapeutic / psychological
+    - Design / craft tradition
+    - Ancient Greek / Roman
+    - Religious / monastic
+    - Scientific method
+    - Mathematical / formal
+    - Folk / vernacular
+    - Modern productivity / self-help
+    - Legal / juridical              # Added v1.13.0 — absorbs demoted Disciplinary tradition for Legal reasoning
+    - Medical / clinical             # Added v1.13.0 — absorbs demoted Disciplinary tradition for Clinical reasoning
+
+  tt_postures:
+    - Collaborative-willing
+    - Adversarial-tolerant
+    - Solo-quiet
+    - Somatically-regulated
+    - Time-pressured-OK
+    - Trust-required
+    - Low-stakes-only
+    - Beginner-friendly
+    - Expert-required
+
+  tt_states:                          # Added v1.13.0 — psychological/phenomenological state a tool asks the practitioner to enter or sustain.
+    - Liminal                         # Between-states; transitional thresholds
+    - Flow                            # Csíkszentmihályi absorbed-engaged
+    - Playful                         # Light, generative, low-inhibition
+    - Numinous                        # Awe-struck; mysterium tremendum
+    - Contemplative-quiet             # Settled, non-grasping, open
+    - Speculative-imaginative         # Suspending disbelief; holding multiple worlds
+    - Heightened-vigilant             # Adversarial alertness; survival-mode
+
+  tt_agents:                          # Added v1.13.0 — type of cognitive agent doing the work. Distinct from tt_Scale (how many).
+    - Solo human                      # Single individual thinking alone
+    - Human group                     # Multiple humans co-thinking
+    - Crowd / market                  # Aggregated independent humans (prediction markets, Delphi)
+    - Human-AI partnership            # Co-thinking with AI system
+    - Cross-species                   # Incorporating non-human cognition (cognitive ethology, biophilic)
+    - Cross-cultural                  # Bridging cultural cognitive systems
+
+  tt_abouts:                          # Added v1.13.0 — broad subject-of-thought categories. OPEN-EXTENSIBLE at ≥10-tool-applicability threshold; do not silently add singletons.
+    - Self / identity
+    - Other / relationship
+    - Group / organization
+    - Power / politics
+    - Ethics / values
+    - Strategy / competition
+    - Decision / choice
+    - Risk / uncertainty
+    - Time / future
+    - Place / ecosystem
+    - Body / embodiment
+    - Mind / cognition
+    - Sacred / transcendent
+    - Aesthetic / craft
+
+  tt_solve_ex_phases:                 # Added v1.14.0 — SOLVE eX 6-phase model for routing thinking tools by user journey phase.
+    - 1                               # State / Origin clarification
+    - 2                               # Objective / Destination clarification
+    - 3                               # Learn / fact-gathering
+    - 4                               # Vision / divergent path generation
+    - 5                               # Evaluate / convergent option assessment
+    - 6                               # eXecute / action and follow-through
+    - any                             # Cross-phase utility — useful regardless of phase
+
+  tt_solve_ex_steps:                  # Added v1.14.0 — granular SOLVE eX step taxonomy (19 steps across 6 phases + any).
+    - 1.1
+    - 1.2
+    - 1.3
+    - 2.1
+    - 2.2
+    - 2.3
+    - 3.1
+    - 3.2
+    - 3.3
+    - 3.4
+    - 4.1
+    - 4.2
+    - 4.3
+    - 4.4
+    - 5.1
+    - 5.2
+    - 5.3
+    - 6.1
+    - 6.2
+    - 6.3
+    - 6.4
+    - any                             # Cross-step utility — useful regardless of step
+
+  tt_clarifies_values:                # Added v1.14.0 — which segment of the user's decision journey the tool clarifies.
+    - Origin                          # Where the user currently is
+    - Destination                     # Where the user wants to be
+    - Path                            # Routes between Origin and Destination
+    - Action                          # Executing and following up on chosen path
+    - None                            # Structural / meta-process; doesn't clarify any segment directly
+
+  tt_applicability_values:            # Added v1.14.0 — whether the tool is runtime-usable by the v2.0 Co-pilot, descriptive only, or requires lineage transmission.
+    - runtime_applicable              # Co-pilot can guide the user through this tool in-session
+    - describable_only                # Co-pilot can describe the tool but cannot guide enactment in-session
+    - requires_tradition_transmission # Tool requires teacher / lineage / embodied transmission; co-pilot can only point to it
+
+  tt_statuses:
+    - proposed       # Name only; no entry yet
+    - in-progress    # Entry being drafted
+    - classified     # Entry exists with full content
+    - deprecated     # Replaced by another tool or no longer recommended
+
+  tt_quality_tiers:                   # Added v1.15.0 — curated quality assessment, independent of tt_Status.
+    - A                               # High-quality, well-vetted, frequently load-bearing in real sessions
+    - B                               # Solid; appropriate fit for most use cases
+    - C                               # Workable; included for completeness; check fit carefully
+    - D                               # Marginal; included for breadth; consider alternatives first
+
+# ==============================================================================
+# 3. PROPERTIES (The "Atoms")
+# The definitive list of all allowed keys.
+# ==============================================================================
+properties:
+  # --- UNIVERSAL CORE (Identity & Naming) ---
+  Item_ID:
+    type: string
+    description: "Internal unique identifier (UUID or custom slug) for the item."
+    required: true
+
+  Item_Prototype:
+    type: string
+    description: "The class or type of the note. MANDATORY for every prototype template in _Prototypes/ and every note instantiated from one — no exceptions. Value must match the prototype's exact name (e.g., 'Article', 'Book', 'Concept', 'Mental_Model'). This field is the discriminator that tells humans, queries, and automation which schema applies. A note without Item_Prototype is malformed. See the UNIVERSAL DECLARATION RULE at the top of this file."
+    required: true
+
+  Title:
+    type: string
+    description: "The full, official title of the work."
+    required: true
+
+  SubTitle:
+    type: string
+    description: "Secondary title."
+
+  Needs_Processing:
+    type: boolean
+    description: "Flag indicating if this note requires further processing or completion."
+
+  AI_Instructions:
+    type: string
+    multiline: true
+    description: "Free-text instructions for an AI assistant to process this note. Describes what to do with the content — research, expand, reformat, fact-check, convert to another prototype, merge with another note, etc. Paired with Needs_Processing (the flag says 'process me', this field says 'here is how')."
+
+  # --- UNIVERSAL CORE (The "Maker" Group) ---
+  Creator:
+    type: list
+    description: "Generic primary creator."
+  
+  Author:
+    type: list
+    description: "The person(s) who wrote the text."
+  
+  Editor:
+    type: list
+    description: "The person(s) responsible for selecting/preparing the text."
+  
+  Host:
+    type: list
+    description: "The primary presenter(s) of a podcast or show."
+  
+  Guest:
+    type: list
+    description: "Invited participant(s)."
+
+  # --- UNIVERSAL CORE (Time & Location) ---
+  Publication_Date:
+    type: date
+    format: "YYYY-MM-DD"
+
+  URL:
+    type: string
+    format: url
+    legacy_mapping: ["gtd_URL"]
+
+  # --- UNIVERSAL CORE (Content & Discovery) ---
+  Abstract:
+    type: string
+    multiline: true
+
+  KeyWords:
+    type: list
+    description: "Index Terms (Verbatim)."
+
+  Tags:
+    type: list
+    description: "Taxonomy (Categories)."
+
+  See_Also:
+    type: list
+    description: "Thesaurus (Related)."
+
+  # --- UNIVERSAL CORE (Utility) ---
+  Search_Amazon_URL:
+    type: string
+    format: url
+  
+  Search_Google_URL:
+    type: string
+    format: url
+  
+  Search_Wikipedia:
+    type: string
+    format: url
+  
+  WordCount:
+    type: number
+
+  Quick_Notes:
+    type: string
+    multiline: true
+
+  # --- CONTEXT: BOOKS & ACADEMIC (Prefix-free as they are Core Content) ---
+  Book_Title:
+    type: string
+
+  Chapter_Title:
+    type: string
+
+  Chapter_Number:
+    type: number
+
+  Edition:
+    type: string
+
+  Volume:
+    type: string
+
+  Book_Summary:
+    type: string
+    multiline: true
+
+  Journal_Name:
+    type: string
+
+  Issue:
+    type: string
+
+  Journal_Article_Number:
+    type: string
+
+  Pages:
+    type: string
+
+  # --- IDENTIFIERS ---
+  DOI:
+    type: string
+  DOI_URL:
+    type: string
+    format: url
+  ISBN:
+    type: string
+  ISSN:
+    type: string
+  PMID:
+    type: string
+  arXiv_ID:
+    type: string
+  SSRN_ID:
+    type: string
+  YouTube_ID:
+    type: string
+  Podcast_GUID:
+    type: string
+  SciHub_URL:
+    type: string
+    format: url
+
+  # --- CONTEXT: ONLINE / MULTIMEDIA ---
+  Platform:
+    type: string
+    options_ref: platforms
+
+  Brand:
+    type: string
+
+  Episode_Number:
+    type: number
+  
+  Season_Number:
+    type: number
+
+  Duration:
+    type: string
+    format: "ISO 8601 Duration"
+
+  # ============================================================================
+  # DOMAIN: gtd_ (Project Management)
+  # ============================================================================
+  gtd_Status:
+    type: string
+    options_ref: gtd_statuses
+    legacy_mapping: "gtd_Status"
+
+  gtd_Flag:
+    type: boolean
+    legacy_mapping: "gtd_Flag"
+
+  gtd_Time_Estimate:
+    type: number
+    legacy_mapping: "gtd_TimReq (mins)"
+
+  gtd_Is_Done:
+    type: boolean
+    legacy_mapping: "gtd_DONE"
+
+  gtd_Is_Event:
+    type: boolean
+    legacy_mapping: "gtd_IsEvent"
+
+  gtd_GCal_URL:
+    type: string
+    format: url
+    legacy_mapping: "gtd_GCal_URL"
+
+  gtd_Next_Review:
+    type: date
+    legacy_mapping: "gtd_NextReview"
+
+  gtd_43Folders:
+    type: date
+    legacy_mapping: "gtd_43Folders"
+
+  gtd_Due_Date:
+    type: date
+    legacy_mapping: "gtd_DueBy"
+
+  gtd_Start_Time:
+    type: date
+    legacy_mapping: "gtd_StartTime"
+
+  gtd_End_Time:
+    type: date
+    legacy_mapping: "gtd_EndTime"
+
+  gtd_Owed_To:
+    type: list
+    legacy_mapping: "gtd_OwedTo"
+
+  gtd_Owed_By:
+    type: list
+    legacy_mapping: "gtd_OwedBy"
+
+  gtd_Waiting_On:
+    type: list
+    legacy_mapping: "gtd_WaitingOn"
+
+  gtd_Blocked_By:
+    type: list
+
+  gtd_Blocking:
+    type: list
+
+  gtd_Priority:
+    type: string
+    options: [Low, Medium, High, Critical]
+
+  gtd_Project:
+    type: string
+    legacy_mapping: "gtd_Project"
+
+  gtd_Sub_Tasks:
+    type: list
+    legacy_mapping: "gtd_SubTasks"
+
+  gtd_Order:
+    type: number
+    legacy_mapping: "gtd_Order"
+
+  gtd_Task_Type:
+    type: string
+    legacy_mapping: "gtd_Type"
+
+  # ============================================================================
+  # DOMAIN: crm_ (People)
+  # ============================================================================
+  crm_DoB:
+    type: date
+  
+  crm_Online_Profile_URL:
+    type: string
+    format: url
+
+  crm_Email:
+    type: string
+    format: email
+
+  crm_Area_Of_Expertise:
+    type: list
+    legacy_mapping: "Areas of Expertise"
+
+  crm_Publications:
+    type: list
+
+  crm_Social_Media_Profile_URL:
+    type: list
+    description: "List of social media profile URLs (LinkedIn, YouTube, Twitter, etc.)"
+
+  crm_University:
+    type: string
+
+  crm_Cell_Phone:
+    type: string
+
+  crm_Current_Company:
+    type: string
+
+  crm_Current_Role:
+    type: string
+
+  crm_Alma_Mater:
+    type: string
+
+  crm_Introduced_By:
+    type: list
+
+  crm_DoD:
+    type: date
+    description: "Date of Death."
+
+  crm_Address:
+    type: string
+    description: "Physical mailing address."
+    multiline: true
+
+  # ============================================================================
+  # DOMAIN: lll_ (LifeLong Learning)
+  # ============================================================================
+
+  # --- Learning State ---
+  lll_Mastery:
+    type: number
+    min: 0
+    max: 5
+    description: "Mastery level. Default scale 0-5; cartridges may define custom semantics."
+
+  lll_Status:
+    type: string
+    options_ref: lll_statuses
+    description: "Learning lifecycle position."
+
+  lll_Phase:
+    type: number
+    description: "Curriculum phase (1-N)."
+
+  lll_Subject:
+    type: string
+    description: "Which cartridge this belongs to (e.g., Cybernetics, SE-Asian-Cuisine)."
+
+  lll_Atom_Type:
+    type: string
+    description: "Subject-specific atom type (e.g., concept, thinker, technique, dish). Defined per cartridge in _schema.md."
+
+  lll_First_Encountered:
+    type: date
+
+  lll_Last_Practiced:
+    type: date
+
+  lll_SR_Cards_Created:
+    type: number
+
+  lll_Confidence:
+    type: number
+    min: 1
+    max: 5
+    description: "User self-rated confidence in understanding."
+
+  # --- Subject Manifest ---
+  lll_Subject_Slug:
+    type: string
+    description: "Lowercase-hyphenated slug for the subject."
+
+  lll_Domain_Shape:
+    type: list
+    options_ref: lll_domain_shapes
+    description: "What kinds of knowledge this subject consists of (Q1 from schema design)."
+
+  lll_User_Goals:
+    type: string
+    multiline: true
+
+  lll_User_Prior_Knowledge:
+    type: string
+    multiline: true
+
+  lll_Math_Stance:
+    type: string
+    options_ref: lll_math_stances
+
+  lll_Primary_Atom_Types:
+    type: list
+
+  lll_Custom_Session_Activities:
+    type: list
+
+  lll_Mastery_Scale:
+    type: string
+    options_ref: lll_mastery_scales
+
+  lll_Bootstrapped:
+    type: date
+
+  # --- Curriculum ---
+  lll_Phases_Total:
+    type: number
+    description: "Total number of phases in the curriculum."
+
+  # --- State ---
+  lll_Current_Phase:
+    type: number
+
+  lll_Current_Phase_Name:
+    type: string
+
+  lll_Pace_Mode:
+    type: string
+    options: [fixed, variable]
+
+  lll_Sessions_Completed:
+    type: number
+
+  lll_Total_Study_Hours:
+    type: number
+
+  lll_Last_Session_Date:
+    type: date
+
+  lll_Next_Session_Default_Activity:
+    type: string
+
+  # --- Session ---
+  lll_Session_Number:
+    type: number
+
+  lll_Activity:
+    type: string
+    options_ref: lll_activities
+
+  lll_Duration_Minutes:
+    type: number
+
+  lll_Atoms_Engaged:
+    type: list
+
+  lll_Source_Active:
+    type: string
+    description: "Link to the source being worked through."
+
+  lll_Quality_Gates_Passed:
+    type: boolean
+
+  # --- Quiz ---
+  lll_Quiz_Kind:
+    type: string
+    options: [socratic, sr]
+
+  lll_Questions_Count:
+    type: number
+
+  lll_Correct_Full:
+    type: number
+
+  lll_Correct_Partial:
+    type: number
+
+  lll_Incorrect:
+    type: number
+
+  lll_Confidence_Accuracy:
+    type: string
+    description: "Calibration between self-rated confidence and actual performance."
+
+  # --- Synthesis ---
+  lll_Synthesis_Kind:
+    type: string
+    options: [weekly-journal, monthly-essay, phase-end, quarterly-draft]
+
+  lll_Phase_Context:
+    type: string
+
+  lll_Atoms_Referenced:
+    type: list
+
+  lll_Intended_Venue:
+    type: string
+    description: "For quarterly drafts: who is the intended audience."
+
+  # --- Source Extensions (optional on Book, Video, etc.) ---
+  lll_Source_Role:
+    type: string
+    options: [primary, supplementary, reference, deep-dive, media]
+    description: "How this source functions in the curriculum, not what format it is."
+
+  lll_Progress_Pct:
+    type: number
+    min: 0
+    max: 100
+
+  lll_Estimated_Hours:
+    type: number
+
+  lll_Actual_Hours:
+    type: number
+
+  # --- Thinker ---
+  lll_Thinker_Role:
+    type: string
+    options_ref: lll_thinker_roles
+
+  # --- Cross-Domain Bridges ---
+  lll_Graduated_To:
+    type: list
+    description: "Links to vault-wide Concept/Mental_Model/Principle notes this atom graduated into."
+
+  Originated_In_LLL:
+    type: string
+    description: "Link to the LLL atom this Wisdom note originated from."
+
+  # ============================================================================
+  # DOMAIN: drafts_ (Drafts App Import Provenance)
+  # ============================================================================
+  drafts_UUID:
+    type: string
+    description: "Original Drafts app UUID for the note."
+
+  drafts_Permalink:
+    type: string
+    format: url
+    description: "Drafts deep link (drafts://open?uuid=...)."
+
+  drafts_Flagged:
+    type: boolean
+    description: "Whether the note was flagged in Drafts."
+
+  drafts_Created:
+    type: string
+    format: "ISO 8601"
+    description: "Original creation timestamp in Drafts (full ISO 8601)."
+
+  drafts_Modified:
+    type: string
+    format: "ISO 8601"
+    description: "Last modification timestamp in Drafts (full ISO 8601)."
+
+  drafts_Tags:
+    type: list
+    description: "Tags assigned in the Drafts app (preserved separately from Obsidian Tags)."
+
+  # ============================================================================
+  # DOMAIN: tt_ (Thinking Tools — Library of Cognitive Instruments)
+  # ============================================================================
+  # Faceted classification system for thinking tools. The hierarchy is
+  # Domain → Field → Operation → Tool, with cross-cutting facets for Form,
+  # Scale, Duration, Lineage, Posture, and tool relationships. See the
+  # Thinking Tools project Index for the full taxonomy.
+
+  tt_Source:
+    type: string
+    description: "Canonical attribution for the tool (e.g., 'Mendelow 1991', 'Lewin 1947', 'SOLVE eX #01', 'Folk / business tradition')."
+
+  tt_Type:
+    type: string
+    options_ref: tt_types
+    description: "Whether the entry is a fillable instrument or a mode you enter."
+
+  tt_Domain:
+    type: string
+    options_ref: tt_domains
+    description: "Top-level Domain in the faceted classification (Path B single-axis, locked v1.13.0). Each Domain answers 'What cognitive register does this tool operate in?' 12 controlled values."
+
+  tt_Field:
+    type: string
+    description: "Subdivision of a Domain. Maps to academic 'field of study' usage. ~100 Fields inventoried in the Thinking Tools Index."
+
+  tt_Operation:
+    type: string
+    description: "The shared cognitive operation this tool performs (e.g., 'Score and rank options', 'Map relational topology'). The Operation layer sits between Field and Tool — multiple Tools should share an Operation. NOT a tool-specific summary; for that, use the body of the entry. Treated as an open-but-curated inventory documented in the Thinking Tools Index."
+
+  tt_Cross_Domains:
+    type: list
+    options_ref: tt_domains
+    description: "Other Domains this tool meaningfully spans (e.g., ['Modes of inquiry', 'Disciplinary traditions'])."
+
+  tt_Form:
+    type: list
+    options_ref: tt_forms
+    description: "Shape of the instrument (matrix, checklist, dialogue protocol, etc.). Empty for stance-type entries."
+
+  tt_Scale:
+    type: list
+    options_ref: tt_scales
+    description: "Group size at which the tool operates."
+
+  tt_Duration:
+    type: list
+    options_ref: tt_durations
+    description: "Time signature for using the tool."
+
+  tt_Lineage:
+    type: list
+    options_ref: tt_lineages
+    description: "Source tradition(s) the tool emerges from."
+
+  tt_Posture:
+    type: list
+    options_ref: tt_postures
+    description: "Practitioner-side disposition required for the tool to work as designed (what the work asks of you)."
+
+  tt_State:
+    type: list
+    options_ref: tt_states
+    description: "Psychological/phenomenological state(s) the tool asks the practitioner to enter or sustain. Distinct from tt_Posture: Posture is what you bring; State is what you become. Added v1.13.0."
+
+  tt_Agent:
+    type: list
+    options_ref: tt_agents
+    description: "Type of cognitive agent(s) involved in the tool's enactment. Distinct from tt_Scale: Scale is how many; Agent is what kind (e.g., Human-AI partnership vs Cross-species). Added v1.13.0."
+
+  tt_About:
+    type: list
+    options_ref: tt_abouts
+    description: "Subject matter(s) the tool operates on — the object of thought. Open-extensible at ≥10-tool-applicability threshold (see ! Infrastructure Decision Log v1.13.0). Added v1.13.0."
+
+  tt_SOLVE_eX_Phase:
+    type: list
+    options_ref: tt_solve_ex_phases
+    description: "SOLVE eX phase(s) the tool is useful for. Multi-value: a tool may be useful in multiple phases. Use 'any' for cross-phase utilities. Drives Phase-Step affinity filtering in the v2.0 Tool Selector. Added v1.14.0."
+
+  tt_SOLVE_eX_Step:
+    type: list
+    options_ref: tt_solve_ex_steps
+    description: "Granular SOLVE eX step(s) the tool is useful for. Multi-value: a tool may be useful in multiple steps. Use 'any' for cross-step utilities. More precise than tt_SOLVE_eX_Phase. Added v1.14.0."
+
+  tt_Clarifies:
+    type: list
+    options_ref: tt_clarifies_values
+    description: "Which segment(s) of the user's decision journey the tool clarifies — Origin, Destination, Path, Action, or None. The v2.0 Tool Selector's first-cut filter: when Destination is Unclear, restrict to tools where tt_Clarifies contains 'Destination'. Multi-value allowed. Added v1.14.0."
+
+  tt_Applicability:
+    type: string
+    options_ref: tt_applicability_values
+    description: "Whether the v2.0 Co-pilot can guide the user through this tool at runtime (runtime_applicable), only describe it (describable_only), or whether the tool requires teacher/lineage/embodied transmission (requires_tradition_transmission). Single-value. Added v1.14.0."
+
+  tt_Often_Precedes:
+    type: list
+    description: "Tools that this one commonly leads into."
+
+  tt_Often_Follows:
+    type: list
+    description: "Tools that commonly lead into this one."
+
+  tt_Pairs_Well_With:
+    type: list
+    description: "Tools that combine effectively with this one (no implied order)."
+
+  tt_Replaced_By:
+    type: list
+    description: "Tools that supersede this one in modern practice."
+
+  tt_Status:
+    type: string
+    options_ref: tt_statuses
+    description: "Lifecycle position of this entry: proposed / in-progress / classified / deprecated."
+
+  tt_Quality_Tier:                    # Added v1.15.0
+    type: string
+    options_ref: tt_quality_tiers
+    description: "Curated quality assessment, independent of tt_Status. A = high quality, frequently load-bearing in real sessions; B = solid, appropriate fit for most use cases; C = workable, included for completeness; D = marginal, included for breadth."
+
+  tt_History:
+    type: list
+    multiline: true
+    description: "Append-only audit trail of significant edits to this entry's classification (e.g., '2026-05-07 — initial classification (v0.4 schema)')."
+
+  # ============================================================================
+  # CONTEXT: ENTERTAINMENT (Movies, TV, Games)
+  # ============================================================================
+  Director:
+    type: list
+    description: "Filmmaker/Auteur."
+
+  Screenwriter:
+    type: list
+
+  Cast:
+    type: list
+
+  Studio:
+    type: string
+    description: "Production Company."
+
+  Distributor:
+    type: string
+    description: "Distribution Platform/Company."
+
+  Release_Year:
+    type: number
+    description: "Year of initial release (YYYY)."
+
+  IMDb_ID:
+    type: string
+    example: "tt1234567"
+
+  Movie_Poster_URL:
+    type: string
+    format: url
+    description: "Specific visual key for movies."
+
+  # --- TV SHOW ---
+  Network:
+    type: string
+    description: "TV network or streaming service (e.g., HBO, Netflix, AMC, FX)."
+
+  Total_Seasons:
+    type: number
+    description: "Total number of seasons aired or planned."
+
+  Series_Status:
+    type: string
+    options: ["Running", "Ended", "Cancelled"]
+
+  Show_Poster_URL:
+    type: string
+    format: url
+    description: "Poster or key art for the TV show."
+
+  # ============================================================================
+  # DOMAIN: gov_ (Government & Legal)
+  # ============================================================================
+  
+  # --- EXECUTIVE ---
+  gov_EO_Number:
+    type: string
+    description: "Executive Order Number (e.g., EO 14028)."
+
+  gov_Signatory:
+    type: string
+    description: "The official who signed the order (e.g., President)."
+  
+  gov_Federal_Register_Citation:
+    type: string
+    description: "Citation for Federal Register (e.g., 86 FR 26633)."
+
+  # --- LEGISLATIVE ---
+  gov_Public_Law_Number:
+    type: string
+    description: "P.L. Number (e.g., P.L. 110-14)."
+
+  gov_Bill_Number:
+    type: string
+    description: "Originating Bill (e.g., H.R. 1234)."
+
+  gov_US_Code_Citation:
+    type: string
+    description: "Codified Law Citation (e.g., 42 U.S.C. § 1983)."
+  
+  gov_Sponsor:
+    type: list
+    description: "Legislative Sponsor(s)."
+
+  # --- JUDICIAL ---
+  gov_Case_Name:
+    type: string
+    description: "Official Case Title (e.g., Marbury v. Madison)."
+
+  gov_Citation:
+    type: string
+    description: "Bluebook Legal Citation (e.g., 5 U.S. 137)."
+
+  gov_Court:
+    type: string
+    description: "Court of origin (e.g., SCOTUS, SDNY)."
+
+  gov_Docket_Number:
+    type: string
+
+  gov_Judge:
+    type: list
+    description: "Author of the opinion."
+
+  gov_Panel:
+    type: list
+    description: "Judges participating in the decision."
+
+  gov_Plaintiff:
+    type: list
+  
+  gov_Defendant:
+    type: list
+
+  gov_Seal_Image_URL:
+    type: string
+    format: url
+    description: "Official seal of the court or agency."
+
+  # ============================================================================
+  # CONTEXT: PLACES & ORGANIZATIONS (Personal Core)
+  # ============================================================================
+  
+  # --- PLACE ---
+  Place_Type:
+    type: string
+    description: "Category (e.g., Restaurant, Museum, Hotel)."
+  
+  Address:
+    type: string
+    multiline: true
+  
+  City:
+    type: string
+  
+  State:
+    type: string
+  
+  Country:
+    type: string
+  
+  GPS_Coordinates:
+    type: string
+    description: "Lat, Long string (e.g., 34.0522, -118.2437)."
+  
+  Apple_Maps_URL:
+    type: string
+    format: url
+  
+  Google_Maps_URL:
+    type: string
+    format: url
+  
+  What3Words_URL:
+    type: string
+    format: url
+  
+  Phone_Number:
+    type: string
+  
+  Rating:
+    type: number
+    min: 1
+    max: 5
+  
+  Price_Range:
+    type: string
+    description: "Cost tier (e.g., $, $$, $$$$)."
+  
+  Vibe:
+    type: list
+    description: "Atmosphere tags (e.g., Quiet, Romantic, Busy)."
+  
+  Visit_Status:
+    type: string
+    options: ["Want to Go", "Visited", "Favorite", "Avoid"]
+
+  Parent_Organization:
+    type: string
+    description: "Link to the owning Organization (e.g., [[Marriott Hotels]])."
+
+  # --- ORGANIZATION ---
+  Organization_Type:
+    type: string
+    description: "Legal/Operational type (e.g., Corporation, University, Non-Profit)."
+  
+  Ticker_Symbol:
+    type: string
+    description: "Stock ticker (e.g., AAPL)."
+  
+  Headquarters_Location:
+    type: string
+    description: "City/State of HQ."
+  
+  Founded_Year:
+    type: number
+  
+  Subsidiaries:
+    type: list
+    description: "List of owned entities."
+
+  # --- iWOOT (Shopping / Objects) ---
+  Manufacturer:
+    type: string
+    description: "The company that makes the object (e.g., [[Sony]])."
+  
+  Model_Number:
+    type: string
+  
+  Estimated_Price:
+    type: string
+  
+  Purchase_URL:
+    type: string
+    format: url
+  
+  Review_URL:
+    type: string
+    format: url
+  
+  Desire_Level:
+    type: string
+    options: ["Low", "Medium", "High", "Critical"]
+  
+  Purchase_Status:
+    type: string
+    options: ["Researching", "Saving", "Ready", "Purchased", "Abandoned"]
+
+  # --- CONTEXT: WISDOM (The Ontology of Wisdom) ---
+  # LEVEL 1: CONCEPT (The Atom)
+  Definition:
+    type: string
+    multiline: true
+    description: "The core meaning of the atomic idea."
+  
+  Discipline:
+    type: string
+    description: "Field of study (e.g., Physics, Economics)."
+
+  # LEVEL 2: MENTAL MODEL (The System)
+  Mechanism:
+    type: string
+    multiline: true
+    description: "The causal 'If-Then' logic of how this model works."
+  
+  Component_Concepts:
+    type: list
+    description: "Links to the atomic Concepts that make up this model."
+
+  # LEVEL 3: VALUE STRUCTURE (The Compass)
+  Value_Statement:
+    type: string
+    description: "The definition of what is important (e.g., 'Radical Truth')."
+  
+  Priority_Tier:
+    type: string
+    options: ["Core / Non-Negotiable", "Strategic", "Tactical"]
+
+  # LEVEL 4: PRINCIPLE (The Law of Conduct)
+  Principle_Statement:
+    type: string
+    description: "The prescriptive rule for decision-making."
+  
+  Prescription:
+    type: string
+    multiline: true
+    description: "The directive action: 'Always do X' or 'Never do Y'."
+
+  Heuristics:
+    type: list
+    description: "Aphorisms (guides for thought) and Maxims (guides for action) that encapsulate this principle."
+
+  Derived_From_Model:
+    type: list
+    description: "Links to the Mental Models that justify this principle."
+  
+  Aligned_Value:
+    type: list
+    description: "Links to the Values that this principle serves."
+
+  Confidence_Level:
+    type: string
+    options: ["Hypothetical", "Tested", "Absolute Truth"]
+  
+  Source_Origin:
+    type: string
+    description: "Where this wisdom was derived from."
+
+  Domain_of_Life:
+    type: list
+    description: "Area of application (e.g., Career, Family, Wealth)."
+
+  Related_Concepts:
+    type: list
+  
+  Opposing_Concepts:
+    type: list
+
+  # --- CONTEXT: INTERACTIONS (Meetings) ---
+  Meeting_Date:
+    type: date
+  
+  Meeting_Time:
+    type: string
+    description: "Time of day (e.g., 14:00)."
+  
+  Attendees:
+    type: list
+    description: "Links to Person notes."
+  
+  Meeting_Type:
+    type: string
+    description: "e.g., Call, Coffee, Board Meeting."
+  
+  Action_Items:
+    type: list
+    description: "Links to Task notes."
+
+  # --- CONTEXT: TECHNOLOGY (Software) ---
+  License_Key:
+    type: string
+    description: "Or link to secure note."
+  
+  Software_Version:
+    type: string
+  
+  Cost:
+    type: string
+    description: "e.g., $10/month."
+  
+  Documentation_URL:
+    type: string
+    format: url
+  
+  Tech_Category:
+    type: string
+    description: "e.g., IDE, Database, SaaS."
+
+  # --- CONTEXT: SYSTEM OS (Feedback & Rhythm) ---
+  
+  # --- DECISION (The Black Box) ---
+  Decision_Statement:
+    type: string
+    description: "The core bet: 'I bet that doing X will result in Y.'"
+  
+  Options_Considered:
+    type: list
+    description: "The alternatives that were rejected."
+  
+  Selected_Option:
+    type: string
+  
+  Reasoning:
+    type: string
+    multiline: true
+    description: "Link to Mental Models or Principles used."
+  
+  Expected_Outcome:
+    type: string
+    description: "What success looks like."
+  
+  Actual_Outcome:
+    type: string
+    description: "What actually happened (filled in retrospective)."
+  
+  Verdict:
+    type: string
+    options: ["Good Process/Good Outcome", "Good Process/Bad Luck", "Bad Process/Good Luck", "Bad Process/Bad Outcome"]
+
+  # --- REVIEW (The Cadence) ---
+  Review_Type:
+    type: string
+    options: ["EoD (Daily)", "EoW (Weekly)", "EoM (Monthly)", "EoQ (Quarterly)", "EoY (Annual)"]
+  
+  Date_Range_Start:
+    type: date
+  
+  Date_Range_End:
+    type: date
+  
+  Key_Wins:
+    type: list
+  
+  Key_Misses:
+    type: list
+  
+  Principles_Violated:
+    type: list
+    description: "Links to Principles that were ignored or failed."
+  
+  Action_Adjustments:
+    type: list
+    description: "Strategic changes for the next cycle."
+
+  # ============================================================================
+  # DOMAIN: hugo_ (Restricted Scope)
+  # ============================================================================
+  hugo_title:
+    type: string
+  hugo_date:
+    type: date
+  hugo_draft:
+    type: boolean
+  hugo_description:
+    type: string
+  hugo_tags:
+    type: list
+  hugo_categories:
+    type: list
+  hugo_readTime:
+    type: number
+  hugo_heroAnimation:
+    type: string
+  hugo_featured:
+    type: boolean
+  hugo_slug:
+    type: string
+  hugo_url:
+    type: string
+  hugo_aliases:
+    type: list
+  hugo_publishDate:
+    type: date
+  hugo_expiryDate:
+    type: date
+  hugo_lastmod:
+    type: date
+  hugo_images:
+    type: list
+  hugo_keywords:
+    type: list
+  hugo_author:
+    type: string
+  hugo_s3_key:
+    type: string
+  hugo_type:
+    type: string
+
+  # --- HUGO TOOLBOX ---
+  hugo_access_tier:
+    type: string
+  hugo_has_lite_version:
+    type: boolean
+  hugo_lite_url:
+    type: string
+  hugo_purchase_url:
+    type: string
+  hugo_purchase_price:
+    type: string
+  hugo_coaching_available:
+    type: boolean
+  hugo_coaching_price:
+    type: string
+  hugo_download_url:
+    type: string
+  hugo_file_type:
+    type: string
+  hugo_version:
+    type: string
+  hugo_last_updated:
+    type: date
+  hugo_icon:
+    type: string
+  hugo_complexity:
+    type: string
+  hugo_time_to_complete:
+    type: string
+  hugo_exit_stages:
+    type: list
+  hugo_problems:
+    type: list
+
+  # --- HUGO INSIGHTS ---
+  hugo_week:
+    type: number
+  hugo_year:
+    type: number
+  hugo_image:
+    type: string
+
+  # --- ADMINISTRATIVE ---
+  Date_Added:
+    type: date
+    required: true
+
+  Date_Modified:
+    type: date
+    required: true
+
+  Original_Location:
+    type: string
+
+  Symlink_Locations:
+    type: list
+
+  File_Attachments:
+    type: list
+
+  # --- OBSIDIAN PLUGINS ---
+  branch-writing:
+    type: boolean
+    description: "Toggle for Branch Writing community plugin by Santi Younger."
+
+# ==============================================================================
+# 4. PROTOTYPE DEFINITIONS (The "Molecules")
+# ==============================================================================
+prototypes:
+  Universal_Core:
+    required: [Item_ID, Item_Prototype, Title]
+    recommended: [Publication_Date, URL, Abstract, KeyWords, Tags, See_Also]
+    optional: [SubTitle, Search_Amazon_URL, Search_Google_URL, Search_Wikipedia, WordCount, Needs_Processing, AI_Instructions, Quick_Notes]
+
+  Book:
+    inherits: Universal_Core
+    maker_keys: [Author, Editor]
+    specific_keys: [Book_Title, Chapter_Title, Chapter_Number, Edition, Volume, Book_Summary, ISBN]
+
+  Academic_Paper:
+    inherits: Universal_Core
+    maker_keys: [Author]
+    specific_keys: [Journal_Name, Volume, Issue, Journal_Article_Number, Pages, DOI, DOI_URL, ISSN, PMID, arXiv_ID, SSRN_ID, SciHub_URL]
+
+  Article:
+    inherits: Universal_Core
+    maker_keys: [Author]
+    specific_keys: [Platform, Brand]
+
+  Video:
+    inherits: Universal_Core
+    maker_keys: [Host, Guest, Creator]
+    specific_keys: [Platform, Brand, Duration, YouTube_ID]
+
+  Podcast_Episode:
+    inherits: Universal_Core
+    maker_keys: [Host, Guest]
+    specific_keys: [Platform, Brand, Episode_Number, Season_Number, Duration, Podcast_GUID]
+
+  Task:
+    inherits: Universal_Core
+    specific_keys: [gtd_Status, gtd_Flag, gtd_Time_Estimate, gtd_Is_Done, gtd_Is_Event, gtd_GCal_URL, gtd_Next_Review, gtd_43Folders, gtd_Due_Date, gtd_Start_Time, gtd_End_Time, gtd_Owed_To, gtd_Owed_By, gtd_Waiting_On, gtd_Blocked_By, gtd_Blocking, gtd_Priority, gtd_Project, gtd_Sub_Tasks, gtd_Order, gtd_Task_Type]
+
+  Project:
+    inherits: Universal_Core
+    specific_keys: [gtd_Status, gtd_Next_Review, gtd_43Folders, gtd_Due_Date, gtd_Start_Time, gtd_End_Time, gtd_Blocked_By, gtd_Blocking, gtd_Priority, gtd_Sub_Tasks, gtd_Order]
+
+  # --- CRM ---
+  Person:
+    inherits: Universal_Core
+    specific_keys: [crm_DoB, crm_Online_Profile_URL, crm_Email, crm_Area_Of_Expertise]
+
+  Author_Person:
+    inherits: Person
+    specific_keys: [crm_Publications, crm_Social_Media_Profile_URL]
+  
+  Professor:
+    inherits: Author_Person
+    specific_keys: [crm_University]
+
+  Rolodex:
+    inherits: Person
+    specific_keys: [crm_Cell_Phone, crm_Current_Company, crm_Current_Role, crm_Alma_Mater, crm_Introduced_By, crm_Address, gtd_43Folders]
+
+  # --- ENTERTAINMENT ---
+  Movie:
+    inherits: Universal_Core
+    maker_keys: [Director, Screenwriter, Cast]
+    specific_keys: [Studio, Distributor, Release_Year, IMDb_ID, Movie_Poster_URL, Duration]
+
+  TV_Show:
+    inherits: Universal_Core
+    maker_keys: [Director, Screenwriter, Cast]
+    specific_keys: [Network, Studio, Season_Number, Total_Seasons, Episode_Number, Duration, Release_Year, IMDb_ID, Show_Poster_URL, Series_Status]
+
+  # --- GOVERNMENT & LEGAL ---
+  Executive_Order:
+    inherits: Universal_Core
+    maker_keys: [gov_Signatory]
+    specific_keys: [gov_EO_Number, gov_Federal_Register_Citation]
+
+  Statute:
+    inherits: Universal_Core
+    maker_keys: [gov_Sponsor]
+    specific_keys: [gov_Public_Law_Number, gov_Bill_Number, gov_US_Code_Citation]
+
+  Judicial_Opinion:
+    inherits: Universal_Core
+    maker_keys: [gov_Judge, gov_Panel]
+    specific_keys: [gov_Case_Name, gov_Citation, gov_Court, gov_Docket_Number, gov_Plaintiff, gov_Defendant, gov_Seal_Image_URL]
+
+  # --- PLACES & ORGANIZATIONS ---
+  Place:
+    inherits: Universal_Core
+    specific_keys: [Place_Type, Address, City, State, Country, GPS_Coordinates, Apple_Maps_URL, Google_Maps_URL, What3Words_URL, Phone_Number, Rating, Price_Range, Vibe, Visit_Status, Parent_Organization]
+
+  Organization:
+    inherits: Universal_Core
+    specific_keys: [Organization_Type, Ticker_Symbol, Headquarters_Location, Founded_Year, Subsidiaries]
+
+  iWoot:
+    inherits: Universal_Core
+    specific_keys: [Manufacturer, Model_Number, Estimated_Price, Purchase_URL, Review_URL, Desire_Level, Purchase_Status]
+
+  # --- WISDOM & KNOWLEDGE ---
+  Fleeting:
+    description: "Low-friction capture for raw, unprocessed ideas. Minimal required fields. Can be upgraded to proper prototypes later."
+    required: [Item_ID, Item_Prototype, Title]
+    recommended: [Quick_Notes, Date_Added]
+    optional: [Tags, URL, Needs_Processing, AI_Instructions,
+               drafts_UUID, drafts_Permalink, drafts_Flagged,
+               drafts_Created, drafts_Modified, drafts_Tags]
+    note: "This prototype intentionally violates the Universal_Core recommendations to reduce friction. Use for inbox/daily capture. Drafts imports populate drafts_ provenance fields."
+
+  Concept:
+    inherits: Universal_Core
+    specific_keys: [Definition, Discipline, Related_Concepts, Opposing_Concepts]
+
+  Mental_Model:
+    inherits: Universal_Core
+    specific_keys: [Mechanism, Component_Concepts, Source_Origin, Domain_of_Life]
+
+  Value:
+    inherits: Universal_Core
+    specific_keys: [Value_Statement, Priority_Tier]
+
+  Principle:
+    inherits: Universal_Core
+    specific_keys: [Principle_Statement, Prescription, Heuristics, Derived_From_Model, Aligned_Value, Confidence_Level, Source_Origin, Domain_of_Life]
+
+  # --- INTERACTIONS ---
+  Meeting:
+    inherits: Universal_Core
+    specific_keys: [Meeting_Date, Meeting_Time, Attendees, Meeting_Type, Action_Items]
+
+  # --- TECHNOLOGY ---
+  Software:
+    inherits: Universal_Core
+    specific_keys: [License_Key, Software_Version, Cost, Documentation_URL, Tech_Category]
+
+  # --- SYSTEM OS ---
+  Decision:
+    inherits: Universal_Core
+    specific_keys: [Decision_Statement, Options_Considered, Selected_Option, Reasoning, Expected_Outcome, Actual_Outcome, Verdict]
+
+  Review:
+    inherits: Universal_Core
+    specific_keys: [Review_Type, Date_Range_Start, Date_Range_End, Key_Wins, Key_Misses, Principles_Violated, Action_Adjustments]
+
+  # --- LLL (LifeLong Learning) ---
+  LLL_Atom:
+    inherits: Universal_Core
+    specific_keys: [lll_Subject, lll_Atom_Type, lll_Phase, lll_Status,
+                    lll_Mastery, lll_Confidence, lll_First_Encountered,
+                    lll_Last_Practiced, lll_SR_Cards_Created,
+                    lll_Graduated_To, Related_Concepts, Opposing_Concepts,
+                    Discipline]
+
+  LLL_Thinker:
+    inherits: Author_Person
+    specific_keys: [lll_Subject, lll_Phase, lll_Status, lll_Mastery,
+                    lll_Thinker_Role, lll_First_Encountered,
+                    lll_Graduated_To, crm_DoD]
+
+  LLL_Session:
+    inherits: Universal_Core
+    specific_keys: [lll_Subject, lll_Session_Number, lll_Activity,
+                    lll_Phase, lll_Duration_Minutes, lll_Atoms_Engaged,
+                    lll_Source_Active, lll_Quality_Gates_Passed]
+
+  LLL_Quiz:
+    inherits: Universal_Core
+    specific_keys: [lll_Subject, lll_Quiz_Kind, lll_Atoms_Engaged,
+                    lll_Questions_Count, lll_Correct_Full,
+                    lll_Correct_Partial, lll_Incorrect,
+                    lll_Confidence_Accuracy]
+
+  LLL_SR_Log:
+    inherits: Universal_Core
+    specific_keys: [lll_Subject, lll_Phase]
+
+  LLL_Synthesis:
+    inherits: Review
+    specific_keys: [lll_Subject, lll_Synthesis_Kind, lll_Phase_Context,
+                    lll_Atoms_Referenced, lll_Intended_Venue]
+
+  LLL_Subject_Manifest:
+    inherits: Universal_Core
+    specific_keys: [lll_Subject, lll_Subject_Slug, lll_Domain_Shape,
+                    lll_User_Goals, lll_User_Prior_Knowledge,
+                    lll_Math_Stance, lll_Primary_Atom_Types,
+                    lll_Custom_Session_Activities, lll_Mastery_Scale,
+                    lll_Bootstrapped]
+
+  LLL_State:
+    inherits: Universal_Core
+    specific_keys: [lll_Subject, lll_Current_Phase,
+                    lll_Current_Phase_Name, lll_Pace_Mode,
+                    lll_Sessions_Completed, lll_Total_Study_Hours,
+                    lll_Last_Session_Date,
+                    lll_Next_Session_Default_Activity]
+
+  LLL_Curriculum:
+    inherits: Universal_Core
+    specific_keys: [lll_Subject, lll_Phases_Total, lll_Current_Phase]
+
+  # --- THINKING TOOLS ---
+  Thinking_Tool:
+    inherits: Universal_Core
+    specific_keys: [tt_Source, tt_Type, tt_Domain, tt_Field, tt_Operation, tt_Cross_Domains, tt_Form, tt_Scale, tt_Duration, tt_Lineage, tt_Posture, tt_SOLVE_eX_Phase, tt_SOLVE_eX_Step, tt_Clarifies, tt_Applicability, tt_Often_Precedes, tt_Often_Follows, tt_Pairs_Well_With, tt_Replaced_By, tt_Status, tt_Quality_Tier, tt_History]
+
+  # --- HUGO ---
+  Hugo_Article:
+    required: [hugo_title, hugo_date, hugo_draft, hugo_description, hugo_tags, hugo_categories, hugo_readTime]
+    optional: [hugo_heroAnimation, hugo_featured, hugo_slug, hugo_url, hugo_aliases, hugo_publishDate, hugo_expiryDate, hugo_lastmod, hugo_images, hugo_keywords, hugo_author, hugo_s3_key, hugo_type]
+
+  Hugo_Insight:
+    inherits: Hugo_Article
+    specific_keys: [hugo_week, hugo_year, hugo_image]
+
+  Hugo_Tool:
+    inherits: Hugo_Article
+    specific_keys: [hugo_access_tier, hugo_has_lite_version, hugo_lite_url, hugo_purchase_url, hugo_purchase_price, hugo_coaching_available, hugo_coaching_price, hugo_download_url, hugo_file_type, hugo_version, hugo_last_updated, hugo_icon, hugo_complexity, hugo_time_to_complete, hugo_exit_stages, hugo_problems]

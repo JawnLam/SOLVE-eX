@@ -1,0 +1,258 @@
+# PHASE 1 - ARTICULATE THE CURRENT STATE.
+
+
+## Introduction. 
+Thought processes are influenced by definitions. People frequently start solving problems too quickly without properly identifying the actual problem or the appropriate solution. This leads to the challenge of attempting to solve the right problem but ending up creating an excellent solution for an incorrect problem.
+
+Effective problem-solving in a business context is deeply rooted in understanding and accurately defining problems. It's common for teams to rush into solution mode without thoroughly analyzing the core issue, leading to misapplied efforts and resources. To enhance problem-solving effectiveness, it's crucial to focus on the problem-definition phase. This involves:
+Step 1.1 - Describe the Situation: Begin by thoroughly describing the situation where the problem exists. This description should include all relevant details, context, and any initial observations. It's essential to be as objective and comprehensive as possible, avoiding assumptions or biases. This step sets the foundation for a clear understanding of the environment in which the problem exists.
+Step 1.2 - Write the Problem Statement: Once the situation is clearly described, articulate the problem statement. This statement should be concise and specific, clearly defining what the problem is without suggesting a solution. A well-crafted problem statement should provide clarity and focus, guiding the solution development process and ensuring that efforts are well-directed.
+Step 1.3 - Frame the Situation: After defining the problem, frame the situation in a broader context. This involves understanding the implications of the problem, its significance, and how it affects different aspects of the business. Consider the impact on stakeholders, business processes, and long-term objectives. Framing the situation helps in prioritizing the problem and aligning the solution with broader business goals.
+
+By methodically working through these steps, business managers can approach problem-solving with a structured and effective mindset. This approach not only ensures that the real issues are addressed but also paves the way for more innovative and relevant solutions, ultimately leading to better decision-making and organizational success.
+
+
+## Step 1.1 - Describe the situation.
+
+### Intro.
+Employ facilitator questions to create a brief background description of the present situation or problem. This description aids in comprehending the characteristics, extent, and possible effects of the situation. It should highlight the unique aspects of the situation to prevent relying on generic solutions.
+
+When addressing complex business problems, it's crucial to have a clear understanding of the situation at hand. A structured approach to defining the problem can lead to more effective and tailored solutions. This can be achieved by using facilitator questions to guide the writing of a concise background description. The process involves the following steps:
+1. Identify Key Facets of the Situation: Use facilitator questions to uncover the essential elements of the current situation or problem. Questions should explore the who, what, when, where, why, and how of the situation. This helps in gaining a comprehensive understanding of the problem.
+2. Assess the Scope and Impact: Evaluate the extent of the problem and its potential impact on different areas of the business. Understand how it affects various stakeholders, processes, and the organization's goals. This assessment helps in prioritizing the issue and planning an appropriate response.
+3. Highlight Uniqueness: Focus on identifying what makes this situation unique. Understanding the specific characteristics that differentiate this problem from others prevents falling into the trap of applying generic, 'one-size-fits-all' solutions. This encourages more creative and effective problem-solving.
+4. Write a Concise Background Description: Based on the insights gained, write a brief background description of the problem. This description should be clear, focused, and encompass all critical aspects identified. It serves as a reference point for the problem-solving process, ensuring that all discussions and solutions are relevant and targeted.
+5. Encourage Broad Participation: In a workshop setting, encourage participation from all attendees. Diverse perspectives can add depth to the problem understanding and contribute to more innovative solutions.
+
+This approach ensures that the problem is thoroughly understood before jumping into solutions. By focusing on a clear, concise background description shaped by facilitator questions, managers can approach problem-solving with a more strategic and effective mindset, leading to solutions that are both innovative and closely aligned with the unique aspects of the problem.
+
+Recommended Thinking Tools:
+- Context Clarity Navigator: Determine if the situation is a problem, opportunity, or issue.
+- Blueprint Optimization Framework (Pros & Cons Analysis): Turn ideas into practical implementable innovations.
+- Critical Question Mapping: Find the right questions to ask for effective thinking.
+
+Group A: Exploratory Assessment.
+Is the current situation a problem, an issue, or an opportunity?
+When did this situation (problem) first appear? How quickly is it spreading?
+Why hasn't the problem already been solved? Might time alone resolve it?
+What are the main conflicts or disagreements?
+Who was involved when this situation/problem started?
+What factors have contributed most to the situation?
+What makes this problem unique?
+What is the likely cause of this situation?
+Is the situation being exaggerated or promoted to serve another purpose?
+From what viewpoint can this situation be seen better?
+How does this situation align with past trends or patterns within the organization or industry?
+What are the perceived barriers to understanding or addressing this situation?
+How is this situation being perceived by different levels within the organization?
+What historical decisions or events have led to the current situation?
+Are there any external factors, such as market trends or regulatory changes, influencing this situation?
+How is this situation impacting different departments or teams within the organization?
+What assumptions are we making about this situation that need to be questioned?
+Are there any similarities with situations encountered by competitors or in different industries?
+
+Group B: Practicable Analysis.
+What needs immediate attention?
+Who is the problem owner?
+What relevant person thinks this is not a problem at all?
+Is this a one-time situation that is not likely to happen again?
+Who gains from this problem/situation? Who loses?
+What aspects of this situation/problem are beyond your/team's control?
+When will the problem get better (or worse)?
+Where is the problem most (or least) noticeable?
+What are the biggest obstacles to solving the problem?
+Is the situation best served with problem-solving thinking or opportunity thinking?
+What immediate resources (personnel, financial, technological) are available to address the situation?
+What are the short-term goals that need to be achieved to manage this situation?
+How can we break down the situation into manageable parts or phases?
+What are the potential risks or challenges in addressing this situation in the short term?
+How can we involve relevant stakeholders in the problem-solving process effectively?
+What are the constraints (time, budget, manpower) we need to consider?
+What interim measures can be taken to contain or mitigate the situation?
+How will different proposed actions impact the daily operations of the organization?
+
+Group C: Critical Evaluation.
+What is acceptable about this situation? What is unacceptable?
+Is this situation just noise and a waste of time to work on?
+If you did nothing, what is the worst thing that could happen?
+How will you know when you have resolved the situation/problem?
+Should the situation be helped, ignored, fought, suppressed, exposed, or hidden?
+What is gained by not resolving the situation? What is lost by solving the situation?
+How does this situation align with the long-term strategic goals of the organization?
+What ethical considerations need to be taken into account while addressing this situation?
+How might resolving this situation create new opportunities or risks for the organization?
+What are the potential long-term implications of this situation on the organization’s reputation or market position?
+How can we ensure that the approach to this situation is inclusive and considers diverse perspectives?
+What lessons can be learned from this situation for future organizational planning and decision-making?
+How can the organization adapt its strategies to prevent similar situations in the future?
+What are the potential long-term effects of this situation on employee morale and organizational culture?
+
+***
+
+Step 1.2 - Write the problem statement.
+
+Developing a good problem statement may be the most crucial task in problem-solving. A correctly and clearly stated problem focuses people’s thinking, energies, and actions. A precise statement enhances proper diagnosis and resolution. A vague statement has people thinking all over the place.
+
+In a problem-solving workshop for business managers, understanding the significance of a well-crafted problem statement is crucial. The process involves:
+
+1. Clarity and Precision: Emphasize the need for clarity and precision in defining the problem. A clear problem statement guides managers to focus their thinking and directs their efforts efficiently. It prevents ambiguity and misdirection in the problem-solving process.
+2. Influence on Problem-Solving Process: Highlight how a well-defined problem statement impacts the entire problem-solving cycle. It ensures that energies and resources are channeled appropriately, leading to a more effective diagnosis of the issue and the development of suitable solutions.
+3. Techniques for Developing Problem Statements: Teach techniques to formulate effective problem statements. This includes breaking down the problem into its core components, using specific and unambiguous language, and avoiding technical jargon that might confuse the understanding.
+4. Examples and Practice: Provide real-world examples of both good and poor problem statements. Encourage participants to practice rewriting vague statements into clear and concise ones, enhancing their skills in problem identification.
+5. Impact of Vague Statements: Discuss the consequences of vague problem statements, such as misdirected efforts, wasted resources, and inefficient problem-solving. This helps managers understand the importance of precision in problem formulation.
+6. Feedback and Collaboration: Encourage feedback and collaboration in developing problem statements. A collective approach can help ensure that different perspectives are considered, leading to a more comprehensive understanding of the problem.
+By focusing on these aspects are part of learning the craft of effective problem statements. This is a skill that is fundamental to successful problem-solving in any organizational context. This approach ensures that the problem is understood accurately, leading to targeted and effective solutions.
+
+Recommended Thinking Tools:
+Holistic Perspective Harmonizer: Define situations from others viewpoints.
+
+Prime Questions:
+How can the problem/situation be stated in 20 words or less?
+Can you state the problem in one word?
+Who has a different perspective on the problem? How would they state it?
+How would you state the problem based on When, Where, Why, and How it occurs?
+Are there earlier situations/problems like this one? How were they stated?
+Is the problem stated objectively without implying any causes or solutions?
+Will everyone who reads it have the same understanding?
+If you were explaining this problem to someone from a different industry, how would you simplify it?
+What would be the consequences of not addressing this problem?
+How does this problem intersect with our core values or mission statement?
+What analogies or metaphors can be used to describe this problem more vividly?
+Can the problem be reframed to highlight potential opportunities?
+What assumptions are we making in our current understanding of the problem?
+How would a leader in our industry define this problem?
+What specific impact does this problem have on our customers or clients?
+How does this problem affect our daily operations and long-term goals?
+What would be the broader societal impact if this problem were not resolved?
+How does the problem challenge our current methodologies or technologies?
+In what ways could resolving this problem reshape our industry?
+How can this problem be described to emphasize its urgency or significance?
+What unique aspect of this problem sets it apart from others we have faced?
+
+
+Fundamental Questions:
+Are there more specific or accurate words that can be used to state the problem?
+How to restate reversing the subject and predicate of the sentence?
+How to restate substituting synonyms and antonyms?
+How would the problem owner state the problem?
+How would other people involved in the problem state the problem?
+How would someone unaffected by the problem see it?
+If you made the situation 50 times more difficult (or easier), how would you state it?
+Is the problem stated truthfully?
+Does the problem statement include a timeframe?
+Should it be stated with a specific, measurable result?
+Should it be stated in a way to promote creative solutions?
+Should it be stated starting with the words - How can I/we…?
+Do you intuitively feel this is the right problem to be solved?
+What keywords or phrases capture the essence of the problem?
+Can the problem be restated in the form of a question?
+What would a minimal viable solution look like for this problem?
+How has this problem evolved over time?
+Can breaking down the problem into smaller parts offer clearer insights?
+How does the context or environment influence the problem?
+What previous solutions have been attempted, and what were their outcomes?
+What are the potential consequences of misinterpreting or understating the problem?
+How can the problem be described to facilitate interdisciplinary understanding and collaboration?
+In what ways does the problem reflect underlying trends or shifts in the market or society?
+How can the problem statement be structured to encourage out-of-the-box thinking?
+What language can be used to ensure the problem statement resonates with all levels of the organization?
+How can we ensure that the problem statement is flexible enough to accommodate new insights or information?
+What key metrics or data points are essential to include in the problem statement for clarity?
+
+
+Nutcracker Questions:
+If all opinions or biases were removed, would the problem be stated differently?
+Is this just a symptom, and more analysis is needed to determine the real problem?
+How do you know for sure the central problem has been identified?
+Can the problem be stated so there is no problem?
+What hidden assumptions are embedded in the way we've stated the problem?
+If we were to approach this problem from a completely different industry perspective, how might we define it?
+How would this problem be stated in an ideal world with unlimited resources?
+What would be a radical or controversial way to state this problem?
+How might this problem be perceived in 10 years?
+If this problem were an iceberg, what would be below the surface?
+How would you state this problem to provoke a strong emotional or intellectual response?
+How might our current organizational culture or norms be blinding us to certain aspects of this problem?
+What are the potential long-term implications of this problem that aren't immediately obvious?
+If this problem were viewed through the lens of an entirely different culture, how might it be described?
+How can the problem statement account for future changes in technology, society, or the environment?
+What aspects of this problem might challenge our ethical or moral guidelines?
+How does this problem intersect with global challenges or issues?
+What innovative or disruptive solutions might emerge from a uniquely framed problem statement?
+
+***
+
+Step 1.3 - Frame the situation.
+
+Typically, most of us learn analytical thinking habits that consider problems in isolation. However, as the world becomes more interconnected, problems are generally no longer isolated but are on a continuum that is always subject to change. This question set helps provide a broader context in which the problem resigns, and we'll better be sure you are developing solutions that benefit the whole.
+
+Recommended Thinklets:
+Reframe the Problem: See situations from a different perspective or framework.
+
+Prime Questions:
+Can the whole problem/situation be solved or just a part?
+What is the big-picture framework in which this problem/situation resides?
+Can the problem be framed as a combination of more minor problems?
+Can it be framed as an opportunity rather than a problem?
+Can it be framed so it would solve other problems?
+Can it be framed in a way to makes it easiest to solve?
+If this problem were solved, how would it transform our organization or industry?
+How does this problem interact with and impact other ongoing situations or challenges?
+Is there a way to approach this problem that aligns with emerging trends or future scenarios?
+How can we leverage this problem to drive innovation or change within our organization?
+In what ways could this problem be a reflection of broader market or societal issues?
+Can this problem be used as a catalyst for reevaluating or redesigning existing processes or systems?
+How does this problem relate to the personal values and motivations of the team working on it?
+What would be the global or international implications of this problem's resolution?
+How might this problem's resolution contribute to the sustainability and environmental goals of the organization?
+In what ways can technology be leveraged to address or mitigate aspects of this problem?
+How could addressing this problem improve our organization's reputation or credibility?
+Can this problem offer insights into improving diversity, equity, and inclusion within the organization?
+What lessons from other industries or sectors can be applied to this problem?
+
+Fundamental Questions:
+Status Quo Frame: What if you did nothing?
+Past Frame: What did this situation/problem look like six months ago?
+Future Frame: How might it look like six months in the future?
+Systems Frame: What larger system framework is this situation connected to?
+Ideal Frame: What would an ideal framework be for resolving this situation?
+Time Frame: How will time alone impact this situation?
+General Frame: Reframe the problem by stating it more generally.
+Specific Frame: Reframe by stating the situation more precisely.
+Exaggeration Frame: Reframe by exaggerating some part of it.
+Different Frame: How might other people frame the situation/problem?
+Worst Frame: What would be the worst framework for this situation to be in?
+Financial Frame: What is the best financial frame for this situation to be in?
+Importance Frame: How strong is the desire to work on this situation?
+How does this situation align with or deviate from our competitors' or industry's experiences?
+What historical precedents or parallels can be drawn in relation to this problem?
+How might this problem evolve with technological advancements or changes in consumer behavior?
+What would be the ideal scenario for stakeholders involved, and how does that compare to the current situation?
+What gradual changes might occur over time if this problem remains unresolved?
+Can the problem be broken down into more manageable, specific components for easier resolution?
+What would be the most unconventional way to frame this problem?
+What would be the impact on employee morale and engagement if this problem is or isn’t resolved?
+How could customer or client relationships be influenced by the outcome of this situation?
+What legal or regulatory changes might influence the future landscape of this problem?
+How does this problem connect to the digital transformation or technological evolution within the organization?
+What would be the impact on supply chain or operational efficiencies by solving this problem?
+How does this problem affect the balance of work-life and mental health within the workplace?
+What are the immediate and long-term financial implications of this problem for the organization?
+
+Nutcracker Questions:
+If you resolve this situation, what other problems might arise?
+How does solving this problem fit into overall strategic objectives?
+What aspects of these problems require outside help? Why?
+What hidden consequences might emerge from a solution that appears straightforward?
+How does this problem intersect with our long-term vision and values?
+Are there aspects of this problem that might require a paradigm shift in thinking or operations?
+What ethical or social considerations must be factored into the resolution of this problem?
+How would solving this problem reshape our organization's role within the broader industry ecosystem?
+What systemic changes might be necessary to not only solve this problem but also prevent similar issues in the future?
+How might the resolution of this problem redefine leadership roles or organizational structure?
+What could be the unintended cultural impacts within the organization from solving this problem?
+How does this problem challenge the current business models or strategies in place?
+What are the potential risks of innovative or disruptive solutions to this problem?
+How could solving this problem influence the organization's agility and ability to adapt to future challenges?
+What would be the implications for data security and privacy in resolving this problem?
+How might the resolution of this problem influence future policy making or industry standards?

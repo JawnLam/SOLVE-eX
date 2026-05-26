@@ -1,0 +1,31 @@
+# Mac filesystem metadata
+.DS_Store
+**/.DS_Store
+
+# Editor / IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Case Files — operator-private session content (per operator decision 2026-05-26)
+06-Case-Files/_ACTIVE/
+
+# Sprint archive — operator-private development history (per operator decision 2026-05-26)
+99-Archive/
+
+# Test fixtures / pre-flight write probes
+07-Scripts/tests/_writetest*
+06-Case-Files/_ACTIVE/_writetest*
+
+# OS / network artifacts
+Thumbs.db
+.directory
+
+# Defense in depth: any _writetest probe anywhere in the corpus
+**/_writetest*

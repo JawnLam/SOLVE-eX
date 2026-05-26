@@ -1,0 +1,173 @@
+filters:
+  and:
+    - note.Item_Prototype == "Thinking_Tool"
+    - note.tt_Status == "classified"
+
+properties:
+  note.Title:
+    displayName: Tool
+  note.tt_Source:
+    displayName: Source
+  note.tt_Type:
+    displayName: Type
+  note.tt_Domain:
+    displayName: Domain
+  note.tt_Field:
+    displayName: Field
+  note.tt_Operation:
+    displayName: Operation
+  note.tt_Cross_Domains:
+    displayName: Cross-Domains
+  note.tt_Form:
+    displayName: Form
+  note.tt_Scale:
+    displayName: Scale
+  note.tt_Duration:
+    displayName: Duration
+  note.tt_Lineage:
+    displayName: Lineage
+  note.tt_Posture:
+    displayName: Posture
+  note.tt_State:
+    displayName: State
+  note.tt_Agent:
+    displayName: Agent
+  note.tt_About:
+    displayName: About
+  note.tt_Often_Precedes:
+    displayName: Often Precedes
+  note.tt_Often_Follows:
+    displayName: Often Follows
+  note.tt_Pairs_Well_With:
+    displayName: Pairs Well With
+
+views:
+  - type: table
+    name: By Domain
+    order:
+      - note.Title
+      - note.tt_Domain
+      - note.tt_Field
+      - note.tt_Operation
+      - note.tt_Posture
+    sort:
+      - property: note.tt_Domain
+        direction: ASC
+      - property: note.Title
+        direction: ASC
+    groupBy: note.tt_Domain
+
+  - type: table
+    name: By Field
+    order:
+      - note.Title
+      - note.tt_Field
+      - note.tt_Domain
+      - note.tt_Operation
+      - note.tt_Form
+    sort:
+      - property: note.tt_Field
+        direction: ASC
+      - property: note.Title
+        direction: ASC
+    groupBy: note.tt_Field
+
+  - type: table
+    name: By Operation
+    order:
+      - note.Title
+      - note.tt_Operation
+      - note.tt_Field
+      - note.tt_Domain
+    sort:
+      - property: note.tt_Operation
+        direction: ASC
+      - property: note.Title
+        direction: ASC
+    groupBy: note.tt_Operation
+
+  - type: table
+    name: By About
+    order:
+      - note.Title
+      - note.tt_About
+      - note.tt_Field
+      - note.tt_Domain
+      - note.tt_Operation
+    sort:
+      - property: note.Title
+        direction: ASC
+
+  - type: table
+    name: By Posture
+    order:
+      - note.Title
+      - note.tt_Posture
+      - note.tt_Scale
+      - note.tt_Field
+      - note.tt_Domain
+    sort:
+      - property: note.Title
+        direction: ASC
+    groupBy: note.tt_Posture
+
+  - type: table
+    name: By State
+    order:
+      - note.Title
+      - note.tt_State
+      - note.tt_Field
+      - note.tt_Domain
+    sort:
+      - property: note.Title
+        direction: ASC
+
+  - type: table
+    name: By Agent
+    order:
+      - note.Title
+      - note.tt_Agent
+      - note.tt_Scale
+      - note.tt_Field
+    sort:
+      - property: note.Title
+        direction: ASC
+
+  - type: table
+    name: Scale × Duration
+    order:
+      - note.Title
+      - note.tt_Scale
+      - note.tt_Duration
+      - note.tt_Field
+      - note.tt_Posture
+    sort:
+      - property: note.tt_Scale
+        direction: ASC
+      - property: note.tt_Duration
+        direction: ASC
+
+  - type: table
+    name: By Lineage
+    order:
+      - note.Title
+      - note.tt_Lineage
+      - note.tt_Domain
+      - note.tt_Field
+    sort:
+      - property: note.Title
+        direction: ASC
+    groupBy: note.tt_Lineage
+
+  - type: cards
+    name: Cards
+    order:
+      - note.Title
+      - note.tt_Field
+      - note.tt_Domain
+      - note.tt_Posture
+    sort:
+      - property: note.tt_Domain
+        direction: ASC
+      - property: note.Title
+        direction: ASC
