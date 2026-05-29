@@ -3,7 +3,7 @@ doc_type: reference
 doc_purpose: glossary
 audience: ai_and_human
 read_order: 0
-last_updated: 2026-05-13
+last_updated: 2026-05-29
 ---
 
 # Glossary
@@ -197,3 +197,230 @@ by `validate-tool.py`.
 **`{ROOT}`.** Placeholder for the absolute path to the SOLVE eX folder.
 The AI substitutes this at session start with the actual path. Used in
 all instructional references to enable path-independence.
+
+---
+
+## ADAPT Loop — 19 Theoretical Categories (Lam 2020)
+
+The academic vocabulary underlying the ADAPT-Loop tool family
+(`Actor-Agenda Decomposition`, `Required-Resource Check`, `Decision
+Matrix Construction`, `Bet vs Workhorse Discrimination`, `Perception
+and Actual Effect Gap Audit`, `Disciplined Hold`, `9-Resource Portfolio
+Diagnostic`, `Nested Sub-Cycle Discipline`, `Mid-Cycle Interest
+Pivot`, `Cross-Actor Matrix Reading`, `Iterated Loop Compounding`,
+`Calibration Gap Read`), the `pattern-adapt-loop-multi-cycle-strategic-action`
+application pattern, and the operator-facing field manual at
+`{ROOT}/10-Reference/ADAPT-Loop-Field-Manual.pdf`. Each category has a
+formal definition in the dissertation (Lam, J. (2020). *The Accumulation,
+Utilization, and Protection of Political Capital by Senior Executives of
+For-Profit Organizations.* Doctoral dissertation, Pepperdine University).
+Page citations below are dissertation pages.
+
+---
+
+### 19 Theoretical Categories (alphabetical)
+
+**Action (ADAPT).** Political activity or influence tactic performed
+to create effect on the target's decision matrix. The bridge from
+planning zone to consequence zone — the irreversible step. (Lam 2020
+p. 155.) Operationalized in `Required-Resource Check` (pre-flight) and
+the ADAPT application pattern (post-flight).
+
+**Actor (ADAPT).** A person or group capable of decisions. The
+initiator of an interaction cycle by spending a resource to perform an
+action. The unit of analysis in the framework. (Lam 2020 p. 150.)
+Operationalized in `Actor-Agenda Decomposition` as the funnel's top
+layer.
+
+**Actual effect (ADAPT).** The real alteration of the target's
+decision matrix produced by the action — often opaque to the actor and
+frequently differing from the intended effect. (Lam 2020 p. 156.)
+Operationalized in `Perception and Actual Effect Gap Audit` as the
+post-action diagnostic that distinguishes actual from perceived
+utility.
+
+**Adverse alternative(s) / AA (ADAPT).** The actor-opposed option(s)
+in the decision matrix; the fallback if the preferred position fails.
+Multiple AA's possible; each scored on benefit, cost, utility. The
+matrix's discipline is in the AA, not the PP. (Lam 2020 p. 153.)
+Operationalized in `Decision Matrix Construction`.
+
+**Benefits (ADAPT).** Favorable conditions in the decision matrix
+apportioned by option. The B in B(PP) and B(AA). (Lam 2020 p. 153.)
+Operationalized in `Decision Matrix Construction`.
+
+**Component (ADAPT).** Intersection unit of the decision matrix —
+e.g., "Benefit of Preferred Position" = one of four-plus components.
+Also: constituent parts of an action (a memo, a meeting, a phone call)
+— what the action actually consists of. (Lam 2020 p. 153.)
+Operationalized in `Decision Matrix Construction`.
+
+**Considerations (ADAPT).** The two appraisal axes of the decision
+matrix: aggregate benefits and aggregate costs. (Lam 2020 p. 153.)
+Operationalized in `Decision Matrix Construction`.
+
+**Costs (ADAPT).** Requisite expenditures in the decision matrix
+apportioned by option. The C in C(PP) and C(AA). (Lam 2020 p. 153.)
+Operationalized in `Decision Matrix Construction`.
+
+**Decision matrix (ADAPT).** Set of options (two-plus) × two
+considerations (benefits + costs) = at least four components. Every
+move has two possible futures — preferred position and adverse
+alternative. The right reading is to compare the U(PP) / U(AA) pair
+across options, not pick highest U(PP) alone. (Lam 2020 pp. 152-153.)
+Operationalized in `Decision Matrix Construction`.
+
+**Detection (ADAPT).** The actor's observation / evaluation
+discovering (a) who owns / controls the resource of interest and (b)
+the composition of that person's decision matrix. The "reading the
+room" phase that precedes intent formation. (Lam 2020 p. 151.)
+Operationalized in `Cross-Actor Matrix Reading`.
+
+**Goal (ADAPT).** The specific measurable result that satisfies an
+objective. Where an objective can be described, a goal can be
+measured. ("Be one of the seven named members in the charter when it
+is published next month.") (Lam 2020 p. 156.) Cross-references the
+SOLVE eX system vocabulary at Phase 2 Goal Statement (step 2.2 — see
+`02-Process-Framework/02-the-twenty-one-steps.md`); the ADAPT Goal is
+the political-action analog of the SOLVE eX Phase 2 Goal Statement.
+Operationalized in `Actor-Agenda Decomposition`.
+
+**Interest (ADAPT).** What an agenda produces at the moment —
+situational, changeable, lower-stakes than agenda. Losing an interest
+is recoverable; threatening an agenda is not. (Lam 2020 p. 154.)
+Operationalized in `Actor-Agenda Decomposition`.
+
+**Options (ADAPT).** The available moves the actor can score in the
+decision matrix; actor-centric labeling as preferred positions or
+adverse alternatives. (Lam 2020 p. 153.) Operationalized in `Decision
+Matrix Construction`.
+
+**Outcome (ADAPT).** The settled result of a cycle: future state from
+target's selection, including resource payout to actor and utility
+delivered to target. Feeds the resource loop and the learning loop
+into the next cycle. (Lam 2020 p. 156.) Cross-references SOLVE eX
+Phase 6 outcome-assessment vocabulary (Phase 6.3 — "did the action
+land as intended" review; see `02-Process-Framework/01-the-six-phases.md`);
+the ADAPT Outcome is the iterated-cycle structural unit that the SOLVE
+eX Phase 6 assessment audits per-frame. Operationalized in
+`Iterated Loop Compounding`.
+
+**Perception (ADAPT).** What the actor believes they got, filtered
+through hope, defensiveness, ego, prior belief. Distinct from actual
+utility; the gap between them is the framework's quiet but central
+error term. (Lam 2020 p. 156.) Operationalized in `Perception and
+Actual Effect Gap Audit`.
+
+**Preferred position(s) / PP (ADAPT).** Actor-favored option(s) in
+the decision matrix. Multiple PP's possible with hierarchy (e.g., P1
+"voluntary departure" preferred over P2 "fire-with-cause"). Scored on
+benefit, cost, utility. (Lam 2020 p. 153.) Operationalized in
+`Decision Matrix Construction`.
+
+**Resources (ADAPT).** Means to perform action. Nine-type taxonomy:
+Money, Hard Assets, Credibility, Attributes, Legitimacy, Information,
+Access, Title, Tribe (see sub-entries below). Distinguish
+intrinsic-value resources from politically-useful resources — those
+that compound. (Lam 2020 pp. 154-156.) Operationalized in
+`9-Resource Portfolio Diagnostic`; adjacent to `Real Options Analysis`
+(formalizes option-value of unspent resources across cycles) and
+`Theory of Constraints` (identifies which resource is the binding
+constraint on the current cycle's throughput).
+
+**Target (ADAPT).** The thing or person the actor must move to
+achieve the goal. Closes the interaction cycle by selecting an option
+after appraising net utility. Skipping target identification is one
+of the most common failure modes the framework exposes. (Lam 2020
+p. 151.) Operationalized in `Actor-Agenda Decomposition`.
+
+**Utility (ADAPT).** Net difference benefits − costs per option.
+Three kinds of utility — Expected (matrix prediction), Actual (real
+value delivered), Perceived (what the actor believes they got) — are
+easily confused and rarely equal. Distinguishing them is the
+framework's single most important discipline. (Lam 2020 p. 153.)
+Operationalized in `Perception and Actual Effect Gap Audit` and
+`Decision Matrix Construction`.
+
+---
+
+### 3 Framing Wrappers
+
+The dissertation's three framing wrappers organize the planning
+funnel. They are categorically distinct from the 19 categories above
+but cross-link the same ADAPT vocabulary.
+
+**Agenda (ADAPT).** The actor's long-running ambition — a collection
+of multiple interests organizing everything else. Rarely stated
+openly, often misidentified by observers. Cycles run sequentially or
+in parallel under one agenda. The most stable layer of the planning
+funnel — get the agenda wrong and every prediction below it will
+drift. (Lam 2020 p. 154.) Operationalized in `Actor-Agenda
+Decomposition`.
+
+**Objective (ADAPT).** A concrete aim that serves the interest. The
+first thing on the funnel that can be written down without ambiguity.
+("Win the seat on the steering committee" is an objective; "have more
+influence" is not.) The transition from interest to objective is often
+where actors lose their way. (Lam 2020 p. 154.) Operationalized in
+`Actor-Agenda Decomposition`.
+
+**Intention (ADAPT).** The actor's formulated impact on the target's
+perception of the decision matrix. The bridge between objective and
+action. What the actor proposes to make the target see differently.
+(Lam 2020 p. 154.) Operationalized in `Actor-Agenda Decomposition`.
+
+---
+
+### 9 Resource Sub-Types
+
+Sub-entries under the ADAPT Resources category. Each is one of the
+nine types `9-Resource Portfolio Diagnostic` audits across.
+
+**Resources sub-type 1: Money (ADAPT).** Capital available for direct
+exchange; the most fungible resource and the most commonly
+over-weighted in resource self-assessment.
+
+**Resources sub-type 2: Hard Assets (ADAPT).** Physical goods or
+property under the actor's control; less fungible than money but more
+stable.
+
+**Resources sub-type 3: Credibility (ADAPT).** The actor's track
+record of delivering what they commit to. A politically-useful
+resource because it compounds across cycles.
+
+**Resources sub-type 4: Attributes (ADAPT).** Personal capacities
+(intelligence, judgment, social skill, charisma) that travel with the
+actor and produce ongoing convertibility.
+
+**Resources sub-type 5: Legitimacy (ADAPT).** Standing to act on
+behalf of an interest — formal authority, role-based permission,
+sanctioned representation.
+
+**Resources sub-type 6: Information (ADAPT).** Knowledge of facts,
+relationships, agendas, decision-matrix compositions that the actor
+controls or can access asymmetrically.
+
+**Resources sub-type 7: Access (ADAPT).** Ability to reach decision
+makers directly — meeting time, communication channels, calendar
+priority — independent of formal title.
+
+**Resources sub-type 8: Title (ADAPT).** Formal role, position, rank
+in the organizational hierarchy. Produces legitimacy and access but
+is bounded by tenure.
+
+**Resources sub-type 9: Tribe (ADAPT).** The coalition of others who
+will reliably support the actor. A politically-useful resource because
+it amplifies all other resources and is the hardest to deplete.
+Cross-references SOLVE eX Phase 4 stakeholder vocabulary (Phase 4.2 —
+divergent stakeholder mapping; see `02-Process-Framework/01-the-six-phases.md`);
+the ADAPT Tribe is the durable-coalition reading of the same surround
+that the SOLVE eX Phase 4 stakeholder pass enumerates.
+
+---
+
+**Recursive prescription (Lam 2020 p. 226).** *Control the resources
+that facilitate the ability and opportunity to control more
+resources.* Not all resources hold equal value — politically useful
+resources are those that compound. The 9-type lens recovers
+Credibility, Attributes, Information, Access, Tribe — the resources
+that most users under-weight by defaulting to Money + Title reasoning.

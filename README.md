@@ -1,7 +1,7 @@
-# SOLVE eX v2.0
+# SOLVE eX v2.1
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Version](https://img.shields.io/badge/version-v2.0-blue.svg)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-v2.1-blue.svg)](VERSION.md)
 [![Schema](https://img.shields.io/badge/schema-v1.14.0%20FROZEN-success.svg)](08-Schema/)
 [![Master Plan](https://img.shields.io/badge/master%20plan-v3.0%20STABLE-informational.svg)](VERSION.md)
 
@@ -118,7 +118,7 @@ Top-level files: `AI-BOOTSTRAP.md` (AI bootstrap entry point), `VERSION.md` (rel
 
 ## Maintenance and versioning
 
-- **Software / corpus release** — see [`VERSION.md`](VERSION.md). Tagged at v2.0.
+- **Software / corpus release** — see [`VERSION.md`](VERSION.md) and [`CHANGELOG.md`](CHANGELOG.md). Tagged at v2.0 (ship release) and v2.1.0 (minor release — ADAPT Loop Integration).
 - **Master plan version** — v3.0 STABLE. The master plan specification (the document governing schema, chapter structure, persona contracts, and validator behavior) is frozen at v3.0. Schema (v1.14.0) and validator behavior are locked at this version.
 - **Future protocol changes** — once v3.0 STABLE is stamped, further changes require an explicit v3.x bump and a documented migration path. Patch-level fixes (typos, doc clarifications, additional sample sessions, additional tool entries within the existing schema) do not require a version bump.
 - **Schema compatibility** — schema v1.14.0 is locked. If you have written tool entries against this schema, future v3.x bumps will provide a migration crosswalk and a migration script in `07-Scripts/`.

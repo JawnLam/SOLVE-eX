@@ -1,4 +1,4 @@
-# SOLVE eX v2.0 — Changelog
+# SOLVE eX v2.x — Changelog
 
 This changelog records corpus-level releases. For sprint-by-sprint detail
 (every card executed, every protocol amendment, every panel finding), see
@@ -8,6 +8,90 @@ archives in `99-Archive/sprint-NN/`.
 See `VERSION.md` for the current release's full version-identifier table.
 See `CONTRIBUTING.md` for the versioning policy (when changes require a
 v3.x bump vs. when they are in-scope at v3.0 STABLE).
+
+---
+
+## v2.1.0 — 2026-05-29 — ADAPT Loop Integration (Sprint 02)
+
+**Master plan version:** v3.0 STABLE (unchanged)
+**Schema version:** v1.14.0 FROZEN (unchanged)
+**Sprint:** Sprint 02 of the public-release iteration — first content extension under the v3.0 STABLE freeze
+**License:** CC-BY 4.0 (unchanged)
+
+First substantive content extension under the v3.0 STABLE freeze. Demonstrates that the `CONTRIBUTING.md` "additive non-breaking extensions accepted" path works as designed. Integrates **The ADAPT Loop** — the operator's dissertation-derived framework on senior-executive political capital, agenda formation, decision-matrix discipline, and multi-cycle compounding (Lam 2020, Pepperdine Ed.D.) — into the SOLVE eX tool library.
+
+### Additive content (Sprint 02)
+
+- **12 new atomic tool entries** at `01-Tools/Tool Entries/` (8 mandatory + 4 optional):
+  - `Actor-Agenda Decomposition` (was: Agenda Funnel) — the structural ladder Actor → Agenda → Interest → Objective → Goal → Target.
+  - `Required-Resource Check` (was: Capability Gate) — pre-action gate; surfaces the implicit resource-controlled assumption.
+  - `Decision Matrix Construction` — PP × AA × Benefit × Cost matrix; includes multi-PP hierarchy sub-discipline.
+  - `Bet vs Workhorse Discrimination` — option-classification lens for matrix output.
+  - `Perception and Actual Effect Gap Audit` (was: Perception Gap Audit) — three-utilities (Expected / Actual / Perceived) post-action diagnostic.
+  - `Disciplined Hold` — stance entered when the capability gate returns No.
+  - `9-Resource Portfolio Diagnostic` (NEW from dissertation) — Money / Hard Assets / Credibility / Attributes / Legitimacy / Information / Access / Title / Tribe taxonomy.
+  - `Nested Sub-Cycle Discipline` (NEW from dissertation) — cycle-stack discipline for sub-cycle procurement work.
+  - `Mid-Cycle Interest Pivot` (optional, NEW) — abductive reformulation when mid-execution reveals a different interest serves the agenda.
+  - `Cross-Actor Matrix Reading` (optional) — perspective-shift lens that runs the ADAPT funnel on overlay actors.
+  - `Iterated Loop Compounding` (optional) — stance for cycle-over-cycle compounding via the recursive prescription.
+  - `Calibration Gap Read` (optional, NEW) — interprets outcome-magnitude surprises as third-party overlay-matrix output, not noise.
+- **1 new glossary section** at `10-Reference/glossary.md` — "ADAPT Loop — 19 Theoretical Categories (Lam 2020)" — adds 19 alphabetical categories + 3 framing wrappers (Agenda / Objective / Intention) + 9 Resource sub-types (Money through Tribe). Each entry: dissertation page citation + 1-3 sentence definition + backticked cross-link to operationalizing tool entry. SOLVE eX system-vocabulary cross-links wired into Goal, Outcome, Tribe, and Resources entries.
+- **1 new application pattern** at `04-Application-Patterns/pattern-adapt-loop-multi-cycle-strategic-action.md` — the corpus's first **integrative-session-design** application pattern (distinct from the existing form-mapping patterns which describe how one `tt_Form` value is enacted; this one describes which tools to apply in what combinations under the ADAPT framework specifically). Sections: Framework overview (positioned as lens, NOT prescription, per Lam 2020 Ch 6 tacit-vs-explicit framing); the four field-manual views as alternative entry points; five multi-cycle architectural patterns with case-study extracts; when-to-invoke / when-NOT-to-invoke; tool composition; glossary cross-reference.
+- **1 new reference PDF** at `10-Reference/ADAPT-Loop-Field-Manual.pdf` — 42-page operator-facing field manual (443 KB). Includes the master diagram, four progressively-zoomed views (Whole loop / Forming the aim / Decide / Act-Perceive-Track), three fictional case studies (Cresterly analytics group / Cathna Series A under pressure / Talvyn CTO offer), how-to-use-in-practice chapter, and 41-entry glossary.
+
+### Sources and citation discipline
+
+- **Field manual** — placed in corpus at the path above.
+- **Dissertation** — Lam, J. (2020). *The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations.* Doctoral dissertation, Pepperdine University. **NOT placed in corpus** per Pepperdine IRB obligations to the five case-study participants (Ch 3 Policies & Procedures, dissertation pp. 67-70). Cited inline in every tool entry, glossary entry, and the application pattern by category-and-page reference. Readers wanting the academic version may contact the operator directly.
+- **Dual-citation channels** — every tool entry's body cites BOTH dissertation page numbers (for conceptual claims) AND field-manual page numbers (for operator-facing worked examples). All 12 entries pass dual-citation verification.
+
+### Validation
+
+- All 12 ADAPT tool entries pass `07-Scripts/validate-tool.py` (exit 0; schema v1.14.0 compliant).
+- All 12 ADAPT tool entries pass `07-Scripts/voice-neutrality-lint.py` (exit 0).
+- Extended `10-Reference/glossary.md` passes `07-Scripts/voice-neutrality-lint.py` (exit 0).
+- New application pattern at `04-Application-Patterns/` passes `07-Scripts/voice-neutrality-lint.py` (exit 0).
+- All 41 `tt_Pairs_Well_With` cross-references across the 12 new tool entries resolve to existing tool filenames (verified via Python set-membership against `01-Tools/Tool Entries/` directory).
+- All 12 tool-entry backticked cross-references in the new glossary section resolve to existing tool entries.
+
+### Significance
+
+This is the proof-of-life for v3.0 STABLE's additive-extension policy. Sprint 02 shipped substantively new content (1 application pattern + 12 tool entries + 1 glossary section + 1 reference PDF) without invoking any v3.x bump trigger — validating the entire freeze-with-extensibility design that Sprint 19's `CONTRIBUTING.md` proposed. External contributors considering ADAPT-like additions can look at Sprint 02 as the canonical worked example. **Schema regressions: zero.** Cross-references resolve: 100%. Voice neutrality: 100%.
+
+### Sprint 02 archive
+
+`99-Archive/sprint-02-adapt-integration/sprint-02-acceptance-gate.md` (operator-private; not in public repo per CC-BY 4.0 attribution-only requirement).
+
+---
+
+## v2.0 — 2026-05-26 — Public Release (GitHub Publish)
+
+**Master plan version:** v3.0 STABLE (unchanged)
+**Schema version:** v1.14.0 FROZEN (unchanged)
+**Sprint:** Sprint 01 of the public-release iteration (NOT Sprint 20 of the prior internal-development iteration — that iteration closed at v2.0 SHIPPED with v3.0 STABLE master plan freeze at Sprint 19, 2026-05-25)
+**Public URL:** [https://github.com/JawnLam/SOLVE-eX](https://github.com/JawnLam/SOLVE-eX)
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+The corpus is now publicly available. This is publish hygiene, not protocol amendment — v3.0 STABLE is NOT broken by this release.
+
+### Publish-hygiene changes (Sprint 01)
+
+- **Path scrubbing.** All `/Users/jawnlam/` absolute paths in 4 corpus files (`AI-BOOTSTRAP.md`, `OPERATOR-GUIDE.md`, `00-Instructions/00-START-HERE.md`, `00-Instructions/13-quality-checks.md`) replaced with `{HOME}/` placeholders. Operator-private filesystem layout no longer leaks into corpus content. `99-Archive/` historical "Jawn Lam" attribution preserved (intentional honest historical record per operator decision).
+- **`.gitignore` created.** Excludes `06-Case-Files/_ACTIVE/` (operator-private session content), `99-Archive/` (operator-private development history), `.DS_Store` (Mac filesystem metadata), `**/_writetest*` (Phase 0 environment-check probes), editor artifacts (`.vscode/`, `.idea/`, `*.swp`), Python bytecode (`__pycache__/`, `*.pyc`), and OS metadata (`Thumbs.db`, `.directory`).
+- **License swap.** Custom operator-private `LICENSE.md` replaced with **Creative Commons Attribution 4.0 International** (CC-BY 4.0). Maximum-adoption permissive license; attribution to John Lam ([JawnLam/SOLVE-eX](https://github.com/JawnLam/SOLVE-eX)) required.
+- **`.DS_Store` files removed.** 7 instances across root + 5 chapter folders + `07-Scripts/lib/` deleted from local filesystem; `**/.DS_Store` pattern in `.gitignore` prevents recurrence.
+- **README rewrite for public-arrival context.** Added 4 GitHub-style badges (license, version, schema, master plan), an "Examples of what it can help with" section (8 use cases), expanded Quick Start for fresh-clone arrivals, explicit CC-BY 4.0 license callout with attribution template, inline cross-reference links throughout. Preserved verbatim: "Which file do I read?", folder structure table, "Where to go for what" table, maintenance/versioning, "What this is not." All 20 cross-references verified post-rewrite.
+- **Email-pattern review.** 4 Tool Entries flagged by prior audit (NURSE Statements, Stuart Brown Play Frame, REMAP Goals of Care, Sun Tzu Asymmetric Logic) verified clean: ZERO `@`-matches in flagged files OR across all 682 Tool Entries.
+- **Git provenance.** First commit `b872461` on `main` branch with annotated `v2.0` tag. Author: John Lam <jawnlam@gmail.com>. 837 tracked files, 144,816 insertions.
+- **GitHub Topics set** (12 for discoverability): `ai`, `decision-making`, `problem-solving`, `methodology`, `thinking-tools`, `claude`, `anthropic`, `framework`, `structured-thinking`, `consulting`, `ai-orchestration`, `decision-framework`.
+
+### Known cosmetic issue
+
+GitHub's license auto-detect (Licensee gem) returned `NOASSERTION` for the CC-BY 4.0 `LICENSE.md`. The canonical legal text IS in the file body, but a 19-line SOLVE-eX-specific preamble (title, TL;DR, attribution, canonical link) prevents the strict pattern match. Substance is preserved (license is legally CC-BY 4.0); only the auto-rendered sidebar badge is affected. Future small sprint can remediate by moving the preamble to a separate `ATTRIBUTION.md` and starting LICENSE.md at the canonical text on line 1.
+
+### Sprint 01 archive
+
+`99-Archive/sprint-01-public-release/sprint-01-publish-readiness-gate.md` (operator-private; not in public repo per Decision 2).
 
 ---
 

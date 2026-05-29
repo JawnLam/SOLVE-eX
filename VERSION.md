@@ -1,30 +1,30 @@
 ---
-solve_ex_version: "2.0"
+solve_ex_version: "2.1.0"
 master_plan_version: "3.0 STABLE"
 schema_version: "1.14.0"
 schema_status: "FROZEN"
-release_date: 2026-05-23
-release_phase: "Ship Release"
-ship_sprint: "Sprint 19"
+release_date: 2026-05-29
+release_phase: "Minor Release — additive content extension"
+ship_sprint: "Sprint 02 (public-release iteration) — ADAPT Loop Integration"
 ---
 
 # SOLVE eX Version
 
-This is SOLVE eX **v2.0** — ship release.
+This is SOLVE eX **v2.1.0** — minor release (additive content extension to v2.0 ship release at v3.0 STABLE freeze).
 
 ## Version identifiers
 
 | Identifier              | Value         | Notes                                                                  |
 |-------------------------|---------------|------------------------------------------------------------------------|
-| **Software / corpus**   | v2.0          | Ship release; downstream-user delivery                                 |
-| **Master plan**         | v3.0 STABLE   | Frozen at Sprint 18 close-out; locked at Sprint 19 ship                |
-| **Schema**              | v1.14.0       | FROZEN — see schema-freeze policy below                                |
-| **Application Patterns**| 1.0           |                                                                        |
+| **Software / corpus**   | v2.1.0        | Minor release — additive content extension at v3.0 STABLE freeze       |
+| **Master plan**         | v3.0 STABLE   | Frozen at Sprint 18 close-out; locked at Sprint 19 ship; unchanged     |
+| **Schema**              | v1.14.0       | FROZEN — see schema-freeze policy below; unchanged                     |
+| **Application Patterns**| 1.0           | + 1 new integrative-session-design pattern (ADAPT Loop)                |
 | **Question Banks**      | 1.0           |                                                                        |
 | **Personas**            | 1.0           |                                                                        |
 | **Case File schema**    | 1.0           |                                                                        |
 | **Utility scripts**     | 1.0           |                                                                        |
-| **Release date**        | 2026-05-23    |                                                                        |
+| **Release date**        | 2026-05-29    |                                                                        |
 
 ## Schema-freeze policy
 
