@@ -136,7 +136,7 @@ SOLVE eX v2.0 is released under the **Creative Commons Attribution 4.0 Internati
 
 See [`LICENSE.md`](LICENSE.md) for the full license text. Attribution format:
 
-> Built on **SOLVE eX v2.0** by John Lam — https://github.com/JawnLam/SOLVE-eX
+> Built on **SOLVE eX v2.0** by Jawn Lam — https://github.com/JawnLam/SOLVE-eX
 > Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Version

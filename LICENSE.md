@@ -3,7 +3,7 @@
 > **TL;DR (not a substitute for the legal text below):**
 > You are free to **share** (copy and redistribute) and **adapt** (remix, transform, build upon) this material for any purpose, including commercially — provided you give appropriate attribution, link to the license, and indicate if you made changes.
 
-**Original work by John Lam** ([https://github.com/JawnLam/SOLVE-eX](https://github.com/JawnLam/SOLVE-eX))
+**Original work by Jawn Lam** ([https://github.com/JawnLam/SOLVE-eX](https://github.com/JawnLam/SOLVE-eX))
 
 **Canonical license text:** [https://creativecommons.org/licenses/by/4.0/legalcode.txt](https://creativecommons.org/licenses/by/4.0/legalcode.txt)
 **Human-readable summary:** [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/) *(not a substitute for the license)*
@@ -12,7 +12,7 @@
 
 When sharing or adapting this material, reference:
 
-> Built on **SOLVE eX v2.0** by John Lam — [https://github.com/JawnLam/SOLVE-eX](https://github.com/JawnLam/SOLVE-eX)
+> Built on **SOLVE eX v2.0** by Jawn Lam — [https://github.com/JawnLam/SOLVE-eX](https://github.com/JawnLam/SOLVE-eX)
 > Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ---
