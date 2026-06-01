@@ -5,7 +5,9 @@
 [![Schema](https://img.shields.io/badge/schema-v1.14.0%20FROZEN-success.svg)](08-Schema/)
 [![Master Plan](https://img.shields.io/badge/master%20plan-v3.0%20STABLE-informational.svg)](VERSION.md)
 
-A self-contained, AI-orchestrated decision-making and problem-solving framework. Point any capable AI assistant at this folder, tell it to read `AI-BOOTSTRAP.md`, and it will walk you through structured thinking on whatever is in front of you. No accounts, no servers, no subscriptions — everything runs locally against the model you already use.
+SOLVE eX is an **[operating volume](https://github.com/JawnLam/Operating-Volume-Engineering)** for AI-orchestrated decision-making and problem-solving. Point any capable AI assistant at this folder, tell it to read `AI-BOOTSTRAP.md`, and it will walk you through structured thinking on whatever is in front of you. No accounts, no servers, no subscriptions — everything runs locally against the model you already use.
+
+> **What's an operating volume?** A self-contained markdown corpus an AI loads to orchestrate a particular kind of long-running, stateful work — the slot in the AI lexicon between a Custom GPT / Project and an AI harness. Substrate-agnostic (Claude, GPT, Gemini, etc.), stateful (files on disk are the memory), forkable. See **[Operating-Volume-Engineering](https://github.com/JawnLam/Operating-Volume-Engineering)** for the discipline and a worked-example design walkthrough. SOLVE eX is one of three operating volumes by the same author, alongside **[LifeLong-Learning](https://github.com/JawnLam/LifeLong-Learning)** and **Operating-Volume-Engineering** itself.
 
 ---
 

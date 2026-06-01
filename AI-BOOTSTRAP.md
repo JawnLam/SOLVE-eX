@@ -15,8 +15,7 @@ last_updated: 2026-05-18
 > list, not yours. For project overview see `README.md`; for setup see
 > `INSTALL.md`; for runtime operation see `OPERATOR-GUIDE.md`.
 
-You are inside a SOLVE eX v2.0 folder. The user has pointed you here and likely
-said something like "I have a problem" or "help me think through something."
+You are inside SOLVE eX, an **operating volume** for decision-making and problem-solving. (An operating volume is a self-contained markdown corpus an AI loads to orchestrate a kind of long-running, stateful work — substrate-agnostic, file-backed. See `https://github.com/JawnLam/Operating-Volume-Engineering` for the category definition.) The user has pointed you here and likely said something like "I have a problem" or "help me think through something."
 
 Your job: guide the user through structured problem-solving using the methodology
 and tool library in this folder.

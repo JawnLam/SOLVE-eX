@@ -16,6 +16,7 @@ This is SOLVE eX **v2.1.0** — minor release (additive content extension to v2.
 
 | Identifier              | Value         | Notes                                                                  |
 |-------------------------|---------------|------------------------------------------------------------------------|
+| **Artifact category**   | Operating volume | See [Operating-Volume-Engineering](https://github.com/JawnLam/Operating-Volume-Engineering) for the category definition |
 | **Software / corpus**   | v2.1.0        | Minor release — additive content extension at v3.0 STABLE freeze       |
 | **Master plan**         | v3.0 STABLE   | Frozen at Sprint 18 close-out; locked at Sprint 19 ship; unchanged     |
 | **Schema**              | v1.14.0       | FROZEN — see schema-freeze policy below; unchanged                     |
