@@ -11,6 +11,48 @@ v3.x bump vs. when they are in-scope at v3.0 STABLE).
 
 ---
 
+## v2.1.3 — 2026-06-07 — UPDATE-PROMPT.md (OVE Convention 7's fourth artifact)
+
+**Master plan version:** v3.0 STABLE (unchanged)
+**Schema version:** v1.14.0 FROZEN (unchanged)
+**License:** CC-BY 4.0 (unchanged)
+
+Patch release adding `UPDATE-PROMPT.md` at the SOLVE-eX root — the fourth required artifact under OVE Convention 7 (added in OVE v1.2.1).
+
+### Added — `UPDATE-PROMPT.md`
+
+Copy-pasteable AI prompt that asks any AI assistant (Claude, ChatGPT, Gemini, Cursor, Claude Code) to walk the operator through updating SOLVE-eX to the latest release. The prompt instructs the AI to:
+
+1. Read `INSTALL.md § "Updating"` and `OPERATOR-GUIDE.md § "Updates and troubleshooting"` so it knows SOLVE-eX's update protocol.
+2. Run `git fetch origin` and report incoming commits + the new CHANGELOG entry.
+3. Check `git status` and propose a stash strategy if local engine modifications exist.
+4. Walk through `git pull --ff-only origin main` step by step, stopping to confirm before running.
+5. Surface migration recipes (e.g., master-plan-version bumps that require re-running validation scripts), major.minor folder renames, breaking-change notes from the new CHANGELOG entry.
+6. Verify the operator's active case files (`06-Case-Files/_ACTIVE/`) and operator-private content (`06-Case-Files/_DRAFT/`, `_USER.md`) are intact and untouched after the pull.
+
+The prompt enforces discipline:
+
+- Do not modify Operator-Extension or Operator-Private Zone content.
+- Do not run destructive commands without explicit operator confirmation.
+- Stop and ask if anything is unclear or unexpected.
+
+### Why two update paths
+
+OVE Convention 7 supports both a **manual path** (operator reads `INSTALL.md § Updating` and `OPERATOR-GUIDE.md § Updates`, runs git commands themselves) and an **AI-assisted path** (operator opens `UPDATE-PROMPT.md`, copies the prompt, pastes to an AI, approves each step). Manual path is recommended for major-version transitions and any release with a non-trivial migration recipe (a SOLVE-eX v3.0 would qualify); AI-assisted path is recommended for routine releases (patches and small minors).
+
+### No behavioral, schema, or content changes
+
+- Process framework unchanged
+- Tool Entries unchanged (30+ canonical Tools still operative)
+- Master Plan version unchanged at v3.0 STABLE
+- Schema version unchanged at v1.14.0 FROZEN
+
+Patch release. Purely additive.
+
+Coordinated multi-OV release with OVE v1.2.1 (codifies the artifact + adds validator C10), LFW v1.7.2, LLL v1.3.1.
+
+---
+
 ## v2.1.2 — 2026-06-06 — Conventions 7+8 adoption (install/update + zone boundary)
 
 **Master plan version:** v3.0 STABLE (unchanged)

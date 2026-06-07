@@ -1,10 +1,10 @@
 ---
-solve_ex_version: "2.1.2"
+solve_ex_version: "2.1.3"
 master_plan_version: "3.0 STABLE"
 schema_version: "1.14.0"
 schema_status: "FROZEN"
-release_date: 2026-06-06
-release_phase: "Patch Release — OVE Conventions 7 (install-and-update pattern) and 8 (engine vs operator-content boundary); no behavioral or schema changes"
+release_date: 2026-06-07
+release_phase: "Patch Release — adds UPDATE-PROMPT.md (OVE Convention 7's fourth required artifact); copy-pasteable AI prompt that walks the operator through routine updates"
 ship_sprint: "Sprint 02 (public-release iteration) — ADAPT Loop Integration"
 ---
 
