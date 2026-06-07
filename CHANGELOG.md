@@ -11,6 +11,32 @@ v3.x bump vs. when they are in-scope at v3.0 STABLE).
 
 ---
 
+## v2.1.1 — 2026-06-06 — Convention 6 adoption (portability)
+
+**Master plan version:** v3.0 STABLE (unchanged)
+**Schema version:** v1.14.0 FROZEN (unchanged)
+**License:** CC-BY 4.0 (unchanged)
+
+Adopts Operating-Volume-Engineering Convention 6 (every OV ships its own `_Prototypes/` folder for portability). Anyone cloning this repo without the operator's vault Infrastructure now gets the Prototype definition out of the box.
+
+### Added — `_Prototypes/` folder with `Thinking_Tool.md`
+
+A new top-level `_Prototypes/` folder contains one Markdown file: `Thinking_Tool.md`, a verbatim mirror of the vault's `_Infrastructure For All Vaults/_Prototypes/Thinking_Tool.md`. This is the canonical definition of the `Thinking_Tool` Prototype that every Tool Entry in `01-Tools/Tool Entries/` instantiates.
+
+SOLVE eX uses only one Prototype — `Thinking_Tool` (from the vault's `tt_` namespace) — so `_Prototypes/` contains exactly one file. The remaining content (Process Framework, Question Banks, Application Patterns, Personas, Case Files, Reference, etc.) is structured prose, not Prototype-bearing notes.
+
+### No content, schema, or behavioral changes
+
+- Process framework unchanged
+- Tool Entries unchanged
+- Master Plan version unchanged at v3.0 STABLE
+- Schema version unchanged at v1.14.0 FROZEN
+- No new sprints, protocols, or content extensions
+
+This is a patch release whose only contribution is portability through Convention 6 conformance.
+
+---
+
 ## v2.1.0 — 2026-05-29 — ADAPT Loop Integration (Sprint 02)
 
 **Master plan version:** v3.0 STABLE (unchanged)

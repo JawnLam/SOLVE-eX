@@ -1,16 +1,16 @@
 ---
-solve_ex_version: "2.1.0"
+solve_ex_version: "2.1.1"
 master_plan_version: "3.0 STABLE"
 schema_version: "1.14.0"
 schema_status: "FROZEN"
-release_date: 2026-05-29
-release_phase: "Minor Release — additive content extension"
+release_date: 2026-06-06
+release_phase: "Patch Release — OVE Convention 6 adoption (_Prototypes/ folder added; no behavioral or schema changes)"
 ship_sprint: "Sprint 02 (public-release iteration) — ADAPT Loop Integration"
 ---
 
 # SOLVE eX Version
 
-This is SOLVE eX **v2.1.0** — minor release (additive content extension to v2.0 ship release at v3.0 STABLE freeze).
+This is SOLVE eX **v2.1.1** — patch release adopting Operating-Volume-Engineering Convention 6 (`_Prototypes/` folder for portability). No behavioral, schema, or content changes.
 
 ## Version identifiers
 
