@@ -465,7 +465,117 @@ python3 07-Scripts/artifact-quality-audit.py
 
 See `07-Scripts/README.md` for any scripts not listed above.
 
+## 8. Engine vs your work — the four content zones (OVE Convention 8)
+
+Your installed SOLVE eX folder has four content zones. Knowing which is which prevents the operator-pulls-and-loses-work failure mode.
+
+### Engine Zone — release-owned; updated by `git pull`
+
+The files that SOLVE eX's release ships:
+
+- Front-door docs: `README.md`, `AI-BOOTSTRAP.md`, `INSTALL.md`, `OPERATOR-GUIDE.md`, `CONTRIBUTING.md`, `LICENSE.md`, `VERSION.md`, `CHANGELOG.md`
+- `00-Instructions/` through `05-Personas/` — engine corpus
+- `07-Scripts/`, `08-Schema/` — utility scripts and schema
+- `09-Sample-Sessions/`, `10-Reference/` — shipped reference material
+- `99-Archive/` — sprint history
+- `_Prototypes/` — SOLVE-eX's Prototype definitions
+
+**Do not edit Engine Zone files directly.** Updates from `git pull` overwrite them. Customizations belong in `06-Case-Files/` (your case work) or in a fork.
+
+### Operator-Private Zone — gitignored; never tracked
+
+The `.gitignore` excludes:
+
+- Your operator profile (`_USER.md`, if present)
+- Active and draft case files (`06-Case-Files/_ACTIVE/`, `06-Case-Files/_DRAFT/`)
+- Python and IDE artifacts (`.venv/`, `__pycache__/`, IDE caches)
+
+These never get pushed and never get touched by `git pull`.
+
+### Operator-Extension Zone — your case work; survives `git pull`
+
+This is where your work lives. Cases you run through SOLVE eX become folders under `06-Case-Files/_ACTIVE/`.
+
+`06-Case-Files/_ACTIVE/` and `06-Case-Files/_DRAFT/` are gitignored, so `git pull` never touches them. They're yours.
+
+If you want to track resolved cases (`_RESOLVED/`), `git add -f` per case folder — or maintain a private fork with your case work checked in.
+
+### Shipped Examples Zone — release-owned; updated by `git pull`
+
+- `09-Sample-Sessions/**` — worked-example sessions
+- `06-Case-Files/_REFERENCE/**` — reference case files
+- `01-Tools/Tool Entries/**` — the canonical 30+ Tool Entries (Thinking Tools library)
+
+**Do not edit Shipped Examples directly.** If you want to riff on a sample session, copy it into your own case-file folder under `_ACTIVE/`.
+
+## 9. Updates and troubleshooting
+
+The canonical update workflow lives in `INSTALL.md § 7`. Common scenarios:
+
+### Clean fast-forward (no local engine modifications)
+
+```bash
+cd ~/Operating-Volumes/SOLVE-eX-v<your-major>.<minor>
+git fetch origin
+git log --oneline HEAD..origin/main          # what's incoming
+git pull --ff-only origin main
+```
+
+### Fast-forward fails because you have local engine modifications
+
+```bash
+git status                                    # see what's modified
+git stash push --include-untracked -m "pre-update state"
+git pull --ff-only origin main
+git stash pop                                 # may produce conflicts on engine files you edited
+```
+
+If `git stash pop` reports conflicts, the conflict is between *your local edit* of an engine file and *the upstream release's version*. You almost always want the upstream version (engine evolution generally improves what's there):
+
+```bash
+git checkout --theirs <conflicting-file>
+git add <conflicting-file>
+```
+
+### Update lost a file you cared about
+
+`git pull` only updates tracked paths. If a file disappeared, either: (a) the release explicitly removed it (the `CHANGELOG.md` will say so), or (b) it was a gitignored file you forgot was ignored. For (a), the file is recoverable via `git log --all --oneline -- <path>`. For (b), check whether the file matched a `.gitignore` pattern.
+
+### Major.minor folder transition
+
+When the release notes say to rename your folder:
+
+```bash
+cd ~/Operating-Volumes/
+mv SOLVE-eX-v<old> SOLVE-eX-v<new>
+cd SOLVE-eX-v<new>
+git status   # should show clean
+```
+
+The folder rename doesn't affect git; the rename is for your filesystem clarity.
+
+### Contributing back upstream
+
+To contribute back (open a PR against the upstream SOLVE-eX), re-enable push to *your own fork* (never to upstream):
+
+```bash
+# Replace with your fork's URL
+git remote set-url --push origin https://github.com/<your-username>/SOLVE-eX.git
+
+# Make a branch, commit, push to your fork, open a PR on GitHub
+git checkout -b my-contribution
+# ... your changes ...
+git commit -m "..."
+git push origin my-contribution
+```
+
+When you're done contributing, re-disable push to protect your private case work going forward:
+
+```bash
+git remote set-url --push origin DISABLED_TO_PREVENT_ACCIDENTAL_PUSH_OF_PERSONAL_WORK
+```
+
 ## Version
 
-This operator guide ships with SOLVE eX v2.0.0 / master plan v3.0 STABLE.
+This operator guide ships with SOLVE eX v2.1.2 / master plan v3.0 STABLE.
 See `VERSION.md` and `CHANGELOG.md`.

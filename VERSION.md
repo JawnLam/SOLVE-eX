@@ -1,10 +1,10 @@
 ---
-solve_ex_version: "2.1.1"
+solve_ex_version: "2.1.2"
 master_plan_version: "3.0 STABLE"
 schema_version: "1.14.0"
 schema_status: "FROZEN"
 release_date: 2026-06-06
-release_phase: "Patch Release — OVE Convention 6 adoption (_Prototypes/ folder added; no behavioral or schema changes)"
+release_phase: "Patch Release — OVE Conventions 7 (install-and-update pattern) and 8 (engine vs operator-content boundary); no behavioral or schema changes"
 ship_sprint: "Sprint 02 (public-release iteration) — ADAPT Loop Integration"
 ---
 

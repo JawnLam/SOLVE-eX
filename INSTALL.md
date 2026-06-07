@@ -1,24 +1,47 @@
-# SOLVE eX v2.0 — Install Guide
+# SOLVE eX — Install Guide
 
 This is the step-by-step setup for a fresh installation. Once setup is
 complete, a downstream user only ever needs `README.md` + `AI-BOOTSTRAP.md` —
 the AI handles everything else at runtime.
 
-## 1. Get the corpus
+## 1. Install (recommended: git clone with push disabled)
 
-Copy the entire `SOLVE eX v2.0/` folder to local disk in a location your AI
-assistant can read. Common choices:
+This is the **canonical install pattern per OVE Convention 7** — git-tracked so
+you can `git pull` future releases; push disabled so you can't accidentally
+upload your private case files.
 
-- Cloud-synced folder (Dropbox, iCloud, OneDrive) — convenient if you want the
-  same corpus available across devices and AI environments.
-- Project folder inside a code editor (VS Code, JetBrains) — convenient if you
-  plan to run sessions via Claude Code or a similar in-editor agent.
-- Plain local folder — works for any AI environment that supports
-  file-attachment uploads.
+```bash
+# Choose a parent folder. Anything works — Dropbox-synced, iCloud-synced, etc.
+mkdir -p ~/Operating-Volumes
+cd ~/Operating-Volumes
 
-The folder is fully self-contained. No `git clone` is required; no network
-fetch happens at runtime; no path is hard-coded into the corpus. Move it
-anywhere readable.
+# Clone into a folder named with the current major.minor.
+# (Check VERSION.md or the GitHub releases page for the current version.)
+git clone https://github.com/JawnLam/SOLVE-eX.git \
+  SOLVE-eX-v2.1
+
+# Disable push remote — protects your case-file work against accidental upload.
+cd SOLVE-eX-v2.1
+git remote set-url --push origin DISABLED_TO_PREVENT_ACCIDENTAL_PUSH_OF_PERSONAL_WORK
+
+# Verify
+git remote -v
+# Expect: origin fetch URL real; origin push URL = DISABLED_TO_PREVENT_ACCIDENTAL_PUSH_OF_PERSONAL_WORK
+```
+
+**Why the folder name has a version suffix.** The convention is `SOLVE-eX-v<major>.<minor>`. When a new major.minor ships (e.g., v2.2), `OPERATOR-GUIDE.md § Updates` walks you through renaming the folder so old and new can briefly coexist during the transition. For pure-patch releases (e.g., v2.1.0 → v2.1.2), no folder rename is needed.
+
+**Why push is disabled.** If you use SOLVE eX on real problems, the case files in `06-Case-Files/` accumulate operator-private content (clients, contexts, decisions). The push-disabled default prevents the worst-case operator-error: `git push` accidentally uploading your case work to the public SOLVE-eX repo. You can re-enable push to your own fork if you want to contribute back upstream (see `OPERATOR-GUIDE.md § Contributing back`).
+
+## 1a. Alternative install (no git tracking)
+
+If you don't want git tracking — you'd rather treat this as a snapshot reference, no updates — you can also just download the folder:
+
+- **Plain copy:** Download a release ZIP from the GitHub releases page; unzip anywhere your AI assistant can read.
+- **Cloud-synced folder** (Dropbox, iCloud, OneDrive, Google Drive).
+- **Plain local folder** — works for any AI environment that supports file-attachment uploads.
+
+The folder is fully self-contained. No network fetch happens at runtime; no paths are hard-coded. The trade-off versus the git-tracked install: you don't get `git pull` updates — you have to re-download each release.
 
 ## 2. Verify Python and dependencies
 
@@ -137,7 +160,37 @@ For deeper operational and maintenance guidance, see `OPERATOR-GUIDE.md`.
 For contribution workflow (adding tools, extending chapters, fixing regex
 drift), see `CONTRIBUTING.md`.
 
+## 7. Updating (when a new release ships)
+
+When SOLVE eX ships a new release on GitHub (announced in `CHANGELOG.md`):
+
+```bash
+cd ~/Operating-Volumes/SOLVE-eX-v<your-current-major>.<minor>
+
+git fetch origin
+git log --oneline HEAD..origin/main           # preview what's incoming
+
+# If you have no local engine modifications: clean fast-forward
+git pull --ff-only origin main
+
+# If you have local engine modifications: stash → pull → pop
+git stash push --include-untracked -m "pre-update state"
+git pull --ff-only origin main
+git stash pop                                  # resolve any conflicts
+```
+
+**When major.minor changes (e.g., v2.1 → v2.2 ships):**
+
+```bash
+cd ~/Operating-Volumes/
+mv SOLVE-eX-v2.1 SOLVE-eX-v2.2
+```
+
+The CHANGELOG entry for the new major.minor will tell you whether folder rename is recommended or required. For pure-patch releases (e.g., v2.1.0 → v2.1.2), no folder rename is needed.
+
+For troubleshooting common update issues (fast-forward conflicts, stash-pop merge conflicts, dirty working tree blocking pull), see `OPERATOR-GUIDE.md § Updates and troubleshooting`.
+
 ## Version
 
-This install guide ships with SOLVE eX v2.0.0. See `VERSION.md` for full
+This install guide ships with SOLVE eX v2.1.2. See `VERSION.md` for full
 release metadata.

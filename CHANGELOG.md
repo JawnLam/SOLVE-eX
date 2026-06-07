@@ -11,6 +11,55 @@ v3.x bump vs. when they are in-scope at v3.0 STABLE).
 
 ---
 
+## v2.1.2 — 2026-06-06 — Conventions 7+8 adoption (install/update + zone boundary)
+
+**Master plan version:** v3.0 STABLE (unchanged)
+**Schema version:** v1.14.0 FROZEN (unchanged)
+**License:** CC-BY 4.0 (unchanged)
+
+Adopts OVE Conventions 7 (install-and-update pattern) and 8 (engine vs operator-content boundary). Documents the install/update workflow and the four-zone content boundary in front-door docs.
+
+### Added — OVE Convention 7 (install-and-update pattern)
+
+`INSTALL.md` rewritten with:
+
+- **§ 1** — canonical git-clone-with-push-disabled install snippet. Concrete URL: `https://github.com/JawnLam/SOLVE-eX.git`. Folder convention: `SOLVE-eX-v<major>.<minor>`.
+- **§ 1a** — alternative no-git install (download ZIP, manual copy).
+- **§ 7 — Updating** — `git fetch` + `git log --oneline HEAD..origin/main` + `git pull --ff-only`, with stash-pop fallback for when local engine edits would conflict.
+- Major.minor folder transition snippet (`mv SOLVE-eX-v2.1 SOLVE-eX-v2.2`).
+
+`OPERATOR-GUIDE.md` gains:
+
+- **§ 9 — Updates and troubleshooting** — clean fast-forward, stash-pop conflict resolution (`git checkout --theirs`), recovery for lost files, major.minor folder transitions, contributing back upstream (re-enable push to your fork; never to upstream).
+
+### Added — OVE Convention 8 (engine vs operator-content boundary)
+
+`CONTRIBUTING.md` gains:
+
+- **§ 7 — Content zones** — declares the four zones with concrete path patterns:
+  - **Engine Zone** — front-door docs, `00-Instructions/` through `05-Personas/`, `07-Scripts/`, `08-Schema/`, `09-Sample-Sessions/`, `10-Reference/`, `99-Archive/`, `_Prototypes/`, `.gitignore`
+  - **Operator-Private Zone** — `_USER.md`, `06-Case-Files/_ACTIVE/`, `06-Case-Files/_DRAFT/`, Python/IDE caches
+  - **Operator-Extension Zone** — `06-Case-Files/_ACTIVE/<your-case>/` and `06-Case-Files/_RESOLVED/<your-case>/`; custom tools in `01-Tools/Tool Entries/` (requires fork)
+  - **Shipped Examples Zone** — `09-Sample-Sessions/`, `06-Case-Files/_REFERENCE/`, `01-Tools/Tool Entries/` (the canonical 30+ Tool Entries)
+
+`OPERATOR-GUIDE.md` gains:
+
+- **§ 8 — Engine vs your work** — plain-English explanation of the four-zone boundary, with concrete file/folder examples per zone.
+
+### No behavioral, schema, or content changes
+
+- Process framework unchanged
+- Tool Entries unchanged (30+ canonical Tools still operative)
+- Master Plan version unchanged at v3.0 STABLE
+- Schema version unchanged at v1.14.0 FROZEN
+- No new sprints, protocols, or content extensions
+
+This is a patch release whose only contribution is install/update pattern + zone-boundary documentation through OVE Conventions 7+8 conformance.
+
+This release is part of an OVE-coordinated multi-OV cycle: OVE v1.2.0 codifies Conventions 7 and 8; LFW v1.7.1, LLL v1.3.0, and this release retrofit them across the OV ecosystem.
+
+---
+
 ## v2.1.1 — 2026-06-06 — Convention 6 adoption (portability)
 
 **Master plan version:** v3.0 STABLE (unchanged)

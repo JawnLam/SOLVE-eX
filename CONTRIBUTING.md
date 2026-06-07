@@ -206,7 +206,62 @@ out-of-scope-for-this-iteration response.
 
 ---
 
+## 7. Content zones (OVE Convention 8)
+
+Every file in this repo belongs to one of four zones. Knowing which zone a file is in tells you whether the release owns it (the engine) or the operator owns it.
+
+### Engine Zone — release-owned; updated by `git pull`
+
+| Path pattern | Notes |
+|--------------|-------|
+| `README.md`, `AI-BOOTSTRAP.md`, `INSTALL.md`, `OPERATOR-GUIDE.md`, `CONTRIBUTING.md`, `LICENSE.md`, `VERSION.md`, `CHANGELOG.md` | Front-door docs |
+| `00-Instructions/` through `05-Personas/` | Engine corpus (instructions, tools, process framework, question banks, application patterns, personas) |
+| `07-Scripts/` | Optional utility scripts (validation, audit) |
+| `08-Schema/` | Schema definitions |
+| `09-Sample-Sessions/`, `10-Reference/` | Shipped reference material |
+| `99-Archive/` | Sprint history and prior-iteration archives |
+| `_Prototypes/` | OVE Convention 6 — SOLVE-eX's Prototype definitions (currently: `Thinking_Tool.md`) |
+| `.gitignore` | Engine-zone file |
+
+**Engine Zone files do not get hand-edited by operators.** Customizations belong in `06-Case-Files/` (your case work) or in a fork.
+
+### Operator-Private Zone — gitignored; never tracked
+
+| Pattern | Why |
+|---------|-----|
+| `_USER.md` (if present) | Operator profile; identity, preferences, personal context (F3) |
+| `06-Case-Files/_ACTIVE/**` | Active case-file work; client/context-specific |
+| `06-Case-Files/_DRAFT/**` | Draft case files; operator working state |
+| `.DS_Store`, IDE caches | Filesystem-noise |
+| `.venv/`, `__pycache__/` | Python artifacts |
+
+These patterns are in `.gitignore`. The `_RESOLVED/` and `_REFERENCE/` subdirectories of `06-Case-Files/` may contain shipped reference cases (Shipped Examples Zone); operator-specific resolved cases are gitignored per pattern.
+
+### Operator-Extension Zone — operator-created; survives `git pull`
+
+The OV is designed to be extended in `06-Case-Files/`.
+
+| Pattern | Notes |
+|---------|-------|
+| `06-Case-Files/_ACTIVE/<your-case>/` | Active case work; not in the release; untracked |
+| `06-Case-Files/_RESOLVED/<your-case>/` | Your resolved cases; tracked once `git add -f`'d |
+| Custom tools in `01-Tools/Tool Entries/<your-tool>.md` | Operator-authored Tool Entries (if you fork to extend the canonical library) |
+
+`git pull` never touches `_ACTIVE/` and `_DRAFT/` because they're gitignored. Other operator extensions need a fork to persist across pulls.
+
+### Shipped Examples Zone — release-owned; updated by `git pull`
+
+| Path | Notes |
+|------|-------|
+| `09-Sample-Sessions/**` | Worked-example sessions demonstrating the OV |
+| `06-Case-Files/_REFERENCE/**` | Reference case files (illustrative; not operator-private) |
+| `01-Tools/Tool Entries/**` | The canonical 30+ Tool Entries (Thinking Tools library) |
+
+**Shipped Examples are reference implementations.** If you want to riff on one, copy it into your own case-file folder under `_ACTIVE/`.
+
+---
+
 ## Version
 
-This contribution guide ships with SOLVE eX v2.0.0 / master plan v3.0
+This contribution guide ships with SOLVE eX v2.1.2 / master plan v3.0
 STABLE. See `VERSION.md` and `CHANGELOG.md`.
