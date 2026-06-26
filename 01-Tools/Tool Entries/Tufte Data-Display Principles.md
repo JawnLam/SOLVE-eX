@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-tufte-data-display-principles
-Item_Prototype: Thinking_Tool
-Title: Tufte Data-Display Principles
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Tufte Data-Display Principles
 tt_Source: "Edward R. Tufte, The Visual Display of Quantitative Information (1983, rev. 2001); Envisioning Information (1990); Visual Explanations (1997); Beautiful Evidence (2006). Department of Statistics & Political Science, Yale."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -51,7 +52,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Aesthetic / craft']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

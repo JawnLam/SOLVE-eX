@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-pacha-time-space-frame
-Item_Prototype: Thinking_Tool
-Title: Pacha (Time-Space) as Cognitive Frame
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Pacha (Time-Space) as Cognitive Frame
 tt_Source: "Salomon, F., & Schwartz, S. B. (eds.) (1999). The Cambridge History of the Native Peoples of the Americas. Cambridge UP."
 tt_Type: stance
 tt_Domain: Speculative / imaginative
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

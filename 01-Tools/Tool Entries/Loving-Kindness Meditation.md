@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-loving-kindness-meditation
-Item_Prototype: Thinking_Tool
-Title: Loving-Kindness Meditation (Metta)
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Loving-Kindness Meditation (Metta)
 tt_Source: "Buddhist canonical practice (Pali: *mettā bhāvanā*); foundational text: *Karaniya Metta Sutta* (Sutta Nipata 1.8). Modern Western teachers: Sharon Salzberg, *Lovingkindness* (1995); Joseph Goldstein. Clinical adaptation: Compassion-Focused Therapy (Paul Gilbert)."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 04; closes Field 'Compassion / loving-kindness practice'; supplements Op #36 Cultivate emotion)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

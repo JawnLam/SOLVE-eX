@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-polak-game
-Item_Prototype: Thinking_Tool
-Title: Polak Game
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Polak Game
 tt_Source: "Hayward, P. (2008). \"Pathways to integral perspectives.\" Futures 40(2). Based on Polak, F. (1973). *The Image of the Future*. Elsevier."
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

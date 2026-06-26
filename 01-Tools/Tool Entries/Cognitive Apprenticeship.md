@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-cognitive-apprenticeship
-Item_Prototype: Thinking_Tool
-Title: Cognitive Apprenticeship Model
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Cognitive Apprenticeship Model
 tt_Source: "Allan Collins, John Seely Brown & Susan Newman, *Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics* (1989); Collins, Brown & Holum, *Cognitive Apprenticeship: Making Thinking Visible* (1991, *American Educator*); applied in surgical training (Reznick), software engineering pair programming, design pedagogy."
 tt_Type: instrument
 tt_Domain: Non-discursive cognition
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 09; closes Field 'Implicit learning / master-apprentice transmission')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

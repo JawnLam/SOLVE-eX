@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-fractional-factorial-design
-Item_Prototype: Thinking_Tool
-Title: 'Fractional Factorial Design'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Fractional Factorial Design'
 tt_Source: 'Finney 1945; Box, Hunter & Hunter (1978) Statistics for Experimenters.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 03)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

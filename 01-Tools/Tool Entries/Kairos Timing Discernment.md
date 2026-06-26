@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-kairos-timing-discernment
-Item_Prototype: Thinking_Tool
-Title: Kairos Timing Discernment
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Kairos Timing Discernment
 tt_Source: "Ancient Greek temporal distinction (Chronos vs Kairos); rhetorical formalization in Gorgias, Isocrates; modern recovery: John E. Smith, 'Time, Times, and the Right Time: Chronos and Kairos' (1969); James L. Kinneavy, *Greek Rhetorical Origins of Christian Faith* (1987)."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -51,7 +52,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-10 — initial classification (v1.13.0; Field: Strategic patience & timing-judgment, Domain: Phronetic / practical wisdom)"
-Tags:
+tags:
 - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-10

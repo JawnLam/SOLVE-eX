@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-deconstruction-drilling
-Item_Prototype: Thinking_Tool
-Title: Deconstruction-Drilling
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Deconstruction-Drilling
 tt_Source: Tim Ferriss, The 4-Hour Chef (2012); meta-learning approach drawn from athletic training, language acquisition, and skill-acquisition literature. Related to chunking, deliberate practice, and progressive overload from sports science.
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -46,7 +47,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Self / identity']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

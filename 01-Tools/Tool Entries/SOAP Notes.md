@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-soap-notes
-Item_Prototype: Thinking_Tool
-Title: SOAP Notes
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: SOAP Notes
 tt_Source: "Weed, L. (1968). *Medical records that guide and teach.* NEJM 278(11). StatPearls/NIH NBK482263. Cameron & Turtle-Song (2002). *Learning to write case notes using the SOAP format.* J Counseling & Development 80."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

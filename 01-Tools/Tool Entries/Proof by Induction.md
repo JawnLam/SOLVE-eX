@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-proof-by-induction
-Item_Prototype: Thinking_Tool
-Title: Proof by Induction
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Proof by Induction
 tt_Source: "Mathematical tradition; foundational use by Pascal (17th c.) on Pascal's triangle, formalized by Peano (1889) in axioms of arithmetic. Modern proof-techniques textbooks."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -47,7 +48,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Operation remap → 'Derive via formal rules' (Op #34)"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

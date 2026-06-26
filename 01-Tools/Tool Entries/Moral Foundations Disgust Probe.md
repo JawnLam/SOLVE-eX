@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-moral-foundations-disgust-probe
-Item_Prototype: Thinking_Tool
-Title: Moral Foundations Disgust Probe
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Moral Foundations Disgust Probe
 tt_Source: "Jonathan Haidt et al., Moral Foundations Theory (Haidt & Joseph, 2004; *The Righteous Mind*, 2012); Paul Rozin's disgust-as-moral-emotion research (Rozin, Haidt & McCauley, 1993, 1999); CAD triad model (Rozin, Lowery, Imada & Haidt, 1999) linking contempt-anger-disgust to community-autonomy-divinity moral codes."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 04; closes Field 'Disgust / aversion / threat-detection' under Emotional cognition Domain)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

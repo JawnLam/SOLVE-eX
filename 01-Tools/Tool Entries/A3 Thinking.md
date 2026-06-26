@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-a3-thinking
-Item_Prototype: Thinking_Tool
-Title: A3 Thinking
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: A3 Thinking
 tt_Source: "Sobek, D. K., & Smalley, A. (2008). *Understanding A3 Thinking*. Productivity Press. Shook, J. (2008). *Managing to Learn*. Lean Enterprise Institute."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

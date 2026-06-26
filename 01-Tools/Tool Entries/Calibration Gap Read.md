@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-calibration-gap-read
-Item_Prototype: Thinking_Tool
-Title: Calibration Gap Read
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: Calibration Gap Read
 tt_Source: 'Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University. Charles case (ch. 5, pp. 108-109). Field-manual distillation: The ADAPT Loop Field Manual, ch. 7 Cresterly Cycle 3 Lessons (p. 25).'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

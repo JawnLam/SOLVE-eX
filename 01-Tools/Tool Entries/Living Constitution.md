@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-living-constitution
-Item_Prototype: Thinking_Tool
-Title: 'Living Constitution Doctrine'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Living Constitution Doctrine'
 tt_Source: 'Strauss, D.A. (2010) The Living Constitution; Tribe, L. canonical commentary; Brennan, W.J. judicial writings.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 08)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

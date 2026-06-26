@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-proportionality-analysis
-Item_Prototype: Thinking_Tool
-Title: Proportionality Analysis (Constitutional Method)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Proportionality Analysis (Constitutional Method)
 tt_Source: "Alexy, R. (2002). *A Theory of Constitutional Rights*. Oxford University Press. German Federal Constitutional Court jurisprudence (Lüth case, BVerfGE 7, 198)."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-opportunity-cost-reasoning
-Item_Prototype: Thinking_Tool
-Title: 'Opportunity Cost Reasoning'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Opportunity Cost Reasoning'
 tt_Source: 'Bastiat, F. (1850) ''That Which Is Seen and That Which Is Not Seen''; microeconomics canon; Friedman, M. popularization.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

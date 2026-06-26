@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-poker-decision-review
-Item_Prototype: Thinking_Tool
-Title: Poker Decision Review
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Poker Decision Review
 tt_Source: Professional poker tradition (Doyle Brunson, Phil Galfond, Annie Duke); modern post-session review with hand histories. Adopted in business decision-quality contexts via Annie Duke's Thinking in Bets and the broader decision-science community.
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -46,7 +47,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Decision / choice']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

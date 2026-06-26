@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-gendlins-focusing
-Item_Prototype: Thinking_Tool
-Title: Gendlin's Focusing
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Gendlin's Focusing
 tt_Source: Eugene Gendlin 1978 (Focusing); developed from research on what made some psychotherapy clients improve while others didn't
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -50,7 +51,7 @@ tt_History:
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 03 edge-case resolution: tt_Field: 'Intuitive judgment / felt-sense pattern recognition' → 'Felt-sense / focusing'; tt_Domain: 'Non-discursive cognition' → 'Embodied / somatic' (see /tmp/edge-case-decisions.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Body / embodiment', 'Self / identity']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

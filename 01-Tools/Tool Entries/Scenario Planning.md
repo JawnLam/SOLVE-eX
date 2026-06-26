@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-scenario-planning
-Item_Prototype: Thinking_Tool
-Title: 'Scenario Planning (Shell / Schwartz)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Scenario Planning (Shell / Schwartz)'
 tt_Source: 'Wack, P. (1985) HBR ''Scenarios: Uncharted Waters Ahead''; Schwartz, P. (1991) The Art of the Long View.'
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-propositional-logic
-Item_Prototype: Thinking_Tool
-Title: Propositional Logic
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Propositional Logic
 tt_Source: "Frege 1879 / Russell-Whitehead 1910 (formalized); ancient roots in Stoic logic (Chrysippus, c. 280 BCE)"
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -46,7 +47,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Operation remap → 'Derive via formal rules' (Op #34)"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

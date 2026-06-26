@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-energy-mapping
-Item_Prototype: Thinking_Tool
-Title: Energy Mapping
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Energy Mapping
 tt_Source: 'Tony Schwartz, The Power of Full Engagement (2003) and The Energy Project. Related: ultradian rhythm research; circadian biology (Andrew Huberman, Daniel Pink). Distinct from time-management focus.'
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -46,7 +47,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

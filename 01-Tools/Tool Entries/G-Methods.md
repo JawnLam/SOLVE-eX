@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-g-methods
-Item_Prototype: Thinking_Tool
-Title: 'G-Methods / G-Computation (Robins)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'G-Methods / G-Computation (Robins)'
 tt_Source: 'Robins, J. (1986) Mathematical Modelling; Hernán, M. & Robins, J. (2020) Causal Inference: What If.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 05)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

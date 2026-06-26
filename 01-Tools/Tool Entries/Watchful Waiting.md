@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-watchful-waiting
-Item_Prototype: Thinking_Tool
-Title: Watchful Waiting
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Watchful Waiting
 tt_Source: "Medical / clinical decision-making term (origin: pediatric and oncologic practice, late 20th c.); see AHRQ evidence reviews on active surveillance; Atul Gawande's discussions of clinical patience; generalized strategic application in Buffett-style investing, conflict resolution literature."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -55,7 +56,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-10 — initial classification (v1.13.0; Field: Strategic patience & timing-judgment, Domain: Phronetic / practical wisdom; uses NEW v1.13 Op #21 Witness without intervention)"
-Tags:
+tags:
 - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-10

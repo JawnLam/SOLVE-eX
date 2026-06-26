@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-size-time-cost-operator
-Item_Prototype: Thinking_Tool
-Title: 'Size-Time-Cost Operator (STC)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Size-Time-Cost Operator (STC)'
 tt_Source: 'Altshuller, G. (1984); ARIZ-85C Step 3.3 (Operator MATCh).'
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 04)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-wu-wei-decision-practice
-Item_Prototype: Thinking_Tool
-Title: Wu Wei Decision Practice
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Wu Wei Decision Practice
 tt_Source: "Slingerland, E. (2003). Effortless Action: Wu-wei as Conceptual Metaphor and Spiritual Ideal in Early China. Oxford UP."
 tt_Type: stance
 tt_Domain: Phronetic / practical wisdom
@@ -37,7 +38,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

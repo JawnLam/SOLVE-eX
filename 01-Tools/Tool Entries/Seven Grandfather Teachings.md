@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-seven-grandfather-teachings
-Item_Prototype: Thinking_Tool
-Title: Anishinaabe Seven Grandfather Teachings
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Anishinaabe Seven Grandfather Teachings
 tt_Source: "Benton-Banai, E. (1988). *The Mishomis Book: The Voice of the Ojibway*. Indian Country Communications. Bouchard, D., & Vaivasoorum, K. (2009). *The Seven Sacred Teachings*. MTW Publishers."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

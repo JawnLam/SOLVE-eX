@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-surrender-practice
-Item_Prototype: Thinking_Tool
-Title: Surrender Practice
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Surrender Practice
 tt_Source: "Twelve-step tradition: *Alcoholics Anonymous* (1939), Steps 1-3 (powerless / higher power / turned will over); Christian contemplative tradition: Thomas Keating, *Open Mind, Open Heart* (1986); Buddhist parallels in *anatta* / not-self practice. Modern integrative: Kornfield, *A Path with Heart* (1993); David Hawkins, *Letting Go* (2012)."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -50,7 +51,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 05; closes Field 'Hope / faith / surrender practices')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

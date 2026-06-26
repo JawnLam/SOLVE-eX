@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mindfulness-bell-practice
-Item_Prototype: Thinking_Tool
-Title: Thich Nhat Hanh's Mindfulness Bell Practice
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Thich Nhat Hanh's Mindfulness Bell Practice
 tt_Source: "Thich Nhat Hanh (1996). Stepping into Freedom: Rules of Monastic Practice for Novices. Parallax Press."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

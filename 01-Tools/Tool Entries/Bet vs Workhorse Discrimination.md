@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-bet-vs-workhorse-discrimination
-Item_Prototype: Thinking_Tool
-Title: Bet vs Workhorse Discrimination
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: Bet vs Workhorse Discrimination
 tt_Source: 'The ADAPT Loop Field Manual, ch. 5 (p. 16) — explicit pedagogical discrimination derived from the matrix view; substrate-implicit in Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University, 15-step model and saturation tests.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

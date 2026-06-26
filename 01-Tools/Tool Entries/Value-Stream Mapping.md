@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-value-stream-mapping
-Item_Prototype: Thinking_Tool
-Title: 'Value-Stream Mapping (VSM)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Value-Stream Mapping (VSM)'
 tt_Source: 'Rother, M. & Shook, J. (1999) Learning to See.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -37,7 +38,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

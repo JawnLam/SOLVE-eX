@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-body-mind-centering
-Item_Prototype: Thinking_Tool
-Title: Body-Mind Centering
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Body-Mind Centering
 tt_Source: "Cohen, B. B. (1993). *Sensing, Feeling, and Action: The Experiential Anatomy of Body-Mind Centering*. Contact Editions. School for Body-Mind Centering certification."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

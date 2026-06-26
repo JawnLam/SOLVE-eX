@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mahasi-vipassana-noting
-Item_Prototype: Thinking_Tool
-Title: Mahasi Vipassana Noting
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Mahasi Vipassana Noting
 tt_Source: "Mahasi Sayadaw (1971). *Practical Insight Meditation*. Buddhist Publication Society. Goldstein, J. (2013). *Mindfulness: A Practical Guide to Awakening*. Sounds True."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

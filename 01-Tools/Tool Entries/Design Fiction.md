@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-design-fiction
-Item_Prototype: Thinking_Tool
-Title: Design Fiction / Sci-Fi Prototyping
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Design Fiction / Sci-Fi Prototyping
 tt_Source: "Julian Bleecker, *Design Fiction: A Short Essay on Design, Science, Fact and Fiction* (2009); Brian David Johnson, *Science Fiction Prototyping* (2011); Bruce Sterling's coinage of 'design fiction' (~2005); related: Anthony Dunne & Fiona Raby, *Speculative Everything* (2013)."
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -50,7 +51,7 @@ tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 07; closes Field 'World-building')"
   - "2026-05-11 — compliance fix: tt_Cross_Domains had 'Design / craft tradition' (a Lineage value, already in tt_Lineage) — replaced with 'Aesthetic' (the proper Cross-Domain spanning value for Design Fiction's aesthetic dimension)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

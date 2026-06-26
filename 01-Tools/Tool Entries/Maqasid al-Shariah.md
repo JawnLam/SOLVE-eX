@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-maqasid-al-shariah
-Item_Prototype: Thinking_Tool
-Title: Maqasid al-Shariah (Higher Purposes Analysis)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Maqasid al-Shariah (Higher Purposes Analysis)
 tt_Source: "Ibn Ashur (1946). Maqasid al-Shari'ah al-Islamiyyah. Trans. El-Mesawi, M. E. (2006). IIIT."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

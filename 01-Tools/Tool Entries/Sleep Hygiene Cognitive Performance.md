@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-sleep-hygiene-cognitive-performance
-Item_Prototype: Thinking_Tool
-Title: Sleep Hygiene & Cognitive Performance Protocol
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Sleep Hygiene & Cognitive Performance Protocol
 tt_Source: "Matthew Walker, *Why We Sleep* (2017); Walker's research lab at UC Berkeley; clinical sleep medicine canon (AASM); practical protocols developed in Sleep Foundation and Huberman Lab synthesis; CBT-I (Cognitive Behavioral Therapy for Insomnia) protocols."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 08; closes Field 'Sleep & cognition optimization')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

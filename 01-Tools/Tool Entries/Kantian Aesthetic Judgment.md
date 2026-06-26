@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-kantian-aesthetic-judgment
-Item_Prototype: Thinking_Tool
-Title: Kantian Aesthetic Judgment Frame
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Kantian Aesthetic Judgment Frame
 tt_Source: "Immanuel Kant, *Critique of Judgment (Kritik der Urteilskraft)* (1790); David Hume, *Of the Standard of Taste* (1757) — empiricist counterpart. Modern interpretive commentary: Paul Guyer, *Kant and the Claims of Taste* (1997); Henry Allison, *Kant's Theory of Taste* (2001)."
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 08; closes Field 'Formal aesthetics')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

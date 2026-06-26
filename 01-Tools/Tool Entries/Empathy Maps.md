@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-empathy-maps
-Item_Prototype: Thinking_Tool
-Title: Empathy Maps
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Empathy Maps
 tt_Source: Dave Gray, XPLANE design firm (early 2010s); popularized via the Gamestorming community and IDEO's design-thinking toolkits. Quadrant-based variant of older user-research synthesis approaches.
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -49,7 +50,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human', 'Human group'], tt_About=['Other / relationship', 'Aesthetic / craft']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

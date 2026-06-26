@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-recognition-primed-decision
-Item_Prototype: Thinking_Tool
-Title: Recognition-Primed Decision (Klein RPD)
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Recognition-Primed Decision (Klein RPD)
 tt_Source: 'Gary Klein, Sources of Power: How People Make Decisions (1998); developed via studies of firefighters, ICU nurses, military commanders. Naturalistic decision-making (NDM) tradition; alternative to rational-choice models.'
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -50,7 +51,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=['Speculative-imaginative'], tt_Agent=['Solo human'], tt_About=['Time / future', 'Decision / choice']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

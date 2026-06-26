@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-customer-discovery
-Item_Prototype: Thinking_Tool
-Title: Customer Discovery
+type: Thinking_Tool
+timestamp: "2026-05-19T00:00:00Z"
+title: Customer Discovery
 tt_Source: 'Steve Blank, ''The Four Steps to the Epiphany'' (2005) — formalizes Customer Discovery as the first step of the four-step Customer Development process (Discovery → Validation → Creation → Building). The frame derives from Blank''s decades of operator experience at silicon-valley startups; Eric Ries later integrated it into The Lean Startup (2011) as the validated-learning loop. Customer Discovery is the umbrella; specific sub-methods (Mom Test, Jobs-to-Be-Done, persona work, interview protocols) live inside it.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
 - 2026-05-19 — initial classification (Sprint 16 Card 10, schema v1.15.0); added to corpus to close the umbrella-method gap (Mom Test was added in same sprint as a specific sub-method; Jobs-to-Be-Done was pre-existing; the encompassing Customer Discovery umbrella was missing — this entry provides the umbrella so the relationships between sub-methods are visible in the library)
-Tags:
+tags:
 - '#thinking-tool'
 See_Also:
 - Mom Test

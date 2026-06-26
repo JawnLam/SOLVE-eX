@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-hazop
-Item_Prototype: Thinking_Tool
-Title: HAZOP (Hazard and Operability Study)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: HAZOP (Hazard and Operability Study)
 tt_Source: "Kletz, T. (1999). HAZOP and HAZAN: Identifying and Assessing Process Industry Hazards (4th ed.). IChemE."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

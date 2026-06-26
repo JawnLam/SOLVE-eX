@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-accidental-adversaries-archetype
-Item_Prototype: Thinking_Tool
-Title: 'Accidental Adversaries (Senge Archetype #9)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Accidental Adversaries (Senge Archetype #9)'
 tt_Source: 'Senge, P. (1990); Kim, D. & Anderson, V. (1998) Systems Archetype Basics.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -37,7 +38,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 05)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

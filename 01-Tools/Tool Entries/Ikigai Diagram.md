@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-ikigai-diagram
-Item_Prototype: Thinking_Tool
-Title: Ikigai Diagram
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Ikigai Diagram
 tt_Source: "Japanese concept; modern Western diagrammatic form often attributed to Marc Winn (2014 blog adaptation of Andrés Zuzunaga's Venn diagram). Foundational Japanese sources: Mieko Kamiya, On the Meaning of Life (1966); Ken Mogi, The Little Book of Ikigai (2017). Note: the four-circle Western diagram is a popularization that some Japanese scholars (Akihiro Hasegawa) say doesn't match the original concept."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -52,7 +53,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Ethics / values']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Operation remap → 'Articulate values' (Op #33)"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-negative-capability
-Item_Prototype: Thinking_Tool
-Title: Negative Capability
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Negative Capability
 tt_Source: 'Romantic literary tradition; coined by John Keats in a letter to George and Tom Keats (December 1817). Modern psychoanalytic extensions: Wilfred Bion''s concept of the analyst remaining ''without memory or desire.'' Used in contemporary leadership and creativity literature.'
 tt_Type: stance
 tt_Domain: Contemplative
@@ -48,7 +49,7 @@ tt_History:
   - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=['Contemplative-quiet'], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Sacred / transcendent']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

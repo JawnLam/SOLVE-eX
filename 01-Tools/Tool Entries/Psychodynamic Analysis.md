@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-psychodynamic-analysis
-Item_Prototype: Thinking_Tool
-Title: Psychodynamic Analysis
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Psychodynamic Analysis
 tt_Source: "Sigmund Freud 1890s–1930s; refined by ego psychology (Hartmann), object relations (Klein, Fairbairn, Winnicott), self psychology (Kohut), and relational psychoanalysis (Mitchell, Aron)"
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -47,7 +48,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-preferential-attachment-scale-free-network-reasoning
-Item_Prototype: Thinking_Tool
-Title: 'Preferential Attachment / Scale-Free Network Reasoning'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Preferential Attachment / Scale-Free Network Reasoning'
 tt_Source: 'Barabási, A.-L. & Albert, R. (1999) Science; Barabási, A.-L. (2016) Network Science.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 06)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

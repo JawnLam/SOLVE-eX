@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-stride-threat-modeling
-Item_Prototype: Thinking_Tool
-Title: STRIDE Threat Modeling
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: STRIDE Threat Modeling
 tt_Source: "Shostack, A. (2014). Threat Modeling: Designing for Security. Wiley."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

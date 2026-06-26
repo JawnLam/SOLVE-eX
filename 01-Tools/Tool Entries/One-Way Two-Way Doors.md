@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-one-way-two-way-doors
-Item_Prototype: Thinking_Tool
-Title: One-Way / Two-Way Doors (Bezos Memo)
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: One-Way / Two-Way Doors (Bezos Memo)
 tt_Source: Jeff Bezos, Amazon shareholder letter (2015), articulating Amazon's decision-making philosophy. Reinforced in subsequent letters and Bezos's leadership principles. Widely adopted in technology-company decision frameworks.
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -44,7 +45,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Decision / choice']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

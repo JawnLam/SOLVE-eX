@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mengzi-four-sprouts
-Item_Prototype: Thinking_Tool
-Title: Mengzi Four Sprouts Mapping
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Mengzi Four Sprouts Mapping
 tt_Source: "Mengzi (4th c. BCE). Trans. Van Norden, B. W. (2008). Hackett."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

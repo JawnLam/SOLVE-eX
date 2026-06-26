@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-tonglen
-Item_Prototype: Thinking_Tool
-Title: Tonglen (Giving and Taking)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Tonglen (Giving and Taking)
 tt_Source: "Chödrön, P. (2001). *Tonglen: The Path of Transformation*. Vajradhatu Publications. Trungpa, C. (1988). *Training the Mind and Cultivating Loving-Kindness*. Shambhala."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

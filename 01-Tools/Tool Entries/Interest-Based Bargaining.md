@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-interest-based-bargaining
-Item_Prototype: Thinking_Tool
-Title: Interest-Based Bargaining
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Interest-Based Bargaining
 tt_Source: "Roger Fisher, William Ury & Bruce Patton, Getting to Yes: Negotiating Agreement Without Giving In (1981, 2nd ed. 1991, 3rd ed. 2011). Harvard Negotiation Project."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -55,7 +56,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human', 'Human group'], tt_About=['Other / relationship', 'Strategy / competition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

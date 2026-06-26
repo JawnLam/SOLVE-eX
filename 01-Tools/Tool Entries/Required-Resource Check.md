@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-required-resource-check
-Item_Prototype: Thinking_Tool
-Title: Required-Resource Check
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: Required-Resource Check
 tt_Source: 'Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University. Step 9 of 15-step political-interaction-cycle model (p. 224); "Resource check" rows in saturation Tables 5-22. Field-manual distillation: The ADAPT Loop Field Manual, ch. 5 The capability gate (pp. 14-15).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -50,7 +51,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

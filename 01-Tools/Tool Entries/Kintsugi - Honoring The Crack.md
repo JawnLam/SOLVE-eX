@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-kintsugi-honoring-the-crack
-Item_Prototype: Thinking_Tool
-Title: Kintsugi / Honoring the Crack
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Kintsugi / Honoring the Crack
 tt_Source: "Japanese craft tradition (15th c.); modern English-language exposition: Leonard Koren, *Wabi-Sabi for Artists, Designers, Poets & Philosophers* (1994); Christy Bartlett, *Flickwerk: The Aesthetics of Mended Japanese Ceramics* (2008)."
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-10 — initial classification (v1.13.0; Field: Wabi-sabi / imperfection aesthetics, Domain: Aesthetic)"
-Tags:
+tags:
 - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-10

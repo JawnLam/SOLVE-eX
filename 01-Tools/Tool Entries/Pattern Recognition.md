@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-pattern-recognition
-Item_Prototype: Thinking_Tool
-Title: Pattern Recognition
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Pattern Recognition
 tt_Source: "Folk / craft tradition; formalized in Gestalt psychology (Wertheimer, Köhler, Koffka, 1910s–1920s); operationalized for expertise research by Klein (RPD), Chase & Simon (chess studies)"
 tt_Type: instrument
 tt_Domain: Non-discursive cognition
@@ -51,7 +52,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 03 edge-case resolution: tt_Cross_Domains: +Phronetic / practical wisdom (see /tmp/edge-case-decisions.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

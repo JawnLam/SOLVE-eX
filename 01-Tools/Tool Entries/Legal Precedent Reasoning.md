@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-legal-precedent-reasoning
-Item_Prototype: Thinking_Tool
-Title: Legal Precedent Reasoning
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Legal Precedent Reasoning
 tt_Source: "Common-law tradition; foundational analyses by Edward Levi, An Introduction to Legal Reasoning (1949); Karl Llewellyn, The Common Law Tradition (1960)."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -51,7 +52,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Ethics / values', 'Power / politics']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Lineage backfill: added 'Legal / juridical' (v1.13.0 addition; entry was added before backfill)"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-personas
-Item_Prototype: Thinking_Tool
-Title: Personas
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Personas
 tt_Source: Alan Cooper, The Inmates Are Running the Asylum (1999); developed in software design and adopted in marketing, UX, and product strategy. Modern variants in Adlin and Pruitt's The Persona Lifecycle (2006) and JTBD-style 'people' alternatives.
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -47,7 +48,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human', 'Human group'], tt_About=['Other / relationship', 'Aesthetic / craft']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

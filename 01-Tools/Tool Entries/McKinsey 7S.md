@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mckinsey-7s
-Item_Prototype: Thinking_Tool
-Title: 'McKinsey 7S'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'McKinsey 7S'
 tt_Source: 'Pascale, R. & Athos, A. (1981) *The Art of Japanese Management*; Peters, T. & Waterman, R. (1982) *In Search of Excellence*; popularized in McKinsey practice.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

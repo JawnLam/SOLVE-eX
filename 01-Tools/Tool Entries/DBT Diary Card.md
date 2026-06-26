@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-dbt-diary-card
-Item_Prototype: Thinking_Tool
-Title: DBT Diary Card
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: DBT Diary Card
 tt_Source: "Linehan, M. M. (1993, 2014). *DBT Skills Training Manual* (2nd ed.). Guilford Press."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

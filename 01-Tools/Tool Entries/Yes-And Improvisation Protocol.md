@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-yes-and-improvisation-protocol
-Item_Prototype: Thinking_Tool
-Title: '"Yes-And" Improvisation Protocol'
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: '"Yes-And" Improvisation Protocol'
 tt_Source: "Keith Johnstone, *Impro: Improvisation and the Theatre* (1979); Viola Spolin, *Improvisation for the Theater* (1963) — the originating theatre-games tradition. Modern systematization: Charna Halpern & Del Close, *Truth in Comedy* (1994). Application beyond theater: Karen Hough, *The Improvisation Edge* (2011); Patricia Ryan Madson, *Improv Wisdom* (2005)."
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -49,7 +50,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 06; closes Field 'Improvisation / yes-and' AND Operation #24 'Improvise responsively' — the canonical anchor for this Op)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

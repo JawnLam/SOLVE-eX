@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-gtd
-Item_Prototype: Thinking_Tool
-Title: 'GTD (Getting Things Done — Allen)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'GTD (Getting Things Done — Allen)'
 tt_Source: 'Allen, D. (2001, rev. ed. 2015) Getting Things Done.'
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

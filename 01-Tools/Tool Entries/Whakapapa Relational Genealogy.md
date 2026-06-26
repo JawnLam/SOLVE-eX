@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-whakapapa-relational-genealogy
-Item_Prototype: Thinking_Tool
-Title: Whakapapa Relational Genealogy
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Whakapapa Relational Genealogy
 tt_Source: "Royal, T. A. C. (1998). Te Ao Marama: A Research Paradigm. Royal Society of New Zealand."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

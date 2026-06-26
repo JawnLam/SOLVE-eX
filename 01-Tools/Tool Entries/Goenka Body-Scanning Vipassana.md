@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-goenka-body-scanning-vipassana
-Item_Prototype: Thinking_Tool
-Title: Goenka Body-Scanning Vipassana
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Goenka Body-Scanning Vipassana
 tt_Source: "Goenka, S. N. (1987). The Discourse Summaries. Vipassana Research Publications."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

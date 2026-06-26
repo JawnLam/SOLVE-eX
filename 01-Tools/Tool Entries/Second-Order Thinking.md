@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-second-order-thinking
-Item_Prototype: Thinking_Tool
-Title: 'Second-Order Thinking'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Second-Order Thinking'
 tt_Source: 'Marks, H. (2011) *The Most Important Thing*; Munger speeches; FS canonical.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-kanban-method
-Item_Prototype: Thinking_Tool
-Title: 'Kanban Method (Anderson)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Kanban Method (Anderson)'
 tt_Source: 'Anderson, D. (2010) Kanban; antecedents in Toyota Production System (Ohno).'
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

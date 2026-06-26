@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-seci-model
-Item_Prototype: Thinking_Tool
-Title: SECI Model (Nonaka & Takeuchi)
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: SECI Model (Nonaka & Takeuchi)
 tt_Source: "Ikujiro Nonaka & Hirotaka Takeuchi, *The Knowledge-Creating Company* (1995); foundational predecessor: Michael Polanyi, *The Tacit Dimension* (1966) — distinction between tacit and explicit knowledge."
 tt_Type: instrument
 tt_Domain: Non-discursive cognition
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 09; closes Field 'Tacit knowing & explicit-tacit conversion')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

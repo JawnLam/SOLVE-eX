@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mutual-gains-framework
-Item_Prototype: Thinking_Tool
-Title: Mutual Gains Framework
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Mutual Gains Framework
 tt_Source: "Lawrence Susskind & Jeffrey Cruikshank, Breaking the Impasse (1987); Susskind & Field, Dealing with an Angry Public (1996); Consensus Building Institute (CBI). Extends Fisher/Ury's interest-based bargaining into multi-party / public-policy contexts."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -54,7 +55,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human', 'Human group'], tt_About=['Other / relationship', 'Strategy / competition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

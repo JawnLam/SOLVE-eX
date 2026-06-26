@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-jobs-to-be-done
-Item_Prototype: Thinking_Tool
-Title: Jobs-to-Be-Done
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Jobs-to-Be-Done
 tt_Source: Theodore Levitt's milkshake metaphor (1960s); developed and named by Clayton Christensen and Tony Ulwick (1990s-2000s); Christensen et al., Competing Against Luck (2016). Outcome-Driven Innovation by Ulwick formalizes the structured method.
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -49,7 +50,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Strategy / competition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

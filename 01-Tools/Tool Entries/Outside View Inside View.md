@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-outside-view-inside-view
-Item_Prototype: Thinking_Tool
-Title: 'Outside View / Inside View'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Outside View / Inside View'
 tt_Source: 'Kahneman, D. & Lovallo, D. (1993) *Management Science*; Cambridge Handbook of Thinking and Reasoning.'
 tt_Type: stance
 tt_Domain: Modes of inquiry
@@ -36,7 +37,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

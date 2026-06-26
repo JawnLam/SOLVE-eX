@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-alexander-technique
-Item_Prototype: Thinking_Tool
-Title: Alexander Technique
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Alexander Technique
 tt_Source: "Alexander, F. M. (1932). *The Use of the Self*. Mouritz. American Society for the Alexander Technique (AmSAT) certification training."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

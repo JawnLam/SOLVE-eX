@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-talebs-barbell
-Item_Prototype: Thinking_Tool
-Title: Taleb's Barbell
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Taleb's Barbell
 tt_Source: 'Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder (2012); also discussed in The Black Swan (2007). Original investment context; later generalized to risk management broadly.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -45,7 +46,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Decision / choice']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

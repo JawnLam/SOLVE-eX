@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-maslows-hierarchy-of-needs
-Item_Prototype: Thinking_Tool
-Title: 'Maslow''s Hierarchy of Needs'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Maslow''s Hierarchy of Needs'
 tt_Source: 'Maslow, A.H. (1943) ''A Theory of Human Motivation.'' *Psychological Review*; popularization in management literature 1960s onward. Note: Bridgman et al. (2019) critique the pyramid form attribution.'
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

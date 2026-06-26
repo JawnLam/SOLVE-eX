@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-blooms-taxonomy
-Item_Prototype: Thinking_Tool
-Title: 'Bloom''s Taxonomy'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Bloom''s Taxonomy'
 tt_Source: 'Bloom, B.S. (1956) Taxonomy of Educational Objectives; Anderson, L.W. & Krathwohl, D.R. (2001) revision.'
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 08)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mussar-cheshbon-hanefesh
-Item_Prototype: Thinking_Tool
-Title: Mussar Cheshbon HaNefesh (Soul-Accounting)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Mussar Cheshbon HaNefesh (Soul-Accounting)
 tt_Source: "Morinis, A. (2007). *Everyday Holiness: The Jewish Spiritual Path of Mussar*. Trumpeter Books. Israel Salanter, *Letters*."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

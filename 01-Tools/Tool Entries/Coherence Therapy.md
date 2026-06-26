@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-coherence-therapy
-Item_Prototype: Thinking_Tool
-Title: Coherence Therapy
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Coherence Therapy
 tt_Source: "Ecker, B., Ticic, R., & Hulley, L. (2012). *Unlocking the Emotional Brain: Eliminating Symptoms at Their Roots Using Memory Reconsolidation*. Routledge."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

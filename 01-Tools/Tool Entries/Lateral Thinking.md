@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-lateral-thinking
-Item_Prototype: Thinking_Tool
-Title: Lateral Thinking (de Bono)
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Lateral Thinking (de Bono)
 tt_Source: "Edward de Bono, *Lateral Thinking: Creativity Step by Step* (1970); *Po: Beyond Yes and No* (1972); *Six Thinking Hats* (1985). Foundational distinction between vertical (logical-deductive) and lateral (provocative-recombinant) thinking."
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 06; closes Field 'Lateral thinking')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-laban-movement-analysis
-Item_Prototype: Thinking_Tool
-Title: Laban Movement Analysis (LMA)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Laban Movement Analysis (LMA)
 tt_Source: "Bartenieff, I., & Lewis, D. (1980). Body Movement: Coping with the Environment. Gordon and Breach."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

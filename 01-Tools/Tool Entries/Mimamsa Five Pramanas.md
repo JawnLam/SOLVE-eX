@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mimamsa-five-pramanas
-Item_Prototype: Thinking_Tool
-Title: Mimamsa Five Pramanas
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Mimamsa Five Pramanas
 tt_Source: "Kamali, M. H. (2003). Principles of Islamic Jurisprudence (for parallel pramana traditions). Bhatta, R. (trans.). Mimamsa Sutras of Jaimini."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

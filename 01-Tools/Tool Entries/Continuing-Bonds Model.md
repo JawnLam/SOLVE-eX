@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-continuing-bonds-model
-Item_Prototype: Thinking_Tool
-Title: Continuing-Bonds Model
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Continuing-Bonds Model
 tt_Source: "Klass, Silverman & Nickman 1996 (Continuing Bonds: New Understandings of Grief); empirical work overturning Freud's 'detachment' model"
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -47,7 +48,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

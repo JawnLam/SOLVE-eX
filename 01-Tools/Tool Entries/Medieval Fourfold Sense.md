@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-medieval-fourfold-sense
-Item_Prototype: Thinking_Tool
-Title: 'Medieval Fourfold Sense (Quadriga)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Medieval Fourfold Sense (Quadriga)'
 tt_Source: 'Cassian (early 5th c.) Conferences; Aquinas Summa Theologiae I.1.10; codified medieval mnemonic ''Littera gesta docet''.'
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 08)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

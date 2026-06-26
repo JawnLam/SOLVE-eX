@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-avicenna-floating-man
-Item_Prototype: Thinking_Tool
-Title: Avicenna's Floating Man Thought Experiment
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Avicenna's Floating Man Thought Experiment
 tt_Source: "Ibn Sina (~1027). Kitab al-Shifa. Marmura, M. E. (1986). 'Avicennas Flying Man in Context.' The Monist 69(3)."
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-bhuta-shuddhi
-Item_Prototype: Thinking_Tool
-Title: Bhuta Shuddhi (Elemental Purification)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Bhuta Shuddhi (Elemental Purification)
 tt_Source: "Wallis, C. D. (2012). Tantra Illuminated. Mattamayura Press."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

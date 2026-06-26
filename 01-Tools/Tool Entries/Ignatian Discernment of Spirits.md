@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ignatian-discernment-of-spirits
-Item_Prototype: Thinking_Tool
-Title: Ignatian Discernment of Spirits
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Ignatian Discernment of Spirits
 tt_Source: "Ignatius of Loyola, *Spiritual Exercises* (composed 1522-1524, formalized 1548); the 'Rules for the Discernment of Spirits' appear in Annotations 313-336. Modern Jesuit commentary: Toner, *A Commentary on Saint Ignatius's Rules for the Discernment of Spirits* (1982); Gallagher, *The Discernment of Spirits* (2005)."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 05; closes Field 'Discernment practice')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-nurse-statements
-Item_Prototype: Thinking_Tool
-Title: NURSE Empathic Statements
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: NURSE Empathic Statements
 tt_Source: "Back, A. L., Arnold, R. M., & Tulsky, J. A. (2009). Mastering Communication with Seriously Ill Patients. Cambridge UP."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

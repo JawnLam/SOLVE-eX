@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-activation-energy
-Item_Prototype: Thinking_Tool
-Title: 'Activation Energy'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Activation Energy'
 tt_Source: 'Arrhenius, S. (1889) chemistry; modern behavior-change literature (Fogg, BJ. and Atomic Habits canon).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

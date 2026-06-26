@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-nava-vidha-bhakti
-Item_Prototype: Thinking_Tool
-Title: Nava-Vidha Bhakti (Nine Forms of Devotion)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Nava-Vidha Bhakti (Nine Forms of Devotion)
 tt_Source: "Bhagavata Purana 7.5.23-24 (~9th-10th c. CE). Schweig, G. M. (2005). Dance of Divine Love. Princeton UP."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

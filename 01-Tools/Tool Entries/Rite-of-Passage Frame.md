@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-rite-of-passage-frame
-Item_Prototype: Thinking_Tool
-Title: Rite-of-Passage Frame (van Gennep / Turner)
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Rite-of-Passage Frame (van Gennep / Turner)
 tt_Source: "Arnold van Gennep, *Les rites de passage* (1909); Victor Turner, *The Ritual Process: Structure and Anti-Structure* (1969) and *The Forest of Symbols* (1967); contemporary application: Mircea Eliade, *Rites and Symbols of Initiation* (1958); Bly, *Iron John* (1990); Plotkin, *Nature and the Human Soul* (2008)."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -50,7 +51,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 05; closes Field 'Initiation / rite-of-passage'; primary anchor for State 'Liminal' — Turner's term originates from this work)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

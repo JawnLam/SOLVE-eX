@@ -1,7 +1,7 @@
 ---
 Item_ID: tt-replace-me
-Item_Prototype: Thinking_Tool
-Title: Replace Me With Tool Title
+type: Thinking_Tool
+title: Replace Me With Tool Title
 tt_Source: "Author, A. (YYYY). *Work Title*. Publisher."
 tt_Type: instrument                # instrument | stance
 tt_Domain: Discursive-analytical   # one of 12 register-clean Domains; see facet-enums.md
@@ -38,7 +38,7 @@ tt_Replaced_By: []                 # tool names; populate only if deprecating
 tt_Status: in-progress             # proposed | in-progress | classified | deprecated
 tt_History:
   - "YYYY-MM-DD — initial classification (Sprint NN — Reason)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-MM-DD

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-balint-groups
-Item_Prototype: Thinking_Tool
-Title: Balint Groups
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Balint Groups
 tt_Source: "Balint, M. (1957). *The Doctor, His Patient and the Illness*. International Universities Press."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

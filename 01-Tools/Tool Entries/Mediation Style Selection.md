@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mediation-style-selection
-Item_Prototype: Thinking_Tool
-Title: Mediation Style Selection
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Mediation Style Selection
 tt_Source: "Riskin, L. (1996). 'Understanding Mediators' Orientations, Strategies, and Techniques: A Grid for the Perplexed.' Harvard Negotiation Law Review 1."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

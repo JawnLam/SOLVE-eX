@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ishikawa-fishbone-diagram
-Item_Prototype: Thinking_Tool
-Title: Ishikawa Fishbone Diagram
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Ishikawa Fishbone Diagram
 tt_Source: "Ishikawa, K. (1968). *Guide to Quality Control*. JUSE. Now embedded in ISO 9001 quality literature."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

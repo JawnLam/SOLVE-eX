@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-dual-process-clinical-reasoning
-Item_Prototype: Thinking_Tool
-Title: Dual-Process Clinical Reasoning
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Dual-Process Clinical Reasoning
 tt_Source: "Croskerry, P. (2009). \"A universal model of diagnostic reasoning.\" *Academic Medicine* 84(8). Kahneman, D. (2011). *Thinking, Fast and Slow*."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

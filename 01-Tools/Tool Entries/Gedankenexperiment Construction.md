@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-gedankenexperiment-construction
-Item_Prototype: Thinking_Tool
-Title: Gedankenexperiment Construction Method
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Gedankenexperiment Construction Method
 tt_Source: "Term originated with Hans Christian Ørsted (1812), formalized by Ernst Mach (*Knowledge and Error*, 1905). Canonical practitioners: Galileo (falling bodies), Einstein (elevator / chasing-a-light-beam), Schrödinger (cat), Maxwell (demon). Modern philosophy: Roy Sorensen, *Thought Experiments* (1992); Tamar Gendler, *Thought Experiment: On the Powers and Limits of Imaginary Cases* (2000)."
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -49,7 +50,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 07; closes Field 'Thought-experiment construction')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-aida
-Item_Prototype: Thinking_Tool
-Title: 'AIDA (Attention-Interest-Desire-Action)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'AIDA (Attention-Interest-Desire-Action)'
 tt_Source: 'Lewis, E. St. Elmo (1898) attributed origination; widely used in copywriting and sales-funnel design.'
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-behavior-change-wheel
-Item_Prototype: Thinking_Tool
-Title: 'Behavior Change Wheel (Michie)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Behavior Change Wheel (Michie)'
 tt_Source: 'Michie, S., Atkins, L., & West, R. (2014) The Behaviour Change Wheel: A Guide to Designing Interventions.'
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

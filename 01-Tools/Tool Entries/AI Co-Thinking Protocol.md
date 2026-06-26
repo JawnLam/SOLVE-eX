@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ai-co-thinking-protocol
-Item_Prototype: Thinking_Tool
-Title: AI Co-Thinking Protocol
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: AI Co-Thinking Protocol
 tt_Source: "Ethan Mollick, *Co-Intelligence: Living and Working with AI* (2024); related: Reid Hoffman, *Impromptu: Amplifying Our Humanity Through AI* (2023); empirical work on LLM-augmented reasoning (Wharton studies on GPT-4 + consultants, Microsoft's Copilot productivity data). Earlier theoretical predecessor: J.C.R. Licklider's *Man-Computer Symbiosis* (1960)."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 09; closes Field anchor for Metacognition/tool-selection's AI-partnership case, PRIMARY ANCHOR for tt_Agent 'Human-AI partnership' — the last empty Agent value)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

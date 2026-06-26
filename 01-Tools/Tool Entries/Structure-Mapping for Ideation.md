@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-structure-mapping-for-ideation
-Item_Prototype: Thinking_Tool
-Title: Structure-Mapping for Ideation (Gentner)
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Structure-Mapping for Ideation (Gentner)
 tt_Source: "Dedre Gentner, *Structure-Mapping: A Theoretical Framework for Analogy* (1983, *Cognitive Science*); Keith Holyoak & Paul Thagard, *Mental Leaps: Analogy in Creative Thought* (1995); Hofstadter & Sander, *Surfaces and Essences: Analogy as the Fuel and Fire of Thinking* (2013)."
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 06; closes Field 'Analogical reasoning for ideation')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

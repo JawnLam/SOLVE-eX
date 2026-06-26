@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-voir-dire-jury-selection
-Item_Prototype: Thinking_Tool
-Title: Voir Dire Jury Selection Strategy
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Voir Dire Jury Selection Strategy
 tt_Source: "Hans, V. P., & Vidmar, N. (1986). Judging the Jury. Plenum."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

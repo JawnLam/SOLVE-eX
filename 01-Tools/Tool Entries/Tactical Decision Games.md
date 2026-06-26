@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-tactical-decision-games
-Item_Prototype: Thinking_Tool
-Title: Tactical Decision Games (TDGs)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Tactical Decision Games (TDGs)
 tt_Source: "Schmitt, J. F. (1994). *Mastering Tactics: A Tactical Decision Games Workbook*. Marine Corps Association. Klein, G. (1998). *Sources of Power*. MIT Press."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

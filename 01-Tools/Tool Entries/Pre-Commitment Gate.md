@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-pre-commitment-gate
-Item_Prototype: Thinking_Tool
-Title: Pre-Commitment Gate
+type: Thinking_Tool
+timestamp: "2026-05-16T00:00:00Z"
+title: Pre-Commitment Gate
 tt_Source: 'Original to SOLVE eX Thinking Tools project, 2026-05-16 (Sprint 11 Card 07 — surfaced organically during Sprint 10 panel test on the Tessa Hollis hire-vs-stay case; first-sales-hire commitment with charisma-overweighting and slow-ramp timing tension). Operationalizes the pre-mortem-result-as-binding-artifact pattern. Adjacent lineage: Klein on naturalistic decision-making (Pre-Mortem); Ulysses-contract literature (commitment devices binding pre-bias self against post-bias self); Tetlock on calibrated forecasting.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -50,7 +51,7 @@ tt_Replaced_By: []
 tt_Status: classified
 tt_History:
 - '2026-05-16 — initial classification (Sprint 11 Card 07 — surfaced via Sprint 10 panel test on the Tessa Hollis hire-vs-stay case)'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also:
 - 'Pre-Mortem'

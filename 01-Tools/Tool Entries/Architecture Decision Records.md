@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-architecture-decision-records
-Item_Prototype: Thinking_Tool
-Title: Architecture Decision Records (ADRs)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Architecture Decision Records (ADRs)
 tt_Source: "Nygard, M. (2011). 'Documenting Architecture Decisions.' Cognitect blog."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-pre-mortem-as-foresight
-Item_Prototype: Thinking_Tool
-Title: Pre-Mortem as Foresight Practice
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Pre-Mortem as Foresight Practice
 tt_Source: "Gary Klein, *Performing a Project Premortem* (2007, *Harvard Business Review*); Klein, *The Power of Intuition* (2004); related Daniel Kahneman commentary in *Thinking, Fast and Slow* (2011). The foresight-oriented re-framing (distinct from adversarial pre-mortem) draws on Klein's later work on Recognition-Primed Decision-Making."
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 07; closes Field 'Pre-mortem & failure imagination' — the foresight-side aspect distinct from the adversarial Pre-Mortem entry which remains anchored at Field 'Adversarial / debiasing reasoning' per Index §2B parenthetical)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

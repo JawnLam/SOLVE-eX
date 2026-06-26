@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-designing-your-life
-Item_Prototype: Thinking_Tool
-Title: Designing Your Life
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Designing Your Life
 tt_Source: "Bill Burnett & Dave Evans, Designing Your Life: How to Build a Well-Lived, Joyful Life (2016). Stanford d.school Life Design Lab. Designing Your Work Life (2020) extension."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -52,7 +53,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Ethics / values']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

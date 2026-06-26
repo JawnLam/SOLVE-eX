@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-cognitive-bias-checklists
-Item_Prototype: Thinking_Tool
-Title: Cognitive Bias Checklists
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Cognitive Bias Checklists
 tt_Source: Daniel Kahneman, Thinking, Fast and Slow (2011); behavioral economics tradition (Kahneman, Tversky, Thaler, Sunstein). Practical checklists in Kahneman's HBR article 'Before You Make That Big Decision' (2011, with Lovallo and Sibony).
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -47,7 +48,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=['Heightened-vigilant'], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Risk / uncertainty']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

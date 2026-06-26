@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ideal-final-result
-Item_Prototype: Thinking_Tool
-Title: 'Ideal Final Result (IFR)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Ideal Final Result (IFR)'
 tt_Source: 'Altshuller, G. (1984); Mann, D. (2002) Hands-On Systematic Innovation.'
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 04)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

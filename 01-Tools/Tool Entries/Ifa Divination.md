@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ifa-divination
-Item_Prototype: Thinking_Tool
-Title: Ifa Divination System
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Ifa Divination System
 tt_Source: "Bascom, W. (1969). *Ifa Divination: Communication Between Gods and Men in West Africa*. Indiana UP. UNESCO inscription RL-00146 (2008). Abimbola, W. (1976). *Ifá: An Exposition of Ifá Literary Corpus*. Oxford UP."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -50,7 +51,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-emdr-resource-installation
-Item_Prototype: Thinking_Tool
-Title: 'EMDR Resource Installation'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'EMDR Resource Installation'
 tt_Source: 'Korn, D.L. & Leeds, A.M. (2002) Journal of Clinical Psychology.'
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

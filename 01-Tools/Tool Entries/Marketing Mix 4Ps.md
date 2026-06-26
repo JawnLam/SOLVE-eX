@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-marketing-mix-4ps
-Item_Prototype: Thinking_Tool
-Title: 'Marketing Mix 4Ps'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Marketing Mix 4Ps'
 tt_Source: 'McCarthy, E.J. (1960) *Basic Marketing*; Kotler, P. (1967) *Marketing Management* popularization.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -37,7 +38,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-lectio-divina
-Item_Prototype: Thinking_Tool
-Title: Lectio Divina
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Lectio Divina
 tt_Source: "Guigo II (~1150). *Scala Claustralium*. Casey, M. (1996). *Sacred Reading: The Ancient Art of Lectio Divina*. Triumph."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

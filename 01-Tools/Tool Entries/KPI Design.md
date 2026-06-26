@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-kpi-design
-Item_Prototype: Thinking_Tool
-Title: KPI Design
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: KPI Design
 tt_Source: "Drucker 1954 (Management by Objectives); Doerr (OKRs at Intel/Google); Kaplan & Norton 1992 (Balanced Scorecard)"
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -46,7 +47,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human', 'Human group'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

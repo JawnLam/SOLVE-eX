@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-seven-generations-thinking
-Item_Prototype: Thinking_Tool
-Title: Seven Generations Thinking
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Seven Generations Thinking
 tt_Source: "Haudenosaunee (Iroquois) Confederacy oral tradition, *Great Law of Peace* (Kaianere'kó:wa, ~1142-1450), Article 28 — leaders shall consider how decisions affect descendants seven generations forward. Modern frames: Roger Walsh, *Essential Spirituality* (1999); Stewart Brand, *The Clock of the Long Now* (1999); Long Now Foundation (founded 01996)."
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -51,7 +52,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 07; closes Field 'Ancestral / multigenerational thinking'; secondary anchor for Lineage Indigenous / oral traditions; primary anchor for Agent Cross-cultural via traditional knowledge use)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

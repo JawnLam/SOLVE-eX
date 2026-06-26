@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-holotropic-breathwork
-Item_Prototype: Thinking_Tool
-Title: Holotropic Breathwork
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Holotropic Breathwork
 tt_Source: "Grof, S., & Grof, C. (2010). *Holotropic Breathwork: A New Approach to Self-Exploration and Therapy*. SUNY Press."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

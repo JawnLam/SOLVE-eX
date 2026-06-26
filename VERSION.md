@@ -1,5 +1,5 @@
 ---
-solve_ex_version: "2.1.3"
+solve_ex_version: "2.2.0"
 master_plan_version: "3.0 STABLE"
 schema_version: "1.14.0"
 schema_status: "FROZEN"
@@ -10,7 +10,7 @@ ship_sprint: "Sprint 02 (public-release iteration) — ADAPT Loop Integration"
 
 # SOLVE eX Version
 
-This is SOLVE eX **v2.1.1** — patch release adopting Operating-Volume-Engineering Convention 6 (`_Prototypes/` folder for portability). No behavioral, schema, or content changes.
+This is SOLVE eX **v2.1.1** — patch release adopting Operating-Volume-Engineering Convention 6 (`_types/` folder for portability). No behavioral, schema, or content changes.
 
 ## Version identifiers
 

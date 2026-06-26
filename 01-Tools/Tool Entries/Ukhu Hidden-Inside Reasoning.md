@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ukhu-hidden-inside-reasoning
-Item_Prototype: Thinking_Tool
-Title: Ukhu — Hidden-Inside Reasoning
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Ukhu — Hidden-Inside Reasoning
 tt_Source: "Allen, C. J. (2002). The Hold Life Has. Smithsonian."
 tt_Type: stance
 tt_Domain: Non-discursive cognition
@@ -37,7 +38,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-stuart-brown-play-frame
-Item_Prototype: Thinking_Tool
-Title: Stuart Brown Play Frame
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Stuart Brown Play Frame
 tt_Source: "Stuart Brown, *Play: How It Shapes the Brain, Opens the Imagination, and Invigorates the Soul* (2009); National Institute for Play. Foundational predecessor: Johan Huizinga, *Homo Ludens* (1938). Adjacent: Bernie DeKoven, *The Well-Played Game* (2002)."
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 06; closes Field 'Play / ludic exploration'; State Playful anchor)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-reverse-engineered-milestones
-Item_Prototype: Thinking_Tool
-Title: Reverse-Engineered Milestones
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Reverse-Engineered Milestones
 tt_Source: Project-management tradition (PMBOK, milestone planning); strategic planning (Pivotal events approach); generalization of backcasting to non-sustainability contexts. Used in venture-stage planning, product launches, organizational change.
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -48,7 +49,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=['Speculative-imaginative'], tt_Agent=['Solo human'], tt_About=['Time / future', 'Decision / choice']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

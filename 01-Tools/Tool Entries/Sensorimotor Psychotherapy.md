@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-sensorimotor-psychotherapy
-Item_Prototype: Thinking_Tool
-Title: Sensorimotor Psychotherapy
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Sensorimotor Psychotherapy
 tt_Source: "Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. W.W. Norton."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

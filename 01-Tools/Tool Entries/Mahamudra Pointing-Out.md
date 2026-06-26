@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mahamudra-pointing-out
-Item_Prototype: Thinking_Tool
-Title: Mahamudra Pointing-Out Instruction
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Mahamudra Pointing-Out Instruction
 tt_Source: "Wangchuk Dorje (16th c.). *The Ocean of Definitive Meaning*. Thrangu Rinpoche, K. (2003). *Pointing Out the Dharmakaya*. Snow Lion. Wallace, B. A. (2011). *Stilling the Mind*. Wisdom."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -49,7 +50,7 @@ tt_Quality_Tier: D
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
   - '2026-05-15 — tier reassigned C→D (Sprint 10 Card 08 manual D-tier population; reason: requires_tradition_transmission with incomplete lineage chain (criterion 5))'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

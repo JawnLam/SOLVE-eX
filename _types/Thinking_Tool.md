@@ -1,7 +1,8 @@
 ---
 Item_ID: "UUID-OR-SLUG"
-Item_Prototype: "Thinking_Tool"
-Title: "Tool Name"
+type: "Thinking_Tool"
+timestamp: "2026-05-10T00:00:00Z"
+title: "Tool Name"
 tt_Source: "Author Year, or 'Folk / vernacular', or 'SOLVE eX #NN'"
 tt_Type: "instrument"
 tt_Domain: "Discursive-analytical"
@@ -23,7 +24,7 @@ tt_Replaced_By: []
 tt_Status: "proposed"
 tt_History:
   - "YYYY-MM-DD — initial classification"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-07

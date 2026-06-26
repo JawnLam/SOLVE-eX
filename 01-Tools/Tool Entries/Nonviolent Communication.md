@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-nonviolent-communication
-Item_Prototype: Thinking_Tool
-Title: Nonviolent Communication / NVC
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Nonviolent Communication / NVC
 tt_Source: 'Marshall Rosenberg, Nonviolent Communication: A Language of Life (1999, 2003, 2015 editions). Center for Nonviolent Communication. Influenced by Carl Rogers''s person-centered therapy and Mahatma Gandhi''s ahimsa.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -52,7 +53,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 03 edge-case resolution: tt_Field: 'Conflict resolution' → 'Dialogue practice'; tt_Domain: 'Phronetic / practical wisdom' → 'Modes of inquiry'; tt_Cross_Domains: +Phronetic / practical wisdom (see /tmp/edge-case-decisions.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human', 'Human group'], tt_About=['Other / relationship', 'Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

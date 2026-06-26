@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-repeated-games-folk-theorem
-Item_Prototype: Thinking_Tool
-Title: 'Repeated Games / Folk Theorem'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Repeated Games / Folk Theorem'
 tt_Source: 'Friedman, J. (1971) Review of Economic Studies; Aumann, R. (1959); Osborne, M.J. (2003) ch. 14.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 06)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

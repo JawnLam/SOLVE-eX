@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ritual-repetition-frame
-Item_Prototype: Thinking_Tool
-Title: Ritual Repetition Frame
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Ritual Repetition Frame
 tt_Source: "Catherine Bell, *Ritual Theory, Ritual Practice* (1992) and *Ritual: Perspectives and Dimensions* (1997); Roy Rappaport, *Ritual and Religion in the Making of Humanity* (1999); Victor Turner, *The Ritual Process* (1969); foundational ethnographic work by Arnold van Gennep, *The Rites of Passage* (1909)."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -51,7 +52,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 05; closes Field 'Ritual cognition')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

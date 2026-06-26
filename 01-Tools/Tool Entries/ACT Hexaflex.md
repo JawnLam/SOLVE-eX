@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-act-hexaflex
-Item_Prototype: Thinking_Tool
-Title: 'ACT Hexaflex (Six Core Processes)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'ACT Hexaflex (Six Core Processes)'
 tt_Source: 'Hayes, S.C., Strosahl, K.D., & Wilson, K.G. (2011) Acceptance and Commitment Therapy (2nd ed.).'
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-eisenhower-matrix
-Item_Prototype: Thinking_Tool
-Title: Eisenhower Matrix
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Eisenhower Matrix
 tt_Source: Attributed to Dwight D. Eisenhower; popularized by Stephen R. Covey, The 7 Habits of Highly Effective People (1989). Standard tool in time management and productivity literature.
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -48,7 +49,7 @@ tt_History:
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 03 edge-case resolution: tt_Field: 'Habit & behavior design' → 'Decision analysis'; tt_Domain: 'Phronetic / practical wisdom' → 'Discursive-analytical'; tt_Cross_Domains: +Phronetic / practical wisdom (see /tmp/edge-case-decisions.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Decision / choice']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

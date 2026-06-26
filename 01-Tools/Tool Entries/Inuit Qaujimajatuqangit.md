@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-inuit-qaujimajatuqangit
-Item_Prototype: Thinking_Tool
-Title: Inuit Qaujimajatuqangit (IQ)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Inuit Qaujimajatuqangit (IQ)
 tt_Source: "Karetak, J., et al. (2017). Inuit Qaujimajatuqangit: What Inuit Have Always Known to Be True. Fernwood."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

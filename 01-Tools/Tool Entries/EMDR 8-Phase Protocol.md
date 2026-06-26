@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-emdr-8-phase-protocol
-Item_Prototype: Thinking_Tool
-Title: 'EMDR 8-Phase Protocol'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'EMDR 8-Phase Protocol'
 tt_Source: 'Shapiro, F. (1995); Shapiro, F. (2018) Eye Movement Desensitization and Reprocessing (3rd ed.).'
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

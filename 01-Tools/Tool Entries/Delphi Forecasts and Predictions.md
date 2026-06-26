@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-delphi-forecasts-and-predictions
-Item_Prototype: Thinking_Tool
-Title: Delphi Forecasts and Predictions
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Delphi Forecasts and Predictions
 tt_Source: 'SOLVE eX #04'
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -50,7 +51,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=['Speculative-imaginative'], tt_Agent=['Solo human'], tt_About=['Time / future', 'Strategy / competition']"
   - '2026-05-15 — tier reassigned B→D (Sprint 10 Card 08 manual D-tier population; reason: original SOLVE eX seed tool (criterion 1: speculative/unvalidated, included for completeness; lacks external empirical grounding beyond the seed designation))'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: '2026-05-07'

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-act-values-clarification
-Item_Prototype: Thinking_Tool
-Title: 'ACT Values Clarification'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'ACT Values Clarification'
 tt_Source: 'Hayes-Strosahl-Wilson 2011 ACT (2nd ed.); Harris, R. (2008) The Happiness Trap.'
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

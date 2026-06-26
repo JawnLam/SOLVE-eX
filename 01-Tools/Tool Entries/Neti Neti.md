@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-neti-neti
-Item_Prototype: Thinking_Tool
-Title: Neti-Neti (Vedantic Negation Method)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Neti-Neti (Vedantic Negation Method)
 tt_Source: "*Brihadaranyaka Upanishad* (10th-5th c. BCE), 2.3.6 and 4.5.15. Easwaran, E. (1987). *The Upanishads*. Nilgiri Press."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

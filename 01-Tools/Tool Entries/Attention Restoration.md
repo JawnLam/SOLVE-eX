@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-attention-restoration
-Item_Prototype: Thinking_Tool
-Title: Attention Restoration
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Attention Restoration
 tt_Source: "Stephen & Rachel Kaplan, The Experience of Nature: A Psychological Perspective (1989) — Attention Restoration Theory (ART). Empirical extensions: Berman et al., 'The Cognitive Benefits of Interacting With Nature' (2008); Bratman et al. on nature exposure and rumination."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -50,7 +51,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=['Contemplative-quiet'], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-quaker-discernment
-Item_Prototype: Thinking_Tool
-Title: Quaker Discernment (Clearness Committee / Sense of the Meeting)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Quaker Discernment (Clearness Committee / Sense of the Meeting)
 tt_Source: "Loring, P. (1992). *Spiritual Discernment: The Context and Goal of Clearness Committees*. Pendle Hill Pamphlet 305. *Quaker Faith & Practice* (Britain Yearly Meeting)."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

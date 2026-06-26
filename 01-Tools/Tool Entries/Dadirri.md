@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-dadirri
-Item_Prototype: Thinking_Tool
-Title: Dadirri (Aboriginal Deep Listening)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Dadirri (Aboriginal Deep Listening)
 tt_Source: "Ungunmerr-Baumann, M.-R. (2002). \"Dadirri.\" Compass: A Journal of Topical Theology 36. Atkinson, J. (2002). *Trauma Trails: Recreating Song Lines*. Spinifex Press."
 tt_Type: stance
 tt_Domain: Contemplative
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-role-based-analogy
-Item_Prototype: Thinking_Tool
-Title: Role-Based Analogy
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Role-Based Analogy
 tt_Source: Creative-thinking and ideation tradition; widely used in design-thinking workshops, IDEO and similar firms. Related to Edward de Bono's lateral-thinking techniques (Lateral Thinking, 1970). Common in business-strategy creativity work.
 tt_Type: instrument
 tt_Domain: Non-discursive cognition
@@ -46,7 +47,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

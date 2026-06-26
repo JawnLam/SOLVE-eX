@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-breath-regulation
-Item_Prototype: Thinking_Tool
-Title: Breath Regulation
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Breath Regulation
 tt_Source: "Pranayama tradition (yogic, ancient): Patanjali Yoga Sutras (~400 BCE). Modern science: Stephen Porges (Polyvagal Theory); Andrew Huberman lab; James Nestor, Breath: The New Science of a Lost Art (2020); HeartMath Institute work on coherence breathing."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -50,7 +51,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Body / embodiment']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

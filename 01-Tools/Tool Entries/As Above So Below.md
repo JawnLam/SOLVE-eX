@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-as-above-so-below
-Item_Prototype: Thinking_Tool
-Title: Hermetic As-Above-So-Below Method
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Hermetic As-Above-So-Below Method
 tt_Source: "Yates, F. A. (1964). Giordano Bruno and the Hermetic Tradition. University of Chicago Press."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

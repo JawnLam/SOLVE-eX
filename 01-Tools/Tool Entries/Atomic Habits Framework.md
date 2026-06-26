@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-atomic-habits-framework
-Item_Prototype: Thinking_Tool
-Title: Atomic Habits Framework
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Atomic Habits Framework
 tt_Source: "James Clear, Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones (2018). Builds on Charles Duhigg's The Power of Habit (2012) cue-routine-reward loop and broader behavioral psychology."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -48,7 +49,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

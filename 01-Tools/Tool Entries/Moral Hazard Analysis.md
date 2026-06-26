@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-moral-hazard-analysis
-Item_Prototype: Thinking_Tool
-Title: Moral Hazard Analysis
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Moral Hazard Analysis
 tt_Source: "Term originally from 17th-century insurance practice. Modern formalization: Kenneth Arrow, 'Uncertainty and the Welfare Economics of Medical Care' (1963); Bengt Holmström, 'Moral Hazard and Observability' (1979) — Nobel 2016. Closely linked to but distinct from agency theory."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -50,7 +51,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Strategy / competition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

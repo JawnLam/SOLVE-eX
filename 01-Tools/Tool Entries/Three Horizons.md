@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-three-horizons
-Item_Prototype: Thinking_Tool
-Title: Three Horizons (Sharpe)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Three Horizons (Sharpe)
 tt_Source: "Sharpe, B. (2013). *Three Horizons: The Patterning of Hope*. Triarchy Press. Hodgson, A., & Sharpe, B. (2007). \"Deepening futures with system structure.\" International Futures Forum."
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

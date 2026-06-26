@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-schenkerian-analysis
-Item_Prototype: Thinking_Tool
-Title: Schenkerian Analysis
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Schenkerian Analysis
 tt_Source: "Schenker, H. (1935). Der freie Satz / Free Composition. Trans. Oster, E. (1979). Longman."
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

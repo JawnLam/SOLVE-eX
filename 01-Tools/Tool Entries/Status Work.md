@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-status-work
-Item_Prototype: Thinking_Tool
-Title: Status Work (Johnstone)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Status Work (Johnstone)
 tt_Source: "Johnstone, K. (1979). *Impro: Improvisation and the Theatre*. Faber & Faber. Loose Moose Theatre Company training."
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

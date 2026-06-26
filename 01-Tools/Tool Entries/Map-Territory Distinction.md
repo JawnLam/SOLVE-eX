@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-map-territory-distinction
-Item_Prototype: Thinking_Tool
-Title: 'Map-Territory Distinction'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Map-Territory Distinction'
 tt_Source: 'Korzybski, A. (1933) *Science and Sanity*; Bateson, G. (1972) *Steps to an Ecology of Mind*.'
 tt_Type: stance
 tt_Domain: Modes of inquiry
@@ -37,7 +38,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

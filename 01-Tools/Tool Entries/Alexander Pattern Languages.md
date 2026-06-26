@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-alexander-pattern-languages
-Item_Prototype: Thinking_Tool
-Title: Alexander Pattern Languages
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Alexander Pattern Languages
 tt_Source: "Christopher Alexander et al., A Pattern Language: Towns, Buildings, Construction (1977); The Timeless Way of Building (1979); The Nature of Order (4 vols., 2002-2004). Influential beyond architecture: software design (Gang of Four design patterns), urban planning, organizational design."
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -49,7 +50,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Aesthetic / craft', 'Place / ecosystem']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

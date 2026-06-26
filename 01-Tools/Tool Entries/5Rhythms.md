@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-5rhythms
-Item_Prototype: Thinking_Tool
-Title: 5Rhythms
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 5Rhythms
 tt_Source: "Roth, G. (1989). *Maps to Ecstasy: Teachings of an Urban Shaman*. Nataraj Publishing. 5Rhythms Global / Reach training."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

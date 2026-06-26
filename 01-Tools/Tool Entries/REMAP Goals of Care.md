@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-remap-goals-of-care
-Item_Prototype: Thinking_Tool
-Title: REMAP Goals-of-Care Framework
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: REMAP Goals-of-Care Framework
 tt_Source: "Childers, J. W., et al. (2017). 'REMAP: A Framework for Goals of Care Conversations.' JCO Oncology Practice 13(10)."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

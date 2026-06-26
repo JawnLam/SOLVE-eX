@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-casuistry
-Item_Prototype: Thinking_Tool
-Title: Casuistry
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Casuistry
 tt_Source: "Albert R. Jonsen & Stephen Toulmin, The Abuse of Casuistry: A History of Moral Reasoning (1988). Origins in medieval and early-modern Catholic moral theology; pejorative use against Jesuits in 17th-18th c. (Pascal's Provincial Letters)."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -51,7 +52,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Ethics / values']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Operation remap → 'Compare against paradigm case' (Op #35)"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

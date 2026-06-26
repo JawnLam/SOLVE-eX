@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ansoff-growth-matrix
-Item_Prototype: Thinking_Tool
-Title: 'Ansoff Growth Matrix'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Ansoff Growth Matrix'
 tt_Source: 'Ansoff, H.I. (1957) ''Strategies for Diversification.'' *Harvard Business Review*.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -36,7 +37,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-cathedral-time-scale-reflection
-Item_Prototype: Thinking_Tool
-Title: Cathedral Time-Scale Reflection
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Cathedral Time-Scale Reflection
 tt_Source: "Stewart Brand, *The Clock of the Long Now* (1999); related: Brian Eno's notes on 'The Long Now'; Hartmut Rosa, *Resonance: A Sociology of the Relationship to the World* (2019 trans.) on time-depth practices."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-10 — initial classification (v1.13.0; Field: Awe / numinous cognition, Domain: Contemplative)"
-Tags:
+tags:
 - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-10

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-etak-wayfinding
-Item_Prototype: Thinking_Tool
-Title: Etak (Moving Island) Wayfinding Method
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Etak (Moving Island) Wayfinding Method
 tt_Source: "Lewis, D. (1972). We, the Navigators. University of Hawaii Press."
 tt_Type: instrument
 tt_Domain: Non-discursive cognition
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-comparative-advantage
-Item_Prototype: Thinking_Tool
-Title: 'Comparative Advantage'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Comparative Advantage'
 tt_Source: 'Ricardo, D. (1817) *On the Principles of Political Economy and Taxation*.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -37,7 +38,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

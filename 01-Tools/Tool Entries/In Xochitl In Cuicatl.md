@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-in-xochitl-in-cuicatl
-Item_Prototype: Thinking_Tool
-Title: In Xochitl In Cuicatl (Flower and Song)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: In Xochitl In Cuicatl (Flower and Song)
 tt_Source: "Maffie, J. (2014). Aztec Philosophy: Understanding a World in Motion. University Press of Colorado."
 tt_Type: stance
 tt_Domain: Aesthetic
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

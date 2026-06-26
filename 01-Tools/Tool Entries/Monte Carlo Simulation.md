@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-monte-carlo-simulation
-Item_Prototype: Thinking_Tool
-Title: 'Monte Carlo Simulation'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Monte Carlo Simulation'
 tt_Source: 'Metropolis, N. & Ulam, S. (1949) The Monte Carlo Method.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 05)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

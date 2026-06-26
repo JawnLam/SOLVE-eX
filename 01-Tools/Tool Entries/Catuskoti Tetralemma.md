@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-catuskoti-tetralemma
-Item_Prototype: Thinking_Tool
-Title: Catuṣkoṭi (Madhyamaka Tetralemma)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Catuṣkoṭi (Madhyamaka Tetralemma)
 tt_Source: "Nagarjuna (~2nd c. CE). *Mulamadhyamakakarika*. Garfield, J. L. (trans.) (1995). *The Fundamental Wisdom of the Middle Way*. Oxford UP. Priest, G. (2018). *The Fifth Corner of Four*. Oxford UP."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

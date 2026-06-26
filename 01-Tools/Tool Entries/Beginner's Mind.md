@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-beginners-mind
-Item_Prototype: Thinking_Tool
-Title: Beginner's Mind
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Beginner's Mind
 tt_Source: Zen Buddhist tradition; foundational treatment in Shunryu Suzuki's Zen Mind, Beginner's Mind (1970). Concept rooted in Soto Zen practice; Japanese term shoshin (初心) meaning 'beginner's mind' or 'first mind.'
 tt_Type: stance
 tt_Domain: Contemplative
@@ -46,7 +47,7 @@ tt_History:
 - 2026-05-08 — filename + Title + Item_ID updated to restore apostrophe punctuation
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=['Contemplative-quiet'], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

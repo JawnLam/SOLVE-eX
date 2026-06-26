@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-perception-actual-effect-gap-audit
-Item_Prototype: Thinking_Tool
-Title: Perception and Actual Effect Gap Audit
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: Perception and Actual Effect Gap Audit
 tt_Source: 'Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University. Categories 16 (Actual effect) + 18 (Perception) (p. 156). Field-manual distillation: The ADAPT Loop Field Manual, ch. 6 Three kinds of value + The perception gap (pp. 17-19).'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -49,7 +50,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

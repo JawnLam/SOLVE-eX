@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-wind-tunneling
-Item_Prototype: Thinking_Tool
-Title: 'Wind Tunneling (Scenario Stress-Testing)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Wind Tunneling (Scenario Stress-Testing)'
 tt_Source: 'van der Heijden, K. (1996) Scenarios: The Art of Strategic Conversation.'
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mono-no-aware-reflection
-Item_Prototype: Thinking_Tool
-Title: Mono no Aware Reflection
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Mono no Aware Reflection
 tt_Source: "Heian-period Japanese aesthetic concept (10th–11th c.); scholarly elaboration: Motoori Norinaga (18th c., *Genji monogatari Tama no Ogushi*); modern translation: Donald Keene, Ivan Morris."
 tt_Type: stance
 tt_Domain: Aesthetic
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-10 — initial classification (v1.13.0; Field: Wabi-sabi / imperfection aesthetics, Domain: Aesthetic)"
-Tags:
+tags:
 - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-10

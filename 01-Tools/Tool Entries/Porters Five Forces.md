@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-porters-five-forces
-Item_Prototype: Thinking_Tool
-Title: Porter's Five Forces
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Porter's Five Forces
 tt_Source: 'Michael Porter, Competitive Strategy: Techniques for Analyzing Industries and Competitors (1980); Harvard Business School. Refined in subsequent works including How Competitive Forces Shape Strategy (HBR 1979).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -48,7 +49,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Strategy / competition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

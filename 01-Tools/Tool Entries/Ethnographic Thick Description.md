@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-ethnographic-thick-description
-Item_Prototype: Thinking_Tool
-Title: Ethnographic Thick Description
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Ethnographic Thick Description
 tt_Source: "Clifford Geertz 1973 (The Interpretation of Cultures); concept borrowed from Gilbert Ryle"
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -50,7 +51,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Other / relationship', 'Mind / cognition']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Agent backfill: added 'Cross-species' (per Index §2B note: cognitive ethology via tt_Agent: cross-species)"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

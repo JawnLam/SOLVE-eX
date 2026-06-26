@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-emdr
-Item_Prototype: Thinking_Tool
-Title: EMDR (Eye Movement Desensitization and Reprocessing)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: EMDR (Eye Movement Desensitization and Reprocessing)
 tt_Source: "Shapiro, F. (2017). *Eye Movement Desensitization and Reprocessing (EMDR) Therapy* (3rd ed.). Guilford Press. WHO and APA treatment guidelines for PTSD."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

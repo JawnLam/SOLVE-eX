@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ma-negative-space
-Item_Prototype: Thinking_Tool
-Title: Ma (Negative Space as Design Principle)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Ma (Negative Space as Design Principle)
 tt_Source: "Pilgrim, R. B. (1986). \"Intervals (Ma) in Space and Time: Foundations for a Religio-Aesthetic Paradigm in Japan.\" History of Religions 25(3). Isozaki, A. (1979). *Ma: Space-Time in Japan* (exhibition catalog, Cooper-Hewitt Museum)."
 tt_Type: stance
 tt_Domain: Aesthetic
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

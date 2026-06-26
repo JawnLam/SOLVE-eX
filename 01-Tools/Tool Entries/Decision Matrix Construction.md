@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-decision-matrix-construction
-Item_Prototype: Thinking_Tool
-Title: Decision Matrix Construction
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: Decision Matrix Construction
 tt_Source: 'Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University. Categories 4-12 (pp. 150-153); Table 3 theoretical concepts (pp. 130-145). Field-manual distillation: The ADAPT Loop Field Manual, ch. 5 The decision matrix (pp. 14-16).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

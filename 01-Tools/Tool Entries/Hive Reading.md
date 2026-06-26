@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-hive-reading
-Item_Prototype: Thinking_Tool
-Title: Hive Reading (Beekeeping)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Hive Reading (Beekeeping)
 tt_Source: "Tautz, J. (2008). The Buzz About Bees. Springer."
 tt_Type: instrument
 tt_Domain: Non-discursive cognition
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

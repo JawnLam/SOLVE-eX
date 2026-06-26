@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-trimming
-Item_Prototype: Thinking_Tool
-Title: 'Trimming (TRIZ resource consolidation)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Trimming (TRIZ resource consolidation)'
 tt_Source: 'Litvin, S. & Petrov, V. (2010s) Modern TRIZ; ARIZ-2007 onward.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 04)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

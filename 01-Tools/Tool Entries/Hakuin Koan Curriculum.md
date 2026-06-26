@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-hakuin-koan-curriculum
-Item_Prototype: Thinking_Tool
-Title: Hakuin Koan Curriculum
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Hakuin Koan Curriculum
 tt_Source: "Hakuin Ekaku (18th c.). Sasaki, R. F. (trans.) (1971). Zen Dust. Yamada, K. (1979). Gateless Gate. Wisdom Publications."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -41,7 +42,7 @@ tt_Quality_Tier: D
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
   - '2026-05-15 — tier reassigned C→D (Sprint 10 Card 08 manual D-tier population; reason: requires_tradition_transmission with incomplete lineage chain (criterion 5))'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

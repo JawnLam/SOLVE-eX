@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-coherence-filtered-gap-categorization
-Item_Prototype: Thinking_Tool
-Title: 'Coherence-Filtered Gap Categorization'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Coherence-Filtered Gap Categorization'
 tt_Source: 'Original to SOLVE eX Thinking Tools project, 2026-05-12 (pairwise-outliers.md). Refines Zwicky, F. (1969) Discovery, Invention, Research Through the Morphological Approach.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -51,7 +52,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (ad-hoc post-Sprint 04 addition; the one genuinely-original tool surfaced by the Sprint 01-04 retrospective)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

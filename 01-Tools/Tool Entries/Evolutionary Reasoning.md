@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-evolutionary-reasoning
-Item_Prototype: Thinking_Tool
-Title: 'Evolutionary Reasoning'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Evolutionary Reasoning'
 tt_Source: 'Darwin, C. (1859) *On the Origin of Species*; Dennett, D. (1995) *Darwin''s Dangerous Idea*; Page, S. (2018) *The Model Thinker*.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

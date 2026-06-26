@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-barzakh-inquiry
-Item_Prototype: Thinking_Tool
-Title: Ibn Arabi's Barzakh as Inquiry
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Ibn Arabi's Barzakh as Inquiry
 tt_Source: "Ibn 'Arabī (~1200). *Futuhat al-Makkiyya* (The Meccan Revelations). Chittick, W. C. (1989). *The Sufi Path of Knowledge*. SUNY Press."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

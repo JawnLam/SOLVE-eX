@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-sankhya-25-tattva-enumeration
-Item_Prototype: Thinking_Tool
-Title: Sankhya 25-Tattva Enumeration
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Sankhya 25-Tattva Enumeration
 tt_Source: "Larson, G. J. (1979). Classical Samkhya. Motilal Banarsidass."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

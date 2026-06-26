@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-signaling-games
-Item_Prototype: Thinking_Tool
-Title: 'Signaling Games / Spence Signaling'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Signaling Games / Spence Signaling'
 tt_Source: 'Spence, A.M. (1973) Quarterly Journal of Economics; Osborne, M.J. (2003) ch. 9.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 06)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-sapir-whorf-hypothesis
-Item_Prototype: Thinking_Tool
-Title: Sapir-Whorf Hypothesis
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Sapir-Whorf Hypothesis
 tt_Source: "Edward Sapir 1929; Benjamin Lee Whorf 1940s; modern empirical revisitation Boroditsky 2000s"
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -43,7 +44,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

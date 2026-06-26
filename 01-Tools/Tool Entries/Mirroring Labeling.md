@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mirroring-labeling
-Item_Prototype: Thinking_Tool
-Title: 'Mirroring + Labeling (Voss negotiation micro-skills)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Mirroring + Labeling (Voss negotiation micro-skills)'
 tt_Source: 'Voss, C. (2016) Never Split the Difference chs. 3-4.'
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

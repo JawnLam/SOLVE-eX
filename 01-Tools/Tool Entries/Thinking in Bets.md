@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-thinking-in-bets
-Item_Prototype: Thinking_Tool
-Title: Thinking in Bets (Annie Duke)
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Thinking in Bets (Annie Duke)
 tt_Source: 'Annie Duke, Thinking in Bets: Making Smarter Decisions When You Don''t Have All the Facts (2018). Drawn from her professional poker career and decision-science training (PhD in cognitive psychology, University of Pennsylvania).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -46,7 +47,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Decision / choice']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

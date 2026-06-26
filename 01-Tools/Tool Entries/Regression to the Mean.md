@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-regression-to-the-mean
-Item_Prototype: Thinking_Tool
-Title: 'Regression to the Mean'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Regression to the Mean'
 tt_Source: 'Galton, F. (1886) ''Regression Towards Mediocrity in Hereditary Stature.'' Journal of the Anthropological Institute. Kahneman, D. (2011) *Thinking Fast and Slow* ch. 17.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

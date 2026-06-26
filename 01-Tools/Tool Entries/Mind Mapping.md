@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mind-mapping
-Item_Prototype: Thinking_Tool
-Title: 'Mind Mapping'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Mind Mapping'
 tt_Source: 'Buzan, T. (1974) *Use Your Head*.'
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

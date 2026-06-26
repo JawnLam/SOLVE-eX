@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-futures-wheel
-Item_Prototype: Thinking_Tool
-Title: Futures Wheel
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Futures Wheel
 tt_Source: "Glenn, J. C. (1972). \"Futurizing Teaching Vs Futures Course.\" Social Science Record. Glenn, J. C., & Gordon, T. J. (eds.) (2009). *Futures Research Methodology v3.0*. Millennium Project."
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

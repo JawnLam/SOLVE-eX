@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-pdca-deming-cycle
-Item_Prototype: Thinking_Tool
-Title: 'PDCA / Deming Cycle'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'PDCA / Deming Cycle'
 tt_Source: 'Shewhart, W.A. (1939); Deming, W.E. (1986) Out of the Crisis.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

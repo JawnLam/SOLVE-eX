@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-evidence-pyramids
-Item_Prototype: Thinking_Tool
-Title: Evidence Pyramids
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Evidence Pyramids
 tt_Source: "Evidence-based medicine tradition. Origin: Sackett et al., 'Evidence-based medicine: what it is and what it isn't' (BMJ 1996); Cochrane Collaboration; modern formulations (e.g., Greenhalgh, How to Read a Paper)."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -49,7 +50,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Body / embodiment', 'Decision / choice']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

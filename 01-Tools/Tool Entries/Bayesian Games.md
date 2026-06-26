@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-bayesian-games
-Item_Prototype: Thinking_Tool
-Title: 'Bayesian Games (Harsanyi)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Bayesian Games (Harsanyi)'
 tt_Source: 'Harsanyi, J.C. (1967-68) Management Science.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 06)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

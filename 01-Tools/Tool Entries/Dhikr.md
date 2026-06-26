@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-dhikr
-Item_Prototype: Thinking_Tool
-Title: Dhikr (Sufi Remembrance)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Dhikr (Sufi Remembrance)
 tt_Source: "Schimmel, A. (1975). *Mystical Dimensions of Islam*. UNC Press. Lings, M. (1975). *What is Sufism?*. University of California Press."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

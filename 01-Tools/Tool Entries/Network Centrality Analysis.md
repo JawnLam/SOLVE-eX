@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-network-centrality-analysis
-Item_Prototype: Thinking_Tool
-Title: Network Centrality Analysis
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Network Centrality Analysis
 tt_Source: "Linton Freeman, 'Centrality in Social Networks: Conceptual Clarification' (Social Networks, 1979); broader social-network-analysis tradition (Wasserman & Faust 1994; Borgatti, Mehra, Brass, Labianca 2009 — Network Analysis in the Social Sciences)."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -50,7 +51,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

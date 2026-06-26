@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-causal-layered-analysis
-Item_Prototype: Thinking_Tool
-Title: Causal Layered Analysis (Inayatullah)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Causal Layered Analysis (Inayatullah)
 tt_Source: "Inayatullah, S. (1998). \"Causal Layered Analysis: Poststructuralism as Method.\" Futures 30(8). Inayatullah, S. (ed.) (2004). *The Causal Layered Analysis Reader*. Tamkang University Press."
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

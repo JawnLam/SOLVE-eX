@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-i-ching-consultation
-Item_Prototype: Thinking_Tool
-Title: I Ching Consultation Protocol
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: I Ching Consultation Protocol
 tt_Source: "*I Ching (Yijing)*, Chinese classic text (~1000 BCE, Zhou dynasty, with Confucian commentaries added later). Canonical Western edition: Richard Wilhelm / Cary Baynes, *The I Ching or Book of Changes* (1950), with Carl Jung's foreword introducing the synchronicity principle. Modern: Stephen Karcher, *The I Ching* (2009)."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -49,7 +50,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 09; closes Field 'Divinatory / oracular systems')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

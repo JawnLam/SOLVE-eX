@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-bioregional-mapping
-Item_Prototype: Thinking_Tool
-Title: Bioregional Mapping
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Bioregional Mapping
 tt_Source: "Peter Berg, *Reinhabiting a Separate Country* (1977); Berg & Raymond Dasmann, *Reinhabiting California* (1977); Robert Thayer, *LifePlace: Bioregional Thought and Practice* (2003); contemporary practice in Planet Drum Foundation."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 09; closes Field 'Ecological / place-based inquiry')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

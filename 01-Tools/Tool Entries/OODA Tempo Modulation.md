@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ooda-tempo-modulation
-Item_Prototype: Thinking_Tool
-Title: OODA Tempo Modulation
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: OODA Tempo Modulation
 tt_Source: "John Boyd, *Patterns of Conflict* lectures (1976–1995, posthumously compiled); Frans Osinga, *Science, Strategy and War* (2007) for academic exposition; Chet Richards, *Certain to Win* (2004) for business application."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -55,7 +56,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-10 — initial classification (v1.13.0; Field: Strategic patience & timing-judgment, Domain: Phronetic / practical wisdom)"
-Tags:
+tags:
 - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-10

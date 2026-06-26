@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mdl-kolmogorov-complexity
-Item_Prototype: Thinking_Tool
-Title: 'MDL / Kolmogorov Complexity Reasoning'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'MDL / Kolmogorov Complexity Reasoning'
 tt_Source: 'Solomonoff, R.J. (1964); Kolmogorov, A.N. (1965); Rissanen, J. (1978).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 06)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

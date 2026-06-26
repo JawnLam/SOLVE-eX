@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-9-resource-portfolio-diagnostic
-Item_Prototype: Thinking_Tool
-Title: 9-Resource Portfolio Diagnostic
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: 9-Resource Portfolio Diagnostic
 tt_Source: 'Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University. Category 14 Resources (pp. 154-156); ch. 6 recursive prescription (p. 226). Field-manual context: The ADAPT Loop Field Manual, ch. 5 capability gate (p. 14); ch. 10 resource-state diagnostic (p. 39).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

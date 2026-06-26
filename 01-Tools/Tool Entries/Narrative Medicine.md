@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-narrative-medicine
-Item_Prototype: Thinking_Tool
-Title: Narrative Medicine
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Narrative Medicine
 tt_Source: "Charon, R. (2006). *Narrative Medicine: Honoring the Stories of Illness*. Oxford University Press."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

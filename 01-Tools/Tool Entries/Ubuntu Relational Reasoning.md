@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ubuntu-relational-reasoning
-Item_Prototype: Thinking_Tool
-Title: Ubuntu Relational Reasoning
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Ubuntu Relational Reasoning
 tt_Source: "Ramose, M. B. (1999). African Philosophy through Ubuntu. Mond Books."
 tt_Type: stance
 tt_Domain: Phronetic / practical wisdom
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

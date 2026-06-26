@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-zuowang-sitting-and-forgetting
-Item_Prototype: Thinking_Tool
-Title: Zuowang (Sitting and Forgetting)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Zuowang (Sitting and Forgetting)
 tt_Source: "Zhuangzi (~4th c. BCE). *Inner Chapters* (esp. ch. 6). Kohn, L. (2010). *Sitting in Oblivion: The Heart of Daoist Meditation*. Three Pines Press."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

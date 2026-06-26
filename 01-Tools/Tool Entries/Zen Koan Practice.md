@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-zen-koan-practice
-Item_Prototype: Thinking_Tool
-Title: Zen Koan Practice
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Zen Koan Practice
 tt_Source: "Rinzai Zen tradition; primary collections: *The Gateless Gate* (Wumen Huikai, 1228); *The Blue Cliff Record* (1125); modern teachers Shibayama, *Zen Comments on the Mumonkan*; Aitken, *The Gateless Barrier*; Hakuin Ekaku's 18th-century systematization."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -47,7 +48,7 @@ tt_Quality_Tier: D
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 05; closes Field 'Koan / paradox practice')"
   - '2026-05-15 — tier reassigned C→D (Sprint 10 Card 08 manual D-tier population; reason: requires_tradition_transmission with incomplete lineage chain (criterion 5))'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-jidoka
-Item_Prototype: Thinking_Tool
-Title: 'Jidoka (Autonomation)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Jidoka (Autonomation)'
 tt_Source: 'Ohno, T. Toyota Production System; Liker, J. (2021) The Toyota Way (2nd ed.).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

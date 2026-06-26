@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-yugen
-Item_Prototype: Thinking_Tool
-Title: Yugen (Profound Mystery)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Yugen (Profound Mystery)
 tt_Source: "Hisamatsu, S. (1971). *Zen and the Fine Arts*. Kodansha. Keene, D. (1989). *World Within Walls: Japanese Literature of the Pre-Modern Era*. Holt, Rinehart and Winston."
 tt_Type: stance
 tt_Domain: Aesthetic
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

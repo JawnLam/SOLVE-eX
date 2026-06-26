@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-wallas-four-stages-of-creativity
-Item_Prototype: Thinking_Tool
-Title: Wallas's Four Stages of Creativity
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Wallas's Four Stages of Creativity
 tt_Source: Graham Wallas, The Art of Thought (1926). Foundational creativity-process model based on Wallas's analysis of mathematical and scientific discovery. Updated by modern research in cognitive psychology and neuroscience of creativity.
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -49,7 +50,7 @@ tt_History:
   - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=['Playful'], tt_Agent=['Solo human', 'Human group'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

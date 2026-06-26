@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-younger-ten-commandments
-Item_Prototype: Thinking_Tool
-Title: Irving Younger's 10 Commandments of Cross-Examination
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Irving Younger's 10 Commandments of Cross-Examination
 tt_Source: "Younger, I. (1976). The Art of Cross-Examination. National Institute for Trial Advocacy."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

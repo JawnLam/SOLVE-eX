@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-shikantaza
-Item_Prototype: Thinking_Tool
-Title: Shikantaza (Just Sitting)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Shikantaza (Just Sitting)
 tt_Source: "Dogen (1233-1253). Shobogenzo. Trans. Tanahashi, K. (2010). Treasury of the True Dharma Eye. Shambhala."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

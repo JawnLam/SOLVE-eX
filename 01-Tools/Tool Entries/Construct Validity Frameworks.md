@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-construct-validity-frameworks
-Item_Prototype: Thinking_Tool
-Title: Construct Validity Frameworks
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Construct Validity Frameworks
 tt_Source: "Cronbach & Meehl 1955 (Construct Validity in Psychological Tests); Campbell & Fiske 1959 (multitrait-multimethod matrix)"
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -48,7 +49,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human', 'Human group'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

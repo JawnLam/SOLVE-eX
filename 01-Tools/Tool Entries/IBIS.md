@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ibis
-Item_Prototype: Thinking_Tool
-Title: IBIS (Issue-Based Information System)
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: IBIS (Issue-Based Information System)
 tt_Source: "Horst Rittel & Werner Kunz 1970 (early IBIS); refined by Conklin & Begeman (gIBIS) 1980s; Compendium tool 2000s"
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -44,7 +45,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

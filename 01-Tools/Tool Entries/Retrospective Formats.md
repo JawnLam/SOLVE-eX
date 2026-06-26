@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-retrospective-formats
-Item_Prototype: Thinking_Tool
-Title: Retrospective Formats
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Retrospective Formats
 tt_Source: 'Agile / Scrum tradition; canonical formats: Start/Stop/Continue (origins unclear, widely adopted), Sailboat / Speedboat (innovation games tradition), 4Ls (Liked / Learned / Lacked / Longed-for), KALM (Keep / Add / Less / More). Documented in Esther Derby and Diana Larsen, Agile Retrospectives (2006).'
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -45,7 +46,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

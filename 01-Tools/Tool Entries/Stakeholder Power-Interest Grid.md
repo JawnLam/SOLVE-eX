@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-stakeholder-power-interest-grid
-Item_Prototype: Thinking_Tool
-Title: Stakeholder Power-Interest Grid
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Stakeholder Power-Interest Grid
 tt_Source: Mendelow 1991
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -46,7 +47,7 @@ tt_History:
 - '2026-05-07 — schema v1.12.0: tt_Operation rewritten as shared value ''Score and rank options'' (was tool-specific summary)'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Power / politics', 'Group / organization']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: '2026-05-07'

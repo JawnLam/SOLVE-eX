@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-pestel-analysis
-Item_Prototype: Thinking_Tool
-Title: 'STEEP / PESTEL Analysis'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'STEEP / PESTEL Analysis'
 tt_Source: 'Aguilar, F.J. (1967) Scanning the Business Environment (ETPS antecedent); modern PESTEL canon.'
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

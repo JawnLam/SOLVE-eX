@@ -11,6 +11,10 @@ v3.x bump vs. when they are in-scope at v3.0 STABLE).
 
 ---
 
+## [2.2.0] — 2026-06-26
+
+Google OKF v0.1 conformance (coordinated with vault Master_Schema v1.23.0 + OVE v2.4.0). Universal Core renamed to OKF field names (Item_Prototype→type, Title→title, Tags→tags; added timestamp from Date_Modified, optional description/resource). Convention-6 folder _Prototypes/ → _types/. Date_Modified kept, time-synced with timestamp. Hugo excluded.
+
 ## v2.1.3 — 2026-06-07 — UPDATE-PROMPT.md (OVE Convention 7's fourth artifact)
 
 **Master plan version:** v3.0 STABLE (unchanged)
@@ -79,7 +83,7 @@ Adopts OVE Conventions 7 (install-and-update pattern) and 8 (engine vs operator-
 `CONTRIBUTING.md` gains:
 
 - **§ 7 — Content zones** — declares the four zones with concrete path patterns:
-  - **Engine Zone** — front-door docs, `00-Instructions/` through `05-Personas/`, `07-Scripts/`, `08-Schema/`, `09-Sample-Sessions/`, `10-Reference/`, `99-Archive/`, `_Prototypes/`, `.gitignore`
+  - **Engine Zone** — front-door docs, `00-Instructions/` through `05-Personas/`, `07-Scripts/`, `08-Schema/`, `09-Sample-Sessions/`, `10-Reference/`, `99-Archive/`, `_types/`, `.gitignore`
   - **Operator-Private Zone** — `_USER.md`, `06-Case-Files/_ACTIVE/`, `06-Case-Files/_DRAFT/`, Python/IDE caches
   - **Operator-Extension Zone** — `06-Case-Files/_ACTIVE/<your-case>/` and `06-Case-Files/_RESOLVED/<your-case>/`; custom tools in `01-Tools/Tool Entries/` (requires fork)
   - **Shipped Examples Zone** — `09-Sample-Sessions/`, `06-Case-Files/_REFERENCE/`, `01-Tools/Tool Entries/` (the canonical 30+ Tool Entries)
@@ -108,13 +112,13 @@ This release is part of an OVE-coordinated multi-OV cycle: OVE v1.2.0 codifies C
 **Schema version:** v1.14.0 FROZEN (unchanged)
 **License:** CC-BY 4.0 (unchanged)
 
-Adopts Operating-Volume-Engineering Convention 6 (every OV ships its own `_Prototypes/` folder for portability). Anyone cloning this repo without the operator's vault Infrastructure now gets the Prototype definition out of the box.
+Adopts Operating-Volume-Engineering Convention 6 (every OV ships its own `_types/` folder for portability). Anyone cloning this repo without the operator's vault Infrastructure now gets the Prototype definition out of the box.
 
-### Added — `_Prototypes/` folder with `Thinking_Tool.md`
+### Added — `_types/` folder with `Thinking_Tool.md`
 
-A new top-level `_Prototypes/` folder contains one Markdown file: `Thinking_Tool.md`, a verbatim mirror of the vault's `_Infrastructure For All Vaults/_Prototypes/Thinking_Tool.md`. This is the canonical definition of the `Thinking_Tool` Prototype that every Tool Entry in `01-Tools/Tool Entries/` instantiates.
+A new top-level `_types/` folder contains one Markdown file: `Thinking_Tool.md`, a verbatim mirror of the vault's `_Infrastructure For All Vaults/_types/Thinking_Tool.md`. This is the canonical definition of the `Thinking_Tool` Prototype that every Tool Entry in `01-Tools/Tool Entries/` instantiates.
 
-SOLVE eX uses only one Prototype — `Thinking_Tool` (from the vault's `tt_` namespace) — so `_Prototypes/` contains exactly one file. The remaining content (Process Framework, Question Banks, Application Patterns, Personas, Case Files, Reference, etc.) is structured prose, not Prototype-bearing notes.
+SOLVE eX uses only one Prototype — `Thinking_Tool` (from the vault's `tt_` namespace) — so `_types/` contains exactly one file. The remaining content (Process Framework, Question Banks, Application Patterns, Personas, Case Files, Reference, etc.) is structured prose, not Prototype-bearing notes.
 
 ### No content, schema, or behavioral changes
 

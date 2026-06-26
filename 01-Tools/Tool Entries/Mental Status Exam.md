@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mental-status-exam
-Item_Prototype: Thinking_Tool
-Title: Mental Status Exam (MSE)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Mental Status Exam (MSE)
 tt_Source: "Trzepacz, P. T., & Baker, R. W. (1993). The Psychiatric Mental Status Examination. Oxford UP."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

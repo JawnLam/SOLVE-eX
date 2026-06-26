@@ -478,7 +478,7 @@ The files that SOLVE eX's release ships:
 - `07-Scripts/`, `08-Schema/` — utility scripts and schema
 - `09-Sample-Sessions/`, `10-Reference/` — shipped reference material
 - `99-Archive/` — sprint history
-- `_Prototypes/` — SOLVE-eX's Prototype definitions
+- `_types/` — SOLVE-eX's Prototype definitions
 
 **Do not edit Engine Zone files directly.** Updates from `git pull` overwrite them. Customizations belong in `06-Case-Files/` (your case work) or in a fork.
 

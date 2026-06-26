@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-nvc-self-empathy-practice
-Item_Prototype: Thinking_Tool
-Title: NVC Self-Empathy Practice
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: NVC Self-Empathy Practice
 tt_Source: "Marshall Rosenberg, *Nonviolent Communication: A Language of Life* (1999/2015), specifically the self-empathy sub-practice; later development by Inbal Kashtan, Robert Gonzales, and the NVC trainer community for the internal/affect-side application (distinct from the dialogue-side NVC tool)."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 04; closes Field 'Nonviolent Communication (NVC) family' under Emotional cognition — distinct from the dialogue-side Nonviolent Communication entry which remains in Modes of inquiry/Dialogue practice per Index §2B parenthetical)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

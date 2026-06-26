@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-lazarus-appraisal-framework
-Item_Prototype: Thinking_Tool
-Title: Lazarus Appraisal Framework
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Lazarus Appraisal Framework
 tt_Source: "Richard Lazarus & Susan Folkman, *Stress, Appraisal, and Coping* (1984); Lazarus, *Emotion and Adaptation* (1991); Scherer's Component Process Model extends the framework."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 04; closes Field 'Appraisal-theoretic emotional cognition' under Emotional cognition Domain)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

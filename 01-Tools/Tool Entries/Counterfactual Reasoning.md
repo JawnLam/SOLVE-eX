@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-counterfactual-reasoning
-Item_Prototype: Thinking_Tool
-Title: Counterfactual Reasoning
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Counterfactual Reasoning
 tt_Source: "David Lewis 1973 (Counterfactuals); Robert Stalnaker 1968; modern causal-inference treatment Pearl 2009 (do-operator)"
 tt_Type: instrument
 tt_Domain: Speculative / imaginative
@@ -52,7 +53,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=['Speculative-imaginative'], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Decision / choice']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Operation remap → 'Imagine counterfactually' (Op #30)"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

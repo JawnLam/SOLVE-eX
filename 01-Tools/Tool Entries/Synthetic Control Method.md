@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-synthetic-control-method
-Item_Prototype: Thinking_Tool
-Title: 'Synthetic Control Method'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Synthetic Control Method'
 tt_Source: 'Abadie, A. & Gardeazabal, J. (2003) American Economic Review; Abadie, A., Diamond, A. & Hainmueller, J. (2010) JASA.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 05)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

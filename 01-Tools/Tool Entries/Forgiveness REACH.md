@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-forgiveness-reach
-Item_Prototype: Thinking_Tool
-Title: REACH Forgiveness Practice
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: REACH Forgiveness Practice
 tt_Source: "Everett Worthington, *Forgiveness and Reconciliation: Theory and Application* (2006); Worthington, *Forgiving and Reconciling: Bridges to Wholeness and Hope* (2003). REACH was developed and tested in clinical trials at Virginia Commonwealth University; adjacent: Robert Enright's process model of forgiveness."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 09; closes Field 'Failure / repair / forgiveness work')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-queueing-theory
-Item_Prototype: Thinking_Tool
-Title: 'Queueing Theory'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Queueing Theory'
 tt_Source: 'Erlang, A.K. (1909); Kleinrock, L. (1975) Queueing Systems; Hillier-Lieberman ch. 17-18.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 05)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

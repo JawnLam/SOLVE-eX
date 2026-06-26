@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-spc-control-charts
-Item_Prototype: Thinking_Tool
-Title: 'Statistical Process Control (Shewhart Control Charts)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Statistical Process Control (Shewhart Control Charts)'
 tt_Source: 'Shewhart, W.A. (1931) Economic Control of Quality of Manufactured Product.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

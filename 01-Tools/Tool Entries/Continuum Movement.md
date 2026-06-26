@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-continuum-movement
-Item_Prototype: Thinking_Tool
-Title: Continuum Movement
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Continuum Movement
 tt_Source: "Conrad, E. (2007). *Life on Land: The Story of Continuum*. North Atlantic Books. Continuum Teachers Association."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

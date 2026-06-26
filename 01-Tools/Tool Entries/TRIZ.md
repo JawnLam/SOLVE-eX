@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-triz
-Item_Prototype: Thinking_Tool
-Title: TRIZ
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: TRIZ
 tt_Source: Genrich Altshuller, Soviet patent engineer (1946 onward); developed via study of 200,000+ patents to identify recurring innovation patterns. TRIZ = 'Theory of Inventive Problem Solving' (Russian acronym). Codified in The Innovation Algorithm (1969) and translated into Western practice from 1990s onward.
 tt_Type: instrument
 tt_Domain: Non-discursive cognition
@@ -46,7 +47,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

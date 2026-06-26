@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-covering-array-design
-Item_Prototype: Thinking_Tool
-Title: 'Covering Array Design'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Covering Array Design'
 tt_Source: 'Bose & Bush (1952); Hartman 2005 Software and Hardware Testing Using Combinatorial Covering Suites.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 03)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

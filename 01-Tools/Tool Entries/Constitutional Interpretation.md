@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-constitutional-interpretation
-Item_Prototype: Thinking_Tool
-Title: Constitutional Interpretation
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Constitutional Interpretation
 tt_Source: "Schools of US constitutional interpretation: originalism (Antonin Scalia, Robert Bork); textualism; living constitutionalism (William Brennan, David Strauss); structuralism (Charles Black); pragmatism (Posner). Comparative-law sources for non-US contexts."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -50,7 +51,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Ethics / values', 'Power / politics']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Lineage backfill: added 'Legal / juridical'"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

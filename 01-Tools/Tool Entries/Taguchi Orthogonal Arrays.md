@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-taguchi-orthogonal-arrays
-Item_Prototype: Thinking_Tool
-Title: 'Taguchi Orthogonal Arrays'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Taguchi Orthogonal Arrays'
 tt_Source: 'Taguchi, G. (1986) Introduction to Quality Engineering.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 03)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

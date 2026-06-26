@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-songlines
-Item_Prototype: Thinking_Tool
-Title: Songlines (Australian Aboriginal Cognitive Mapping)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Songlines (Australian Aboriginal Cognitive Mapping)
 tt_Source: "Chatwin, B. (1987). *The Songlines*. Cape. Neale, M., & Kelly, L. (2020). *Songlines: The Power and Promise*. Thames & Hudson."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

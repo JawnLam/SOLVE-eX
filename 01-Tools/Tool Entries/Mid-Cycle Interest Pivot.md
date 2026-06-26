@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mid-cycle-interest-pivot
-Item_Prototype: Thinking_Tool
-Title: Mid-Cycle Interest Pivot
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: Mid-Cycle Interest Pivot
 tt_Source: 'Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University. Sarah → Srini saturation test (Table 14, pp. 195-196). Field-manual implicit example: The ADAPT Loop Field Manual, ch. 8 Cathna Cycle 2 (p. 29).'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

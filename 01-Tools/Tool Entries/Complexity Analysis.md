@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-complexity-analysis
-Item_Prototype: Thinking_Tool
-Title: Complexity Analysis
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Complexity Analysis
 tt_Source: "Computer science tradition; foundational treatment in Knuth's Art of Computer Programming and Cormen et al. Introduction to Algorithms (CLRS). Big-O notation from Bachmann (1894), popularized for algorithms by Knuth (1976)."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -45,7 +46,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

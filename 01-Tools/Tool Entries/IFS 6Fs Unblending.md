@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ifs-6fs-unblending
-Item_Prototype: Thinking_Tool
-Title: 'IFS 6Fs Unblending Protocol'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'IFS 6Fs Unblending Protocol'
 tt_Source: 'Schwartz, R.C. (2019) Internal Family Systems Therapy (2nd ed.); IFS Institute training manual.'
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

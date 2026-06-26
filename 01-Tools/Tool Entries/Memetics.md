@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-memetics
-Item_Prototype: Thinking_Tool
-Title: Memetics
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Memetics
 tt_Source: "Richard Dawkins, The Selfish Gene (1976) — Chapter 11 introduces 'meme.' Susan Blackmore, The Meme Machine (1999). Daniel Dennett, Darwin's Dangerous Idea (1995). Modern internet-meme analysis (Limor Shifman, Memes in Digital Culture, 2014)."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -52,7 +53,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human', 'Cross-cultural'], tt_About=['Other / relationship']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Agent backfill: added 'Crowd / market'"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

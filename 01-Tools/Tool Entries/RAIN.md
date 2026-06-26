@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-rain
-Item_Prototype: Thinking_Tool
-Title: RAIN (Recognize-Allow-Investigate-Nurture)
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: RAIN (Recognize-Allow-Investigate-Nurture)
 tt_Source: "Originally Michele McDonald (Insight Meditation teacher, late 1990s) as Recognize-Accept-Investigate-Non-identify; refined and popularized by Tara Brach, *Radical Acceptance* (2003) and *Radical Compassion* (2019) with the current four-step formulation; secular adaptation in MBSR and ACT lineages."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 04; closes Field 'RAIN technique & affect-regulation practices' AND Operation #21 'Witness without intervention'; secondary closure of Op #31 'Label affect')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

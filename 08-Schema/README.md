@@ -51,7 +51,7 @@ Required for every tool entry:
 | Property | Cardinality | Source of values |
 |----------|-------------|------------------|
 | `Item_ID` | single | derived: `tt-{kebab-title}` |
-| `Item_Prototype` | single | literal: `Thinking_Tool` |
+| `type` | single | literal: `Thinking_Tool` |
 | `Title` | single | tool's canonical name |
 | `tt_Source` | single | citation(s) |
 | `tt_Type` | single | enum `tt_types`: `instrument` or `stance` |

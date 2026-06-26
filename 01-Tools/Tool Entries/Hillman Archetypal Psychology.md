@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-hillman-archetypal-psychology
-Item_Prototype: Thinking_Tool
-Title: Hillman's Archetypal Psychology
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Hillman's Archetypal Psychology
 tt_Source: "James Hillman 1975 (Re-Visioning Psychology); developed from Jungian analytic psychology with explicit polytheistic / imaginal turn"
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -52,7 +53,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Mind / cognition']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_State backfill: added 'Liminal'"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-solution-focused-miracle-question
-Item_Prototype: Thinking_Tool
-Title: Solution-Focused Miracle Question
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Solution-Focused Miracle Question
 tt_Source: "de Shazer, S. (1988). *Clues: Investigating Solutions in Brief Therapy*. W.W. Norton. de Shazer, S., & Dolan, Y. (2007). *More Than Miracles: The State of the Art of Solution-Focused Brief Therapy*. Haworth."
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-collective-objective-builder
-Item_Prototype: Thinking_Tool
-Title: Collective Objective Builder
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Collective Objective Builder
 tt_Source: 'SOLVE eX #12'
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -50,7 +51,7 @@ tt_History:
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Ethics / values']"
 - '2026-05-15 — tier reassigned to D (Sprint 10 Card 08 manual D-tier population; reason: original SOLVE eX seed tool (criterion 1: speculative/unvalidated, included for completeness; lacks external empirical grounding beyond the seed designation))'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: '2026-05-07'

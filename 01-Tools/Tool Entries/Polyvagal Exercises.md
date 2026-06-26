@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-polyvagal-exercises
-Item_Prototype: Thinking_Tool
-Title: Polyvagal Exercises
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Polyvagal Exercises
 tt_Source: "Stephen Porges, *The Polyvagal Theory* (2011); Deb Dana, *The Polyvagal Theory in Therapy* (2018) and *Anchored* (2021); applied protocols developed in Somatic Experiencing (Peter Levine), Sensorimotor Psychotherapy (Pat Ogden), and Trauma-Sensitive Yoga (David Emerson)."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 08; closes Field 'Polyvagal / nervous-system practices' AND Operation #25 'Sense the body')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

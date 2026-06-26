@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-schema-therapy
-Item_Prototype: Thinking_Tool
-Title: Schema Therapy
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Schema Therapy
 tt_Source: "Jeffrey E. Young 1990s (Reinventing Your Life, 1993; Schema Therapy 2003); integrative — combines CBT, attachment, gestalt, psychoanalytic"
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -48,7 +49,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

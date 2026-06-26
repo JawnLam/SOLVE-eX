@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-feynman-technique
-Item_Prototype: Thinking_Tool
-Title: Feynman Technique
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Feynman Technique
 tt_Source: Richard Feynman's described approach to learning, popularized by James Gleick's biography Genius (1992) and Scott H. Young's articles. Feynman himself didn't formalize it as a 'technique'; the name is a popularization.
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -47,7 +48,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Self / identity']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-biomimicry
-Item_Prototype: Thinking_Tool
-Title: Biomimicry / Cross-Domain Transfer
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Biomimicry / Cross-Domain Transfer
 tt_Source: 'Janine Benyus, Biomimicry: Innovation Inspired by Nature (1997). Modern institutional home: Biomimicry Institute, AskNature.org. Earlier roots in Otto Schmitt''s coining of ''biomimetic'' (1957) and Velcro''s 1948 invention from burdock burrs.'
 tt_Type: instrument
 tt_Domain: Non-discursive cognition
@@ -47,7 +48,7 @@ tt_History:
   - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

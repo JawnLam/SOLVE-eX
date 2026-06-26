@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-code-review-for-elegance
-Item_Prototype: Thinking_Tool
-Title: Code Review for Elegance Rubric
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Code Review for Elegance Rubric
 tt_Source: "Synthesis of multiple traditions: Rich Hickey, *Simple Made Easy* (2011); Kent Beck, *Smalltalk Best Practice Patterns* (1997) and the four rules of simple design; Robert Martin, *Clean Code* (2008); Brian Goetz on Java idiom; Donald Knuth on programming-as-literature (*Literate Programming*, 1992)."
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 08; closes Field 'Code review for elegance & quality')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

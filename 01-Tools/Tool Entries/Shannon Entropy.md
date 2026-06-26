@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-shannon-entropy
-Item_Prototype: Thinking_Tool
-Title: 'Shannon Entropy'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Shannon Entropy'
 tt_Source: 'Shannon, C.E. (1948) A Mathematical Theory of Communication. Bell System Technical Journal.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 06)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

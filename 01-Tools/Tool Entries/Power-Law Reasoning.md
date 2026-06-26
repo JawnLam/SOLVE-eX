@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-power-law-reasoning
-Item_Prototype: Thinking_Tool
-Title: 'Power-Law Reasoning'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Power-Law Reasoning'
 tt_Source: 'Mandelbrot, B. (1963) on heavy-tailed financial distributions; Taleb, N.N. (2007) *The Black Swan*; Newman, M.E.J. (2005) review article on power laws.'
 tt_Type: stance
 tt_Domain: Discursive-analytical
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

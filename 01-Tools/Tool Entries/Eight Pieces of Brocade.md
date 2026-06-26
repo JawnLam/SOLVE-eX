@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-eight-pieces-of-brocade
-Item_Prototype: Thinking_Tool
-Title: Eight Pieces of Brocade Qigong (Ba Duan Jin)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Eight Pieces of Brocade Qigong (Ba Duan Jin)
 tt_Source: "Cohen, K. (1997). The Way of Qigong. Ballantine."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

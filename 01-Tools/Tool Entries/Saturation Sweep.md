@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-saturation-sweep
-Item_Prototype: Thinking_Tool
-Title: 'Saturation Sweep (Five-Gate Schema Design)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Saturation Sweep (Five-Gate Schema Design)'
 tt_Source: 'Original to SOLVE eX Thinking Tools project, 2026-05-09 (see Archive/Saturation Sweep.md). Synthesizes Ranganathan (1933) faceted classification principles, Glaser & Strauss (1967) theoretical saturation, and Cooper (1986) Stage-Gate quality engineering.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -54,7 +55,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - '2026-05-12 — initial classification (ad-hoc post-Sprint 04 addition; promoted from Archive/Saturation Sweep.md after recognition that the 5-gate methodology used to design schema v1.13.0 is itself a transferable thinking tool)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

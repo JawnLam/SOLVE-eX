@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-para
-Item_Prototype: Thinking_Tool
-Title: PARA
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: PARA
 tt_Source: 'Tiago Forte, ''Building a Second Brain'' methodology; popularized via Forte Labs courses and Forte''s book Building a Second Brain (2022). Acronym: Projects, Areas, Resources, Archives.'
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -44,7 +45,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

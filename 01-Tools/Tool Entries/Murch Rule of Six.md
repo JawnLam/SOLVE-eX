@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-murch-rule-of-six
-Item_Prototype: Thinking_Tool
-Title: Walter Murch's Rule of Six (Film Editing)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Walter Murch's Rule of Six (Film Editing)
 tt_Source: "Murch, W. (2001). In the Blink of an Eye: A Perspective on Film Editing (2nd ed.). Silman-James Press."
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

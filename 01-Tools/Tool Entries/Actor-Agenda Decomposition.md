@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-actor-agenda-decomposition
-Item_Prototype: Thinking_Tool
-Title: Actor-Agenda Decomposition
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: Actor-Agenda Decomposition
 tt_Source: 'Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University. Categories Actor + Agenda + Interest + Objective + Intention + Target (pp. 150-156); 15-step model steps 1-2 (p. 223). Field-manual distillation: The ADAPT Loop Field Manual, ch. 4 View 2 (pp. 11-13).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

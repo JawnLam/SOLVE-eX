@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-spikes-protocol
-Item_Prototype: Thinking_Tool
-Title: SPIKES Bad-News Protocol
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: SPIKES Bad-News Protocol
 tt_Source: "Baile, W. F., et al. (2000). 'SPIKES — A Six-Step Protocol for Delivering Bad News.' The Oncologist 5(4)."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

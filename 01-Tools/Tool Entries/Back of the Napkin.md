@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-back-of-the-napkin
-Item_Prototype: Thinking_Tool
-Title: Back of the Napkin
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Back of the Napkin
 tt_Source: "Dan Roam, The Back of the Napkin (2008); Unfolding the Napkin (2009); Blah Blah Blah (2011). Synthesizes visual thinking and consulting whiteboard tradition into the SQVID + 6×6 framework."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -51,7 +52,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Aesthetic / craft']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

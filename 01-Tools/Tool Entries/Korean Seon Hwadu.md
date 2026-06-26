@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-korean-seon-hwadu
-Item_Prototype: Thinking_Tool
-Title: Korean Seon Hwadu (Kanhwa Seon)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Korean Seon Hwadu (Kanhwa Seon)
 tt_Source: "Buswell, R. E. (1992). The Zen Monastic Experience. Princeton UP."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

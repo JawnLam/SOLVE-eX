@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-wayfinding
-Item_Prototype: Thinking_Tool
-Title: Wayfinding
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Wayfinding
 tt_Source: "Kevin Lynch, The Image of the City (1960) — five elements: paths, edges, districts, nodes, landmarks. Modern environmental graphic design and urban planning literature; Paul Arthur & Romedi Passini, Wayfinding: People, Signs, and Architecture (1992)."
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -50,7 +51,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Aesthetic / craft', 'Place / ecosystem']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-tragedy-of-the-commons
-Item_Prototype: Thinking_Tool
-Title: Tragedy of the Commons
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Tragedy of the Commons
 tt_Source: "Garrett Hardin, 'The Tragedy of the Commons' (Science, 1968). Earlier formulation: William Forster Lloyd's 1833 lectures on overgrazing. Counterweight tradition: Elinor Ostrom's empirical work showing the 'tragedy' is conditional, not inevitable."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -48,7 +49,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Strategy / competition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-binary-criteria-screen
-Item_Prototype: Thinking_Tool
-Title: Binary Criteria Screen
+type: Thinking_Tool
+timestamp: "2026-05-19T00:00:00Z"
+title: Binary Criteria Screen
 tt_Source: 'Practitioner method; structurally a simplified variant of Weighted Decision Matrix (Pugh Concept Selection / Multi-Criteria Decision Analysis lineage, mid-20th-century operations research). The binary-screen variant is distinct from weighted multi-axis scoring in that each criterion is evaluated as pass/fail (yes/no) rather than scored on a numeric scale, and the decision-output is "which alternatives survive all named criteria" rather than "which alternative has highest weighted score." Sprint 15 Mara dispositive test surfaced the need: a binary-screen variant deserves its own canonical entry because the structural difference from weighted matrix is operationally significant.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
 - 2026-05-19 — initial classification (Sprint 16 Card 10, schema v1.15.0); added to corpus to close the binary-vs-weighted decision-matrix gap surfaced by Sprint 15 Mara dispositive test (Mara turn 7 ran a binary-criteria screen against three lanes against three day-30 criteria; Weighted Decision Matrix was the nearest library analog but presumes weighted multi-axis scoring — the binary variant is structurally distinct and warranted its own canonical entry per Mara's quality_check_corrections close-turn note)
-Tags:
+tags:
 - '#thinking-tool'
 See_Also:
 - Weighted Decision Matrix

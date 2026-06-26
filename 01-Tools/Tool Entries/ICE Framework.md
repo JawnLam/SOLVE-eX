@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ice-framework
-Item_Prototype: Thinking_Tool
-Title: ICE Framework (Ideas-Concerns-Expectations)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: ICE Framework (Ideas-Concerns-Expectations)
 tt_Source: "Pendleton, D., Schofield, T., Tate, P., & Havelock, P. (1984). *The Consultation: An Approach to Learning and Teaching*. Oxford University Press."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-affect-labeling
-Item_Prototype: Thinking_Tool
-Title: Affect Labeling
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Affect Labeling
 tt_Source: "Matthew Lieberman, UCLA SCAN Lab; primary study: Lieberman et al. (2007) *Psychological Science* 'Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli'; popular synthesis: Lieberman, *Social: Why Our Brains Are Wired to Connect* (2013); clinical extension: Dan Siegel, *Name It to Tame It*."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 04; closes Field 'Affect labeling & granularity' AND Operation #31 'Label affect')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

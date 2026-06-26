@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-frame-analysis
-Item_Prototype: Thinking_Tool
-Title: Frame Analysis
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Frame Analysis
 tt_Source: "Erving Goffman, Frame Analysis (1974); George Lakoff, Don't Think of an Elephant (2004) and Moral Politics (1996)"
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -53,7 +54,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Power / politics']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

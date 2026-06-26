@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-hohfeldian-rights-analysis
-Item_Prototype: Thinking_Tool
-Title: Hohfeldian Rights Analysis
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Hohfeldian Rights Analysis
 tt_Source: "Hohfeld, W. N. (1913). \"Some Fundamental Legal Conceptions as Applied in Judicial Reasoning.\" Yale Law Journal 23(1)."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

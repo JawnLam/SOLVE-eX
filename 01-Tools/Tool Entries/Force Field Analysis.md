@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-force-field-analysis
-Item_Prototype: Thinking_Tool
-Title: Force Field Analysis
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Force Field Analysis
 tt_Source: Lewin 1947
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -50,7 +51,7 @@ tt_History:
 - '2026-05-07 — schema v1.12.0: tt_Operation rewritten as shared value ''Account opposing forces'' (was tool-specific summary)'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Power / politics', 'Group / organization']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: '2026-05-07'

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-neidan-inner-alchemy
-Item_Prototype: Thinking_Tool
-Title: Neidan (Inner Alchemy)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Neidan (Inner Alchemy)
 tt_Source: "Pregadio, F. (2006). *Great Clarity: Daoism and Alchemy in Early Medieval China*. Stanford UP. Cleary, T. (1986). *The Inner Teachings of Taoism*. Shambhala."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

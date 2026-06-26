@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-disciplined-hold
-Item_Prototype: Thinking_Tool
-Title: Disciplined Hold
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: Disciplined Hold
 tt_Source: 'Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University. 15-step model step 15 (p. 224). Field-manual operationalization: The ADAPT Loop Field Manual, ch. 7 Cresterly Cycle 2 "The disciplined hold" (p. 23) and Lessons (p. 25).'
 tt_Type: stance
 tt_Domain: Phronetic / practical wisdom
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

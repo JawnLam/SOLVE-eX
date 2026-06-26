@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-who-surgical-safety-checklist
-Item_Prototype: Thinking_Tool
-Title: WHO Surgical Safety Checklist
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: WHO Surgical Safety Checklist
 tt_Source: "Gawande, A. (2009). The Checklist Manifesto. Metropolitan Books. Haynes, A. B., et al. (2009). NEJM 360."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

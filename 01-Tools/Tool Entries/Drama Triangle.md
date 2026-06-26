@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-drama-triangle
-Item_Prototype: Thinking_Tool
-Title: 'Drama Triangle'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Drama Triangle'
 tt_Source: 'Karpman, S. (1968) ''Fairy tales and script drama analysis.'' *Transactional Analysis Bulletin*.'
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -80,7 +80,7 @@ than fabricate. See chapter 06 §6.10 and chapter 09 §9.5.
 **Item_ID.** Unique identifier for a tool entry, formatted as
 `tt-{kebab-title}`. Required schema property.
 
-**Item_Prototype.** Schema discriminator. For tool entries, this is
+**type.** Schema discriminator. For tool entries, this is
 always `Thinking_Tool`. Required schema property.
 
 **Jump.** A motion that returns the active frame to an earlier

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ariz
-Item_Prototype: Thinking_Tool
-Title: 'ARIZ (Algorithm for Inventive Problem Solving)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'ARIZ (Algorithm for Inventive Problem Solving)'
 tt_Source: 'Altshuller, G. (ARIZ-71 / -77 / -85C iterations); Savransky, S. (2000) Engineering of Creativity.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 04)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

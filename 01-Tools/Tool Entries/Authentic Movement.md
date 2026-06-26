@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-authentic-movement
-Item_Prototype: Thinking_Tool
-Title: Authentic Movement Practice
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Authentic Movement Practice
 tt_Source: "Mary Starks Whitehouse (1950s-60s, founded as 'movement-in-depth'); Janet Adler, *Offering from the Conscious Body* (2002); Patrizia Pallaro (ed.), *Authentic Movement* (1999) — collected canonical writings. Lineage continuity through Joan Chodorow (Jungian movement therapy)."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -50,7 +51,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 08; closes Field 'Authentic Movement / movement-as-inquiry')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

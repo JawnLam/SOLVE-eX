@@ -36,7 +36,7 @@ Each property below must be present in the frontmatter (no missing keys, no
 | Property | Cardinality | Validator |
 |----------|-------------|-----------|
 | `Item_ID` | single | non-empty string starting with `tt-` |
-| `Item_Prototype` | single | literal: `Thinking_Tool` |
+| `type` | single | literal: `Thinking_Tool` |
 | `Title` | single | non-empty string |
 | `tt_Source` | single | non-empty string |
 | `tt_Type` | single | enum value from `tt_types` |

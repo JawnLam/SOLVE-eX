@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-group-model-building
-Item_Prototype: Thinking_Tool
-Title: 'Group Model Building (Vennix)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Group Model Building (Vennix)'
 tt_Source: 'Vennix, J. (1996) Group Model Building: Facilitating Team Learning Using System Dynamics.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 05)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

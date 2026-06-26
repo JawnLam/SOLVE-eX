@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-iterated-loop-compounding
-Item_Prototype: Thinking_Tool
-Title: Iterated Loop Compounding
+type: Thinking_Tool
+timestamp: "2026-05-29T00:00:00Z"
+title: Iterated Loop Compounding
 tt_Source: 'Lam, J. (2020). The Accumulation, Utilization, and Protection of Political Capital by Senior Executives of For-Profit Organizations. Doctoral dissertation, Pepperdine University. Ch 6 recursive prescription (p. 226). Field-manual context: The ADAPT Loop Field Manual, ch. 6 Closing the loop (pp. 18-19); ch. 10 A final note (p. 40).'
 tt_Type: stance
 tt_Domain: Phronetic / practical wisdom
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
 - '2026-05-29 — initial classification (Sprint 02 — ADAPT Loop Integration, schema v1.15.0); ADAPT corpus extension'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-29

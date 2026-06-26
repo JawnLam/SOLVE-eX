@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-hozho
-Item_Prototype: Thinking_Tool
-Title: Hozho (Navajo Beauty Way)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Hozho (Navajo Beauty Way)
 tt_Source: "Witherspoon, G. (1977). *Language and Art in the Navajo Universe*. University of Michigan Press. Farella, J. (1984). *The Main Stalk: A Synthesis of Navajo Philosophy*. University of Arizona Press."
 tt_Type: stance
 tt_Domain: Aesthetic
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-image-theater
-Item_Prototype: Thinking_Tool
-Title: Image Theater (Boal)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Image Theater (Boal)
 tt_Source: "Boal, A. (1992). *Games for Actors and Non-Actors*. Routledge."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

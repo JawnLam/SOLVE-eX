@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-affinity-diagram
-Item_Prototype: Thinking_Tool
-Title: 'Affinity Diagram (KJ Method)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Affinity Diagram (KJ Method)'
 tt_Source: 'Kawakita, J. (1960s) Japanese ethnographic-decision tradition; codified for design and quality work.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

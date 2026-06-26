@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-red-teaming
-Item_Prototype: Thinking_Tool
-Title: Red Teaming
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Red Teaming
 tt_Source: Military and intelligence tradition (Cold War origins, RAND Corporation); CIA's Red Cell (post-9/11). Adopted in cybersecurity (penetration testing) and corporate strategy (Bryce Hoffman, Red Teaming, 2017). Standard practice in DoD planning.
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -45,7 +46,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=['Heightened-vigilant'], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Risk / uncertainty']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

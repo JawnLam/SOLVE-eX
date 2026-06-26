@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-integer-programming
-Item_Prototype: Thinking_Tool
-Title: 'Integer Programming'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Integer Programming'
 tt_Source: 'Hillier & Lieberman Introduction to Operations Research ch. 12; Wolsey 1998 Integer Programming.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 05)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

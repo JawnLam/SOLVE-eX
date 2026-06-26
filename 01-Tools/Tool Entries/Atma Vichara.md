@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-atma-vichara
-Item_Prototype: Thinking_Tool
-Title: Atma Vichara (Ramana Maharshi Self-Inquiry)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Atma Vichara (Ramana Maharshi Self-Inquiry)
 tt_Source: "Maharshi, R. (1938). *Talks with Sri Ramana Maharshi* (recorded by Munagala Venkataramiah). Sri Ramanasramam. Osborne, A. (1954). *Ramana Maharshi and the Path of Self-Knowledge*. Rider."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -45,7 +46,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

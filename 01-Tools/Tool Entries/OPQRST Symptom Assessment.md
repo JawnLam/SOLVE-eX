@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-opqrst-symptom-assessment
-Item_Prototype: Thinking_Tool
-Title: OPQRST Symptom Assessment
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: OPQRST Symptom Assessment
 tt_Source: "EMS / nursing curriculum; *Mosby's EMT Textbook* and the National Registry of EMTs standards. Mnemonic widely diffused in mid-20th-century emergency-medicine education."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

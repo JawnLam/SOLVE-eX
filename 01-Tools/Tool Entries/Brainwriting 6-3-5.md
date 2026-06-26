@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-brainwriting-6-3-5
-Item_Prototype: Thinking_Tool
-Title: 'Brainwriting 6-3-5 (Rohrbach)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Brainwriting 6-3-5 (Rohrbach)'
 tt_Source: 'Rohrbach, B. (1968) attribution in German creativity-technique literature.'
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 03)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

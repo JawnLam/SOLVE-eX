@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-compassion-focused-three-systems
-Item_Prototype: Thinking_Tool
-Title: Compassion-Focused Therapy Three-Systems Model
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Compassion-Focused Therapy Three-Systems Model
 tt_Source: "Gilbert, P. (2009). *The Compassionate Mind*. Constable & Robinson. Gilbert, P. (2014). \"The origins and nature of compassion focused therapy.\" British Journal of Clinical Psychology."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

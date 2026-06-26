@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-triz-function-analysis
-Item_Prototype: Thinking_Tool
-Title: 'Function Analysis / Function-Modeling (TRIZ)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Function Analysis / Function-Modeling (TRIZ)'
 tt_Source: 'Miles, L.D. (1947) Value Engineering antecedent; Mann, D. (2002) Hands-On Systematic Innovation Section 6.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 04)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

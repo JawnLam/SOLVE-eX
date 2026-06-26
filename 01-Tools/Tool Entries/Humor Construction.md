@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-humor-construction
-Item_Prototype: Thinking_Tool
-Title: Humor Construction (Incongruity-Resolution)
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Humor Construction (Incongruity-Resolution)
 tt_Source: "Arthur Koestler, *The Act of Creation* (1964) — bisociation theory; Salvatore Attardo, *Linguistic Theories of Humor* (1994) — general theory of verbal humor; Schopenhauer's earlier incongruity formulation. Modern computational work: Tony Veale on humor as creative cognition. Practical writers' tradition: Scott Dikkers, Ramsey Hyde, Mike Reiss."
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -46,7 +47,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 06; closes Field 'Humor / wit construction')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

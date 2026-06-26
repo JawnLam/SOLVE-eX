@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-spaced-repetition
-Item_Prototype: Thinking_Tool
-Title: Spaced Repetition
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Spaced Repetition
 tt_Source: Hermann Ebbinghaus's forgetting curve research (1885); Sebastian Leitner's flashcard system (1972); Piotr Wozniak's SuperMemo algorithms (1985 onward); Anki (free, open-source, 2006). Backed by extensive cognitive-psychology research.
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -44,7 +45,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

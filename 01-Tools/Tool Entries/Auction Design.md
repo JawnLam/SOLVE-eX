@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-auction-design
-Item_Prototype: Thinking_Tool
-Title: Auction Design
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Auction Design
 tt_Source: "William Vickrey, 'Counterspeculation, Auctions, and Competitive Sealed Tenders' (1961). Roger Myerson, 'Optimal Auction Design' (1981). Paul Milgrom & Robert Wilson (Nobel Prize 2020) for spectrum auction design. Klemperer's Auctions: Theory and Practice (2004) is a standard reference."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -49,7 +50,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Strategy / competition']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Agent backfill: added 'Crowd / market'"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

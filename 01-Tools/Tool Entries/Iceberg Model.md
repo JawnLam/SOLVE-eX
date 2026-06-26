@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-iceberg-model
-Item_Prototype: Thinking_Tool
-Title: 'Iceberg Model'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Iceberg Model'
 tt_Source: 'Senge, P. (1990) *The Fifth Discipline*; Meadows, D. (c. 1999) systems-thinking-pedagogy.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

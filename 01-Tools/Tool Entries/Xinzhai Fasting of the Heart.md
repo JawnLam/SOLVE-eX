@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-xinzhai-fasting-of-the-heart
-Item_Prototype: Thinking_Tool
-Title: Xinzhai (Fasting of the Heart)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Xinzhai (Fasting of the Heart)
 tt_Source: "Zhuangzi (~4th c. BCE). *Inner Chapters* (esp. ch. 4). Trans. Burton Watson (1968). Columbia UP. Roth, H. D. (1999). *Original Tao: Inward Training and the Foundations of Taoist Mysticism*. Columbia UP."
 tt_Type: stance
 tt_Domain: Contemplative
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

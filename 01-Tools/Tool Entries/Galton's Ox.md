@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-galtons-ox
-Item_Prototype: Thinking_Tool
-Title: Galton's Ox
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Galton's Ox
 tt_Source: Francis Galton, 'Vox Populi' (Nature, 1907) — the original ox-weight observation. James Surowiecki, The Wisdom of Crowds (2004) — modern synthesis. Scott Page, The Difference (2007) — diversity-prediction theorem.
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -51,7 +52,7 @@ tt_History:
   - 2026-05-08 — filename + Title + Item_ID updated to restore apostrophe punctuation
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Strategy / competition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

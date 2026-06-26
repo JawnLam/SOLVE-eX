@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-difference-in-differences
-Item_Prototype: Thinking_Tool
-Title: 'Difference-in-Differences (DiD)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Difference-in-Differences (DiD)'
 tt_Source: 'Card, D. & Krueger, A. (1994) American Economic Review; Angrist, J. & Pischke, J. (2009) Mostly Harmless Econometrics.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 05)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

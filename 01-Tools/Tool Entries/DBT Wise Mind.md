@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-dbt-wise-mind
-Item_Prototype: Thinking_Tool
-Title: 'DBT Wise Mind'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'DBT Wise Mind'
 tt_Source: 'Linehan, M.M. (2014) DBT Skills Training Manual (2nd ed.); Buddhist mindfulness antecedents.'
 tt_Type: stance
 tt_Domain: Inner / psychological work
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

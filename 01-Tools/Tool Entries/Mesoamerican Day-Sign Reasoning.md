@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mesoamerican-day-sign-reasoning
-Item_Prototype: Thinking_Tool
-Title: Tonalamatl / Tzolkin Day-Sign Reasoning
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Tonalamatl / Tzolkin Day-Sign Reasoning
 tt_Source: "Tedlock, B. (1982). Time and the Highland Maya. University of New Mexico Press."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

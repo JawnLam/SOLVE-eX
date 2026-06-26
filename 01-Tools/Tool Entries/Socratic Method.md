@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-socratic-method
-Item_Prototype: Thinking_Tool
-Title: 'Socratic Method'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Socratic Method'
 tt_Source: 'Plato Republic, Meno; Paul, R. & Elder, L. (2007) The Thinker''s Guide to Socratic Questioning.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 08)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

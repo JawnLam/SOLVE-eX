@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ericsson-deliberate-practice
-Item_Prototype: Thinking_Tool
-Title: Ericsson Deliberate Practice
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Ericsson Deliberate Practice
 tt_Source: K. Anders Ericsson, foundational research on expert performance (1970s onward); books Peak (Ericsson and Pool, 2016) and The Cambridge Handbook of Expertise and Expert Performance. Different from Malcolm Gladwell's '10,000 hours' simplification.
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -48,7 +49,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Self / identity']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

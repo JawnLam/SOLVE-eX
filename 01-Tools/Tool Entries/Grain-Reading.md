@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-grain-reading
-Item_Prototype: Thinking_Tool
-Title: Grain-Reading (Woodworking)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Grain-Reading (Woodworking)
 tt_Source: "Krenov, J. (1976). A Cabinetmaker's Notebook. Van Nostrand Reinhold."
 tt_Type: instrument
 tt_Domain: Non-discursive cognition
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

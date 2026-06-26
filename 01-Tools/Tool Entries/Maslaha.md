@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-maslaha
-Item_Prototype: Thinking_Tool
-Title: Maslaha (Public-Interest Analysis)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Maslaha (Public-Interest Analysis)
 tt_Source: "Opwis, F. (2010). Maslaha and the Purpose of the Law. Brill."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-bradford-hill-criteria
-Item_Prototype: Thinking_Tool
-Title: Bradford Hill Criteria
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Bradford Hill Criteria
 tt_Source: "Hill, A. B. (1965). 'The Environment and Disease: Association or Causation?' Proceedings of the Royal Society of Medicine 58."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-legal-realism
-Item_Prototype: Thinking_Tool
-Title: 'Legal Realism'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Legal Realism'
 tt_Source: 'Holmes, O.W. (1897) Path of the Law; Cardozo, B. (1921) The Nature of the Judicial Process; Llewellyn, K. The Bramble Bush.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 08)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

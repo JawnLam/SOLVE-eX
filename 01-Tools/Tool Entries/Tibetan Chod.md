@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-tibetan-chod
-Item_Prototype: Thinking_Tool
-Title: Tibetan Chöd (Cutting Through)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Tibetan Chöd (Cutting Through)
 tt_Source: "Edou, J. (1996). Machig Labdron and the Foundations of Chöd. Snow Lion."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-raga-grammar
-Item_Prototype: Thinking_Tool
-Title: Indian Raga Improvisation Grammar
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Indian Raga Improvisation Grammar
 tt_Source: "Bagchee, S. (1998). Nad: Understanding Raga Music. Eeshwar."
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

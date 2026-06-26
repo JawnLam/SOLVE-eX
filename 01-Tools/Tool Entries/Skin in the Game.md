@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-skin-in-the-game
-Item_Prototype: Thinking_Tool
-Title: 'Skin in the Game'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Skin in the Game'
 tt_Source: 'Taleb, N.N. (2018) *Skin in the Game*; antecedents in Hammurabi''s Code, Roman engineering oaths.'
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

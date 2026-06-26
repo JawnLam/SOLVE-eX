@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-overview-effect-practice
-Item_Prototype: Thinking_Tool
-Title: Overview Effect Practice
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Overview Effect Practice
 tt_Source: "Frank White, *The Overview Effect: Space Exploration and Human Evolution* (1987; revised 1998, 2014); related research: Yaden et al. (2016) *Psychology of Consciousness* on perspective-shift experiences in astronauts; Newberg & d'Aquili neuroscience of self-transcendent experience."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-10 — initial classification (v1.13.0; Field: Awe / numinous cognition, Domain: Contemplative)"
-Tags:
+tags:
 - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-10

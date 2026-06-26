@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-unlearning
-Item_Prototype: Thinking_Tool
-Title: Unlearning / Bayesian Dis-updating
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Unlearning / Bayesian Dis-updating
 tt_Source: 'Generalized from Bayesian inference (Bayes 1763; modern: E.T. Jaynes); cognitive psychology of belief revision (Festinger''s cognitive dissonance, 1957); organizational learning (Argyris & Schön''s double-loop learning); deprogramming literature.'
 tt_Type: stance
 tt_Domain: Modes of inquiry
@@ -47,7 +48,7 @@ tt_History:
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 03 edge-case resolution: tt_Field: 'Apophatic / clearing practice' → 'Calibration & epistemic humility'; tt_Domain: 'Contemplative' → 'Modes of inquiry'; tt_Operation: 'Stress-test and refine an idea' → 'Calibrate confidence'; tt_Cross_Domains: -Modes of inquiry; tt_Cross_Domains: +Inner / psychological work (see /tmp/edge-case-decisions.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Risk / uncertainty']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

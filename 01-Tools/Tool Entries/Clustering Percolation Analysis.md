@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-clustering-percolation-analysis
-Item_Prototype: Thinking_Tool
-Title: Clustering / Percolation Analysis
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Clustering / Percolation Analysis
 tt_Source: "Mark Granovetter, 'The Strength of Weak Ties' (1973); percolation theory in physics (Broadbent & Hammersley 1957); modern complex-networks analysis (Watts & Strogatz, Barabási, Newman)."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -48,7 +49,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

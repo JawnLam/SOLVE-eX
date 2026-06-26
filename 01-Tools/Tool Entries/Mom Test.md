@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-mom-test
-Item_Prototype: Thinking_Tool
-Title: Mom Test
+type: Thinking_Tool
+timestamp: "2026-05-19T00:00:00Z"
+title: Mom Test
 tt_Source: 'Rob Fitzpatrick, ''The Mom Test: How to talk to customers and learn if your business is a good idea when everyone is lying to you'' (2013). Method derives from sales-call and customer-development practice; named for the canonical case of asking your mom whether your business idea is good and getting useless reassurance.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
 - 2026-05-19 — initial classification (Sprint 16 Card 10, schema v1.15.0); added to corpus to close Sprint 15 Mara dispositive test gap (Mara surfaced 'Mom Test' in turn 3 as the canonical method for warm-network-bias avoidance; corpus entry did not exist at time of Sprint 15 run; flagged as [ad-hoc] in Mara's Tools Applied)
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-19

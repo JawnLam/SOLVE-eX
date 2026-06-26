@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-secular-meditation
-Item_Prototype: Thinking_Tool
-Title: Secular Meditation
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Secular Meditation
 tt_Source: "Mindfulness-Based Stress Reduction (Jon Kabat-Zinn 1979); MBCT (Segal/Williams/Teasdale 2002); modern app-based practices (Headspace, Calm, Waking Up)"
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -50,7 +51,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=['Contemplative-quiet'], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Sacred / transcendent']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

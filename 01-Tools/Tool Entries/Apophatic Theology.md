@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-apophatic-theology
-Item_Prototype: Thinking_Tool
-Title: Apophatic Theology
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Apophatic Theology
 tt_Source: "Pseudo-Dionysius the Areopagite, Mystical Theology (~5th-6th c.); Gregory of Nyssa; Maimonides, Guide for the Perplexed; Meister Eckhart. Modern: Vladimir Lossky, The Mystical Theology of the Eastern Church (1944)."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -51,7 +52,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=['Contemplative-quiet'], tt_Agent=['Solo human'], tt_About=['Sacred / transcendent', 'Ethics / values']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

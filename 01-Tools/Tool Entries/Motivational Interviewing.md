@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-motivational-interviewing
-Item_Prototype: Thinking_Tool
-Title: Motivational Interviewing
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Motivational Interviewing
 tt_Source: "Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3rd ed.). Guilford."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

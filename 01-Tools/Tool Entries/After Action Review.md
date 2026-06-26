@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-after-action-review
-Item_Prototype: Thinking_Tool
-Title: After Action Review
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: After Action Review
 tt_Source: U.S. Army Center for Lessons Learned (developed 1970s-80s, formalized in TRADOC Regulation 350-50-2 and FM 6-22). Adopted across business, healthcare (NHS), and emergency services. Documented in books like Hope Is Not a Method (Sullivan & Harper).
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -45,7 +46,7 @@ tt_History:
   - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

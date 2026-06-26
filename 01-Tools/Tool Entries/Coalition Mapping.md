@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-coalition-mapping
-Item_Prototype: Thinking_Tool
-Title: Coalition Mapping
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Coalition Mapping
 tt_Source: Folk / business tradition
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -51,7 +52,7 @@ tt_History:
 - '2026-05-07 — schema v1.12.0: tt_Operation rewritten as shared value ''Sequence multi-party persuasion'' (was tool-specific summary)'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Power / politics', 'Group / organization']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: '2026-05-07'

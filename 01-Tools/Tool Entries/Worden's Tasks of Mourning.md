@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-wordens-tasks-of-mourning
-Item_Prototype: Thinking_Tool
-Title: Worden's Tasks of Mourning
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Worden's Tasks of Mourning
 tt_Source: J. William Worden, Grief Counseling and Grief Therapy 1982 (revised 4th ed. 2009)
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -45,7 +46,7 @@ tt_History:
 - 2026-05-08 — filename + Title + Item_ID updated to restore apostrophe punctuation
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

@@ -1,8 +1,9 @@
 ---
 
 Item_ID: tt-eulogy-exercise
-Item_Prototype: Thinking_Tool
-Title: Eulogy Exercise
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Eulogy Exercise
 tt_Source: "Stephen R. Covey, The 7 Habits of Highly Effective People (1989) — Habit 2: 'Begin with the End in Mind.' Subsequent use in coaching, life-design, and end-of-life counseling traditions."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -49,7 +50,7 @@ tt_History:
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Ethics / values']"
   - "2026-05-11 — Zero-Gap Sweep Card 03 facet cleanup: tt_Operation remap → 'Articulate values' (Op #33)"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-inversion
-Item_Prototype: Thinking_Tool
-Title: Inversion
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Inversion
 tt_Source: Charlie Munger (Berkshire Hathaway), 'Invert, always invert'; attributed by Munger to mathematician Carl Jacobi ('Man muss immer umkehren'). Documented in Munger's commencement speeches and Poor Charlie's Almanack (Peter Kaufman, ed.).
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -48,7 +49,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=['Heightened-vigilant'], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Risk / uncertainty']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

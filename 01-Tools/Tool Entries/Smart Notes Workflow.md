@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-smart-notes-workflow
-Item_Prototype: Thinking_Tool
-Title: 'Smart Notes Workflow (Ahrens F/L/P)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Smart Notes Workflow (Ahrens F/L/P)'
 tt_Source: 'Ahrens, S. (2017, 2nd ed. 2022) How to Take Smart Notes.'
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 09)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

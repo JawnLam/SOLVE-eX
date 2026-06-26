@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-design-critique-format
-Item_Prototype: Thinking_Tool
-Title: Design Critique Format
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Design Critique Format
 tt_Source: "Architectural and art-school 'desk crit' tradition (Bauhaus, Black Mountain, GSAPP, RISD); industrial design lineage (IDEO design reviews); software design crit (Apple HIG reviews); modern systematization in Connie Malamed, *Visual Design Solutions* (2015) and Aaron Walter's design crit protocols at MailChimp."
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -43,7 +44,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 08; closes Field 'Design critique & design review')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

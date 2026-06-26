@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-awe-walks
-Item_Prototype: Thinking_Tool
-Title: Awe Walks
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Awe Walks
 tt_Source: "Dacher Keltner's research program at UC Berkeley Greater Good Science Center; primary study: Sturm et al. (2020) *Emotion* 'Big Smile, Small Self'; popular synthesis: Keltner, *Awe: The New Science of Everyday Wonder* (2023)."
 tt_Type: instrument
 tt_Domain: Emotional cognition
@@ -51,7 +52,7 @@ tt_Quality_Tier: C
 tt_History:
   - "2026-05-10 — initial classification (v1.13.0; Field: Awe / numinous cognition, Domain: Contemplative; uses NEW v1.13 Op #36 Cultivate emotion)"
   - "2026-05-11 — Zero-Gap Sweep Card 02 re-classification: Domain Contemplative → Emotional cognition; Field 'Awe / numinous cognition' → 'Gratitude / awe / reverence cultivation'; rationale: Keltner's protocol is a cultivation intervention (active emotion-generation) per Index §2B Emotional cognition Domain anchor — distinct from numinous-receptive Contemplative variants which Cathedral Time-Scale Reflection and Overview Effect Practice continue to anchor. This single move closes Domain Emotional cognition + Field Gratitude/awe/reverence cultivation in one edit (multi-gap score 2)."
-Tags:
+tags:
 - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-10

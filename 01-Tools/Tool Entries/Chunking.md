@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-chunking
-Item_Prototype: Thinking_Tool
-Title: Chunking
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Chunking
 tt_Source: "George A. Miller, 'The Magical Number Seven, Plus or Minus Two' (Psychological Review, 1956). Extended by Herbert Simon (1974) and the chunking research of Anders Ericsson on expert performance."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -46,7 +47,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

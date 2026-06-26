@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-act-self-as-context
-Item_Prototype: Thinking_Tool
-Title: 'ACT Self-as-Context'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'ACT Self-as-Context'
 tt_Source: 'Hayes, S.C., Strosahl, K.D., & Wilson, K.G. (2011).'
 tt_Type: stance
 tt_Domain: Contemplative
@@ -36,7 +37,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

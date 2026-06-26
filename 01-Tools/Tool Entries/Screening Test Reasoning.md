@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-screening-test-reasoning
-Item_Prototype: Thinking_Tool
-Title: Screening Test Reasoning (Sn/Sp/PPV/NPV)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Screening Test Reasoning (Sn/Sp/PPV/NPV)
 tt_Source: "Sackett, D. L., et al. (1991). Clinical Epidemiology: A Basic Science for Clinical Medicine. Little, Brown."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -39,7 +40,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

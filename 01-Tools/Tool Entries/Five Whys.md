@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-five-whys
-Item_Prototype: Thinking_Tool
-Title: 'Five Whys'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Five Whys'
 tt_Source: 'Ohno, T. (Toyota Production System, c. 1950s); codified in Lean canon (Liker 2004, *The Toyota Way*).'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-phowa
-Item_Prototype: Thinking_Tool
-Title: Phowa (Consciousness Transfer)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Phowa (Consciousness Transfer)
 tt_Source: "Halifax, J. (2008). Being with Dying. Shambhala. Trungpa, C., & Fremantle, F. (trans.) (1975). The Tibetan Book of the Dead. Shambhala."
 tt_Type: instrument
 tt_Domain: Embodied / somatic
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

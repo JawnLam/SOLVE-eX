@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-iroquois-confederacy-decision-protocol
-Item_Prototype: Thinking_Tool
-Title: Iroquois (Haudenosaunee) Confederacy Decision Protocol
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Iroquois (Haudenosaunee) Confederacy Decision Protocol
 tt_Source: "Mann, B. A. (2000). *Iroquoian Women: The Gantowisas*. Peter Lang. Wallace, P. (1946/1994). *White Roots of Peace*. Clear Light Publishers. Johansen, B. E. (1982). *Forgotten Founders*. Harvard Common Press."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -47,7 +48,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-schon-reflection
-Item_Prototype: Thinking_Tool
-Title: Schön Reflection-on-Action / Reflection-in-Action
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Schön Reflection-on-Action / Reflection-in-Action
 tt_Source: "Donald Schön, *The Reflective Practitioner: How Professionals Think in Action* (1983); Schön, *Educating the Reflective Practitioner* (1987); foundational pedagogical lineage at MIT (Schön taught urban planning and design)."
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 10; closes Field 'Reflective practice & experiential learning')"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

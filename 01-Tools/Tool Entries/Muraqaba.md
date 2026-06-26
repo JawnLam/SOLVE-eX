@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-muraqaba
-Item_Prototype: Thinking_Tool
-Title: Muraqaba (Sufi Watchfulness)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Muraqaba (Sufi Watchfulness)
 tt_Source: "al-Ghazali (~1100). *Ihya' Ulum al-Din*. Schimmel, A. (1975). *Mystical Dimensions of Islam*. University of North Carolina Press."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

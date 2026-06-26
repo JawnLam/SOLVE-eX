@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-yalom-existential-therapy
-Item_Prototype: Thinking_Tool
-Title: Yalom's Existential Therapy
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Yalom's Existential Therapy
 tt_Source: "Irvin D. Yalom 1980 (Existential Psychotherapy); refined across many books including The Gift of Therapy 2002 and Staring at the Sun 2008"
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -47,7 +48,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Self / identity', 'Ethics / values']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-customer-journey-maps
-Item_Prototype: Thinking_Tool
-Title: Customer Journey Maps
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Customer Journey Maps
 tt_Source: User experience and service-design tradition; popularized by Marc Stickdorn and Jakob Schneider's This Is Service Design Thinking (2010); adopted widely in IDEO, Adaptive Path, frog design. Modern toolkits via Nielsen Norman Group.
 tt_Type: instrument
 tt_Domain: Phronetic / practical wisdom
@@ -48,7 +49,7 @@ tt_History:
 - '2026-05-08 — post-sprint cleanup: brought facet values into compliance with schema v1.12.0 controlled inventories (Form/Scale/Duration/Lineage/Posture); corrected stance-type miscodings where applicable'
 - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
 - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human', 'Human group'], tt_About=['Other / relationship', 'Aesthetic / craft']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-persona-shifting
-Item_Prototype: Thinking_Tool
-Title: Persona-Shifting
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Persona-Shifting
 tt_Source: "Copywriting and direct-response tradition (Eugene Schwartz, Breakthrough Advertising, 1966); modern usage in design (personas), marketing, and persuasion (Adam Grant, Originals; Robert Cialdini)."
 tt_Type: instrument
 tt_Domain: Symbolic systems
@@ -53,7 +54,7 @@ tt_History:
   - "2026-05-08 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Other / relationship', 'Strategy / competition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-08

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-historical-periodization
-Item_Prototype: Thinking_Tool
-Title: Historical Periodization
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Historical Periodization
 tt_Source: "Long historiographical tradition (Petrarch's medium aevum 1330s; Voltaire 1750s; Annales school Braudel 1949)"
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -45,7 +46,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Time / future', 'Mind / cognition']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

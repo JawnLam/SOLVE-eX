@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-connoisseurship-training
-Item_Prototype: Thinking_Tool
-Title: Connoisseurship Training
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Connoisseurship Training
 tt_Source: "Wine education tradition (Master of Wine since 1953); art-historical connoisseurship (Berenson, Friedländer); Elliot Eisner (educational connoisseurship)"
 tt_Type: instrument
 tt_Domain: Aesthetic
@@ -45,7 +46,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Aesthetic / craft']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

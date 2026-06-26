@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-centering-prayer
-Item_Prototype: Thinking_Tool
-Title: Centering Prayer
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Centering Prayer
 tt_Source: "Keating, T. (1986). *Open Mind, Open Heart*. Continuum. Pennington, M. B. (1980). *Centering Prayer*. Doubleday. Contemplative Outreach training materials."
 tt_Type: instrument
 tt_Domain: Contemplative
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

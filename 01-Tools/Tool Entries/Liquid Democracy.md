@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-liquid-democracy
-Item_Prototype: Thinking_Tool
-Title: Liquid Democracy (Delegative Voting)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Liquid Democracy (Delegative Voting)
 tt_Source: "Blum, C., & Zuber, C. I. (2016). \"Liquid Democracy: Potentials, Problems, and Perspectives.\" Journal of Political Philosophy 24(2). Behrens, J., et al. (2014). *The Principles of LiquidFeedback*."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -44,7 +45,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

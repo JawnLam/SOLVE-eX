@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-synectics
-Item_Prototype: Thinking_Tool
-Title: Synectics
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Synectics
 tt_Source: "Gordon, W. J. J. (1961). *Synectics: The Development of Creative Capacity*. Harper & Row. Prince, G. M. (1970). *The Practice of Creativity*. Harper & Row."
 tt_Type: instrument
 tt_Domain: Generative / improvisational
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 01 — Pairwise-Gap Audit Card 08)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

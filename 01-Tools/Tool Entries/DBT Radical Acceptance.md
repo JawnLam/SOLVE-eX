@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-dbt-radical-acceptance
-Item_Prototype: Thinking_Tool
-Title: 'DBT Radical Acceptance'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'DBT Radical Acceptance'
 tt_Source: 'Linehan, M.M. (2014); Brach, T. (2003) Radical Acceptance.'
 tt_Type: stance
 tt_Domain: Inner / psychological work
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

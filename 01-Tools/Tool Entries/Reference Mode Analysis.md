@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-reference-mode-analysis
-Item_Prototype: Thinking_Tool
-Title: 'Reference Mode Analysis (Sterman)'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Reference Mode Analysis (Sterman)'
 tt_Source: 'Sterman, J. (2000) Business Dynamics ch. 3.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 05)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

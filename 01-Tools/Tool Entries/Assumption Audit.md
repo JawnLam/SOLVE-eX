@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-assumption-audit
-Item_Prototype: Thinking_Tool
-Title: Assumption Audit
+type: Thinking_Tool
+timestamp: "2026-05-11T00:00:00Z"
+title: Assumption Audit
 tt_Source: "Synthesis: Chris Argyris's *Ladder of Inference* (1990) — the canonical Western analytic frame for assumption-surfacing; Sakichi Toyoda's *Five Whys* (Toyota Production System, 1930s) — the manufacturing-rooted iterative version; Peter Senge, *The Fifth Discipline* (1990) for the Ladder's modern systematization."
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -48,7 +49,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-11 — initial classification (Zero-Gap Sweep Card 10; closes Operation #27 'Surface assumptions' — the canonical anchor)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-11

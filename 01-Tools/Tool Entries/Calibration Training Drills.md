@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-calibration-training-drills
-Item_Prototype: Thinking_Tool
-Title: Calibration Training Drills
+type: Thinking_Tool
+timestamp: "2026-05-10T00:00:00Z"
+title: Calibration Training Drills
 tt_Source: "Lichtenstein, Fischhoff & Phillips 1982 (calibration of probabilities); Hubbard 2014 (How to Measure Anything); Good Judgment Project training protocols"
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -46,7 +47,7 @@ tt_History:
   - "2026-05-07 — initial classification (Phase 3, schema v1.12.0)"
   - "2026-05-10 — schema v1.13.0: re-anchored to new Domain/Field/Operation via migration script (see migration-crosswalk.md)"
   - "2026-05-10 — Card 04: populated new facets tt_State=[], tt_Agent=['Solo human'], tt_About=['Mind / cognition', 'Risk / uncertainty']"
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-07

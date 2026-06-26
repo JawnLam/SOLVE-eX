@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-naikan
-Item_Prototype: Thinking_Tool
-Title: Naikan Self-Reflection (Yoshimoto)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Naikan Self-Reflection (Yoshimoto)
 tt_Source: "Reynolds, D. K. (1983). Naikan Psychotherapy. University of Chicago Press."
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: A
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

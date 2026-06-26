@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-pareto-principle
-Item_Prototype: Thinking_Tool
-Title: 'Pareto Principle'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'Pareto Principle'
 tt_Source: 'Pareto, V. (1896) Cours d''économie politique. Juran, J.M. (1941) popularization as the 80/20 rule.'
 tt_Type: instrument
 tt_Domain: Discursive-analytical
@@ -42,7 +43,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

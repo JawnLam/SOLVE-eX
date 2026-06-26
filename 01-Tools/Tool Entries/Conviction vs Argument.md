@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-conviction-vs-argument
-Item_Prototype: Thinking_Tool
-Title: Conviction vs Argument
+type: Thinking_Tool
+timestamp: "2026-05-15T00:00:00Z"
+title: Conviction vs Argument
 tt_Source: 'Original to SOLVE eX Thinking Tools project, 2026-05-15 (Sprint 09 panel-test self-debrief by Claude running the system on the Dr. Renata Mendes-Olufemi case; pattern surfaced when a personal data point about asymmetric quantifiability was treated as bias rather than calibration). No prior canonical source — the tool is a synthesis the Renata case made visible. Pairs with adjacent decision-under-uncertainty work: Klein on naturalistic decision-making (Pre-Mortem lineage); Heath and Heath on emotional vs analytical decision modes; Kahneman on Type I / Type II asymmetric error structures.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -50,7 +51,7 @@ tt_Replaced_By: []
 tt_Status: classified
 tt_History:
 - '2026-05-15 — initial classification (Sprint 10 Card 06 — surfaced via Sprint 09 panel test on the Dr. Renata Mendes-Olufemi case)'
-Tags:
+tags:
 - '#thinking-tool'
 See_Also: []
 Date_Added: 2026-05-15

@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-world-cafe
-Item_Prototype: Thinking_Tool
-Title: 'World Café'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'World Café'
 tt_Source: 'Brown, J. & Isaacs, D. (1995) origination; codified in Brown, Isaacs, et al. (2005) *The World Café*.'
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 02)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

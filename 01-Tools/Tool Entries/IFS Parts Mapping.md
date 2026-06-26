@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-ifs-parts-mapping
-Item_Prototype: Thinking_Tool
-Title: 'IFS Parts Mapping'
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: 'IFS Parts Mapping'
 tt_Source: 'Schwartz, R.C. IFS canon; Anderson, F. & Sweezy, M. (2017) Internal Family Systems Skills Training Manual.'
 tt_Type: instrument
 tt_Domain: Inner / psychological work
@@ -38,7 +39,7 @@ tt_Status: classified
 tt_Quality_Tier: C
 tt_History:
   - '2026-05-12 — initial classification (Sprint 04 — Reverse-Audit Against External Collections Card 07)'
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

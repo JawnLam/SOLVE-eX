@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-biopsychosocial-formulation
-Item_Prototype: Thinking_Tool
-Title: Biopsychosocial Formulation (Engel)
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Biopsychosocial Formulation (Engel)
 tt_Source: "Engel, G. L. (1977). 'The Need for a New Medical Model: A Challenge for Biomedicine.' Science 196(4286)."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -41,7 +42,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12

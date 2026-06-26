@@ -1,7 +1,8 @@
 ---
 Item_ID: tt-yarning-circles
-Item_Prototype: Thinking_Tool
-Title: Yarning Circles
+type: Thinking_Tool
+timestamp: "2026-05-12T00:00:00Z"
+title: Yarning Circles
 tt_Source: "Bessarab, D., & Ng'andu, B. (2010). 'Yarning About Yarning as a Legitimate Method in Indigenous Research.' International Journal of Critical Indigenous Studies 3(1)."
 tt_Type: instrument
 tt_Domain: Modes of inquiry
@@ -40,7 +41,7 @@ tt_Status: classified
 tt_Quality_Tier: B
 tt_History:
   - "2026-05-12 — initial classification (Sprint 03 — Deep-Gap Backfill Card 09)"
-Tags:
+tags:
   - "#thinking-tool"
 See_Also: []
 Date_Added: 2026-05-12
