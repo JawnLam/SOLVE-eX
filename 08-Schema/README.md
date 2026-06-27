@@ -15,7 +15,7 @@ script in `{ROOT}/07-Scripts/`.
 
 | File | Purpose |
 |------|---------|
-| `Master_Schema.yaml` | The authoritative schema. Property definitions, enums, prototypes, and global rules. Copied from the Obsidian Vault infrastructure on every release. |
+| `Master_Schema.yaml` | The authoritative schema. Property definitions, enums, types, and global rules. Copied from the Obsidian Vault infrastructure on every release. |
 | `facet-enums.md` | Human-readable inventory of the `tt_*` facet enums (Domain, Form, Scale, Duration, Lineage, Posture, State, Agent, About, SOLVE_eX_Phase, SOLVE_eX_Step, Clarifies, Applicability, Status). Generated from `Master_Schema.yaml`. |
 | `tool-entry-template.md` | Empty tool-entry template with all required and optional `tt_*` properties pre-stubbed. Copy this when adding a new tool. |
 | `validation-rules.md` | The rules used by `07-Scripts/validate-tool.py` — what counts as a valid tool entry, what counts as an OOV violation, what error messages mean. |
@@ -25,8 +25,8 @@ script in `{ROOT}/07-Scripts/`.
 Current: **v1.14.0** (locked 2026-05-13, Sprint 05).
 
 **schema-frozen-at: v2.0** (Sprint 18 Card 08, 2026-05-22). The library-entry
-schema (`tt_*` namespace, prototypes, validation rules) is FROZEN for the v2.0
-ship. Adding new facets, modifying existing facet enums, or changing prototype
+schema (`tt_*` namespace, types, validation rules) is FROZEN for the v2.0
+ship. Adding new facets, modifying existing facet enums, or changing type
 membership requires a schema-version bump + migration script discipline per
 `00-Instructions/19-governance-and-quality.md`. The Case File frontmatter
 schema is similarly frozen at `schema_version: "1.0-frozen"` (per

@@ -10,13 +10,13 @@
 # 3. ACRONYMS: Must be fully capitalized (e.g., "ISBN", "URL", "ID").
 #
 # UNIVERSAL DECLARATION RULE:
-# - EVERY prototype template in `_Prototypes/` MUST declare `Item_Prototype` in
-#   its frontmatter, with the value set to the prototype's exact name.
-# - EVERY note instantiated from a prototype MUST also declare `Item_Prototype`,
+# - EVERY type template in `_types/` MUST declare `type` in
+#   its frontmatter, with the value set to the type's exact name.
+# - EVERY note instantiated from a type MUST also declare `type`,
 #   matching the template it was created from.
-# - `Item_Prototype` is the discriminator that tells humans, queries, and
+# - `type` is the discriminator that tells humans, queries, and
 #   automation which schema applies to a note.
-# - A note without `Item_Prototype` is malformed. Reject, fix, or treat as
+# - A note without `type` is malformed. Reject, fix, or treat as
 #   `Fleeting` until it can be classified.
 # - DOCUMENTED EXEMPTION: Prototypes in the `hugo_*` namespace are exempt from
 #   this rule (Hugo_Article, Hugo_Insight, Hugo_Tool). They target the Hugo
@@ -322,12 +322,12 @@ properties:
     description: "Internal unique identifier (UUID or custom slug) for the item."
     required: true
 
-  Item_Prototype:
+  type:
     type: string
-    description: "The class or type of the note. MANDATORY for every prototype template in _Prototypes/ and every note instantiated from one — no exceptions. Value must match the prototype's exact name (e.g., 'Article', 'Book', 'Concept', 'Mental_Model'). This field is the discriminator that tells humans, queries, and automation which schema applies. A note without Item_Prototype is malformed. See the UNIVERSAL DECLARATION RULE at the top of this file."
+    description: "The class or type of the note. MANDATORY for every type template in _types/ and every note instantiated from one — no exceptions. Value must match the type's exact name (e.g., 'Article', 'Book', 'Concept', 'Mental_Model'). This field is the discriminator that tells humans, queries, and automation which schema applies. A note without type is malformed. See the UNIVERSAL DECLARATION RULE at the top of this file."
     required: true
 
-  Title:
+  title:
     type: string
     description: "The full, official title of the work."
     required: true
@@ -343,7 +343,7 @@ properties:
   AI_Instructions:
     type: string
     multiline: true
-    description: "Free-text instructions for an AI assistant to process this note. Describes what to do with the content — research, expand, reformat, fact-check, convert to another prototype, merge with another note, etc. Paired with Needs_Processing (the flag says 'process me', this field says 'here is how')."
+    description: "Free-text instructions for an AI assistant to process this note. Describes what to do with the content — research, expand, reformat, fact-check, convert to another type, merge with another note, etc. Paired with Needs_Processing (the flag says 'process me', this field says 'here is how')."
 
   # --- UNIVERSAL CORE (The "Maker" Group) ---
   Creator:
@@ -385,7 +385,7 @@ properties:
     type: list
     description: "Index Terms (Verbatim)."
 
-  Tags:
+  tags:
     type: list
     description: "Taxonomy (Categories)."
 
@@ -1482,12 +1482,12 @@ properties:
     description: "Toggle for Branch Writing community plugin by Santi Younger."
 
 # ==============================================================================
-# 4. PROTOTYPE DEFINITIONS (The "Molecules")
+# 4. TYPE DEFINITIONS (The "Molecules")
 # ==============================================================================
-prototypes:
+types:
   Universal_Core:
-    required: [Item_ID, Item_Prototype, Title]
-    recommended: [Publication_Date, URL, Abstract, KeyWords, Tags, See_Also]
+    required: [Item_ID, type, title]
+    recommended: [Publication_Date, URL, Abstract, KeyWords, tags, See_Also]
     optional: [SubTitle, Search_Amazon_URL, Search_Google_URL, Search_Wikipedia, WordCount, Needs_Processing, AI_Instructions, Quick_Notes]
 
   Book:
@@ -1582,13 +1582,13 @@ prototypes:
 
   # --- WISDOM & KNOWLEDGE ---
   Fleeting:
-    description: "Low-friction capture for raw, unprocessed ideas. Minimal required fields. Can be upgraded to proper prototypes later."
-    required: [Item_ID, Item_Prototype, Title]
+    description: "Low-friction capture for raw, unprocessed ideas. Minimal required fields. Can be upgraded to proper types later."
+    required: [Item_ID, type, title]
     recommended: [Quick_Notes, Date_Added]
-    optional: [Tags, URL, Needs_Processing, AI_Instructions,
+    optional: [tags, URL, Needs_Processing, AI_Instructions,
                drafts_UUID, drafts_Permalink, drafts_Flagged,
                drafts_Created, drafts_Modified, drafts_Tags]
-    note: "This prototype intentionally violates the Universal_Core recommendations to reduce friction. Use for inbox/daily capture. Drafts imports populate drafts_ provenance fields."
+    note: "This type intentionally violates the Universal_Core recommendations to reduce friction. Use for inbox/daily capture. Drafts imports populate drafts_ provenance fields."
 
   Concept:
     inherits: Universal_Core

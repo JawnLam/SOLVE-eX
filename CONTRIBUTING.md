@@ -220,7 +220,7 @@ Every file in this repo belongs to one of four zones. Knowing which zone a file 
 | `08-Schema/` | Schema definitions |
 | `09-Sample-Sessions/`, `10-Reference/` | Shipped reference material |
 | `99-Archive/` | Sprint history and prior-iteration archives |
-| `_types/` | OVE Convention 6 — SOLVE-eX's Prototype definitions (currently: `Thinking_Tool.md`) |
+| `_types/` | OVE Convention 6 — SOLVE-eX's Type definitions (currently: `Thinking_Tool.md`) |
 | `.gitignore` | Engine-zone file |
 
 **Engine Zone files do not get hand-edited by operators.** Customizations belong in `06-Case-Files/` (your case work) or in a fork.

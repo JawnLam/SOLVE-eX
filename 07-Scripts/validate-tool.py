@@ -31,8 +31,8 @@ import yaml  # noqa: E402
 
 REQUIRED_PROPS = [
     "Item_ID",
-    "Item_Prototype",
-    "Title",
+    "type",
+    "title",
     "tt_Source",
     "tt_Type",
     "tt_Domain",
@@ -146,10 +146,10 @@ def validate(path: Path, schema: dict, quiet: bool = False) -> int:
     if item_id and not str(item_id).startswith("tt-"):
         errors.append(f"B: Item_ID must start with 'tt-': got '{item_id}'")
 
-    # Item_Prototype
-    if fm.get("Item_Prototype") != "Thinking_Tool":
+    # type
+    if fm.get("type") != "Thinking_Tool":
         errors.append(
-            f"B: Item_Prototype must be 'Thinking_Tool': got '{fm.get('Item_Prototype')}'"
+            f"B: type must be 'Thinking_Tool': got '{fm.get('type')}'"
         )
 
     # C: enum-value rules (OOV)

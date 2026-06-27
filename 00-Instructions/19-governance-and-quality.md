@@ -26,7 +26,7 @@ during ship-readiness reviews, not during routine sessions.
 ### Adding a new schema-version
 
 The schema is FROZEN for v2.0. Adding new frontmatter fields, modifying
-existing facet enums, or changing prototype membership requires:
+existing facet enums, or changing type membership requires:
 
 1. **Schema-version bump.** Add the new value to `KNOWN_SCHEMA_VERSIONS`
    in `validate-case-file.py` (or the equivalent allow-list for the

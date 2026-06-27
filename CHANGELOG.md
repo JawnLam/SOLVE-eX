@@ -11,6 +11,10 @@ v3.x bump vs. when they are in-scope at v3.0 STABLE).
 
 ---
 
+## [2.2.1] — 2026-06-27
+
+Patch — **terminology retirement: "Prototype" → "Type"** + schema-definition OKF completion. The OVE engine concept formerly called a *Prototype* is now uniformly called a **Type**. The v2.2.0 content migration moved every note to `type:`/`title:` but left the descriptive `08-Schema/Master_Schema.yaml` on the old field names; this release completes it: `Item_Prototype`→`type`, `Title`→`title`, `Tags`→`tags`, `prototypes:`→`types:` (Universal_Core/Fleeting required sets now `[Item_ID, type, title]`), and `validate-tool.py` required field `Title`→`title`. The **HUGO IMMUTABILITY block is preserved verbatim** (including its prose). Thinking-tool / question-bank / process-framework design-methodology prose ("pilot, prototype, or low-cost experiment") is untouched; historical CHANGELOG entries below unchanged.
+
 ## [2.2.0] — 2026-06-26
 
 Google OKF v0.1 conformance (coordinated with vault Master_Schema v1.23.0 + OVE v2.4.0). Universal Core renamed to OKF field names (Item_Prototype→type, Title→title, Tags→tags; added timestamp from Date_Modified, optional description/resource). Convention-6 folder _Prototypes/ → _types/. Date_Modified kept, time-synced with timestamp. Hugo excluded.
